@@ -1,0 +1,1129 @@
+body,p,ul,li,a,em,b,i,h2{
+    padding: 0;margin: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #f5f5f5;
+    font: 12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+}
+/*
+导航
+ */
+nav{
+    width: 100%;
+    height: 36px;
+    background:#f4f4f4 ;
+    color: #333333;
+}
+nav>div{
+    width: 1180px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.nav-con>div{
+    float: left;
+}
+.nav-lelf{
+    width: 250px;
+    height: 100%;
+    color: #666666;
+}
+.nav-lelf>div{
+    float: left;
+}
+.nav-lelf div:nth-of-type(1){
+    width: 72px;height: 17.6px;
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+    margin: 10px 0 0 14px;
+}
+.nav-lelf div:nth-child(2){
+    width:150px ;height: 100%;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+
+}
+.nav-lelf div em{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-top: 3px;
+    margin-left: -20px;
+    margin-right: 5px;
+    background-image: url("sprite2019527.png");
+    background-position: -8px -8px;
+}
+.nav-lelf div b{
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    float: right;
+    margin-left: 4px;
+    margin-top: 9px;
+    overflow: hidden;
+    background-image: url("sprite2019527.png");
+    background-position: -46px -58px;
+}
+
+.nav-cen{
+    width: 530px;
+    height: 100%;
+    float: right;
+    margin-left: 290px;
+}
+.nav-cen>div{
+    float: left;
+    margin-left: 15px;
+    border-right:1px solid #dddddd ;
+    margin-top: 10px;
+}
+.nav-cen>div a{
+    background: #f4f4f4;
+    margin-right: 15px;
+    display: inline-block;
+    color: #666666;
+}
+.nav-cen>div .a1:hover{
+    color: #0066cc;
+}
+.nav-cen>div .e1{
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    margin-right: 2px;
+    margin-top: 2px;
+    background-image: url("sprite2019527.png");
+    background-position: -8px -66px;
+    vertical-align: -4px;
+}
+.nav-cen>div b{
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    vertical-align: middle;
+    margin-left: 2px;
+    overflow: hidden;
+    background-image: url("sprite2019527.png");
+    background-position: -46px -58px;
+}
+
+.nav-right{
+    width: 100px;
+    height: 100%;
+    float: right;
+}
+.nav-right .e2{
+    height: 16px;
+    width: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    background-image: url("sprite2019527.png");
+    background-position: -100px -67px;
+}
+.nav-right .e3{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: url("sprite2019527.png");
+    background-position: -97px -99px;
+
+}
+
+/*
+第一部分
+ */
+.con-0{
+    width: 100%;
+    background: #ffffff;
+}
+.con-1{
+    width: 1180px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    background: #ffffff;
+}
+.con-1>div{
+    float: left;
+}
+.con-1-left{
+    width: 126px;
+    height: 43px;
+    background: url("https://pic.c-ctrip.com/common/c_logo2013.png");
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.con-1-cen{
+    position: absolute;
+    top: 25px;
+    left: 190px;
+    width: 28%;
+    font-family: "Microsoft Yahei", Tahoma
+}
+.con-1-cen input{
+    width: 270px;
+    height: 28px;
+    margin-right: -5px;
+    border: 1px solid #8ebefc;
+    border-right: 20px;
+    box-shadow: 2px 2px 1px 0 rgba(164, 203, 255, 0.25) inset;
+
+}
+.con-1-cen button{
+    color: white;
+    right: -51px;
+    width: 42px;
+    height: 28px;
+    border: 0 none;
+    background-color: #a4cbff;
+    background-position: -52px -603px;
+
+}
+.con-1-right{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 10px 20px 0px 16px;
+    border: 1px solid #fff;
+    text-align: right;
+}
+.con-1-right>div{
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+}
+.con-1-right i{
+    position: absolute;
+    top: 28px;
+    right: 9px;
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    vertical-align: middle;
+    margin-left: 2px;
+    overflow: hidden;
+    background-image: url("sprite2019527.png");
+    background-position: -46px -58px;
+}
+
+/*
+第二部分
+ */
+.con-2{
+    width: 100%;
+    height: 40px;
+    background-color: #2577e3;
+}
+.con-2-c{
+    position: relative;
+    width: 1180px;
+    margin: auto;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #2577e3;
+}
+.con-2-c>div{
+    width:5%;
+    float: left;
+    margin-left: 5px;
+}
+.c1>div{
+    width: 1px;height: 14px;
+    background: #1d67dd;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+.con-2-c>div a{
+    background: #2577e3;
+    color: white;
+}
+.c1 b{
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    background-image: url("sprite2019527.png");
+    background-position: -46px -58px;
+    background-color: #2577e3;
+
+}
+.c1 span{
+    position: absolute;
+    z-index: 9;
+    right: 0px;
+    top: -6px;
+    display: inline-block;
+    padding: 0 2px;
+    height: 15px;
+    line-height: 15px;
+    background: #ff9913;
+    color: #fff;
+    margin-right: 20px;
+}
+.c1 i{
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    display: inline-block;
+    right: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #da620a;
+    transform: skew(190grad);
+
+}
+
+/*
+第三部分
+ */
+.con-3-0{
+    width: 100%;
+    background: #fff;
+}
+
+.con-3{
+    width: 1180px;height: 30px;
+    margin: auto;
+}
+.con-3 h2{
+    height: 20px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    padding: 3px 5px;
+    background: #74a8ed;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+.con-3 h2>i{
+    position: absolute;
+    right: -8px;
+    top: 6px;
+    width: 0;
+    height: 0;
+    border: 4px solid #74a8ed;
+    border-color: #fff #fff #fff #74a8ed;
+}
+.con-3 li{
+    float: left;
+    margin: 0 13px 0 0;
+    line-height: 22px;
+    margin-top: 9px;
+    background: white;
+}
+.con-3 ul i{
+    display: inline-block;
+    background-image: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 3px;
+    margin-top: -1px;
+}
+.con-3 .l1{
+    background-position: -26px 0;
+
+}
+.con-3 .l2{
+    display: inline-block;
+    background-image: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+}
+.con-3 .l3{
+    width: 17px;
+    background-position: -130px 0;
+}
+.con-3 .l4{
+    background-position: -52px 0;
+}
+
+
+.con-3 .l5{
+    background-position: -26px -52px;
+}
+.con-3 .l6{
+
+    background-position: -104px -26px;
+}
+.con-3 .l7{
+    background-position: -26px -26px;
+}
+.con-3 .l8{
+    background-position: 0 -52px;
+}
+.con-3 .l9 {
+    background-position: -78px -26px;
+}
+
+.con-3 .l10{
+    background-position: -130px -26px;
+}
+.con-3 .l11{
+    background-position: -26px -78px;
+    display: inline-block;
+    background-image: url(https://pic.c-ctrip.com/platform/online/home/un_icon_index_type.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.con-3 .l12{
+    background-position: -24px -79px;
+}
+
+/*
+第四部分
+ */
+
+.con-4{
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    background: white;
+}
+.c-4{
+    width: 100%;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 1920px auto;
+    background-color: #ffffff;
+
+    background-image: url("https://dimg04.c-ctrip.com/images/zg03170000011q7ci0BCF.jpg");
+}
+
+
+/*
+第五部分
+ */
+.con-5{
+    width: 980px;height: 429px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+
+}
+.con-5-0{
+    width: 980px;
+    height: 36px;
+    position: relative;
+    z-index: 12;
+    border-bottom: 2px solid #3983e5;
+    text-align: left;
+
+
+}
+.con-5-0 h2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+
+}
+.con-5-0 h2 span{
+    position: relative;
+    bottom: -3px;
+    float: left;
+    height: 36px;
+    line-height: 30px;
+    color: #333;
+    margin-right: 30px;
+}
+.con-5-0 h2 .i1{
+    display: inline-block;
+    position: absolute;
+    left: 5px;bottom: 5px;
+    border-bottom: 6px solid #3983e5;
+    border-top: 0 none;
+    border-left: 6px solid #f5f5f5;
+    border-right: 6px solid #f5f5f5;
+}
+
+.con-5-0 h2 b{
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    font-weight: normal;
+
+}
+.con-5-0 h2 em{
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    display: inline-block;
+    padding: 0 2px;
+    height: 15px;
+    line-height: 15px;
+    background: #ff9913;
+    color: #fff;
+}
+.con-5-0>div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 22px;
+    line-height: 22px;
+    color: #3983e4;
+}
+.con-5-0 div span{
+    height: 22px;
+    color: #3983e4;
+    padding: 1px 5px 0;
+    display: inline-block;
+    overflow: hidden;
+}
+.con-5-0 div i{
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: 1px;
+    border-top: 5px solid #3983e4;
+    border-right: 5px solid #f5f5f5;
+    border-bottom: 5px solid #f5f5f5;
+    border-left: 5px solid #f5f5f5;
+}
+.con-5-1{
+    width: 100%;
+    height: 390px;
+    background: white;
+}
+.con-5-1 ul{
+    width: 100%;
+    height: 20px;
+    background: white;
+
+}
+.con-5-1 li{
+    background: white;
+    float: left;
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0 8px;
+    color: #3983e5;
+}
+.con-5-1 .box{
+    width: 920px;
+    height: 350px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.con-5-1 .sbox{
+    width: 220px;
+    height:160px;
+    position: relative;
+    background-image: url("https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg");
+    background-repeat: no-repeat;
+}
+.sbox-1{
+    width: 88px;height: 20px;
+    background: #ff6913;
+    color: white;
+    position: absolute;
+    left: 0;top: 0;
+    border-radius: 0 0 15px 0;
+    text-align: center;
+}
+.sbox-2{
+    width: 112px;height: 112px;
+    border-radius: 50%;
+    background: rgba(0,0 ,0 ,0.5);
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.s-2-1{
+    width: 102px;height: 21px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    padding-bottom:30px ;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:30px;
+}
+.s-2-2{
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:30px;
+    color: white;
+    text-align: center;
+}
+.s-2-2 .sp2{
+    color: #f60;
+    font-size: 22px;
+}
+.s-2-2 .sp1{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.con-6-0{
+    width: 227px;
+    height: 375px;
+    float: left;
+    margin: auto;
+    color: #333333;
+    background: white;
+}
+.con-6-0 ul{
+    background: white;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.con-6-0 ul h4{
+    background: white;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.con-6-0 ul li{
+    width: 100%;
+    height: 18px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background: white;
+    margin-bottom: 10px;
+}
+.con-6-0 li a{
+    color: grey;
+}
+
+
+.con-6-1{
+    width: 753px;
+    height: 375px;
+    float: left;
+    background: white;
+    border-left: 1px dotted gray;
+}
+.con-6-1 ul{
+    width: 100%;
+    height: 20px;
+    background: white;
+
+}
+.con-6-1 li{
+    background: white;
+    float: left;
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0 8px;
+    color: #3983e5;
+}
+.con-6-1 .box1{
+    width: 730px;
+    height: 345px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.con-6-1 .sbox1{
+    width: 220px;
+    height:160px;
+    position: relative;
+    background-image: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+}
+.con-6-1 .s-6-2-1{
+    width: 102px;height: 42px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    line-height: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:40px;
+}
+.s-6-2-1 em{
+    background: rgba(0,0,0,0.5);
+}
+.box3{
+    width: 960px;height: 353px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.sbox3{
+    width: 220px;height: 106px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background: #f5f5f5;
+    position: relative;
+
+}
+.sbox3 .s3-l{
+    width: 105px;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: #333333;
+}
+.s3-1-1{
+    width: 100%;height: 20px;
+}
+.s3-1-1 em{
+    width: 12px;
+    height: 7px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    background-image: url("https://pic.c-ctrip.com/platform/online/home/un_index_20180209.png");
+    background-position: -1px -116px;
+}
+.s3-1-2{
+    color: grey;
+
+}
+
+.s3-2{
+    width: 105px;
+    height: 33px;
+    margin-top: 10px;
+    position: relative;
+}
+.s3-2 b{
+    font-size: 22px;
+    color: #f60;
+    position: absolute;
+    left: 15px;
+}
+.s3-sp1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.s3-sp2{
+    position: absolute;
+    left: 45px;
+    bottom: 5px;
+}
+
+.s3-r{
+    width: 58px;
+    height: 27px;
+    background: #ffb000;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.con-7-0{
+    width: 240px;height: 260px;
+    float: left;
+    margin: auto;
+    background: white;
+    color: #333333;
+    position: relative;
+}
+
+.con-7-0 ul{
+    background: white;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.con-7-0 ul h4{
+    background: white;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.con-7-0 ul li{
+    width: 100%;
+    height: 18px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background: white;
+    margin-bottom: 10px;
+}
+.con-7-0 li a{
+    color: grey;
+}
+.con-7-0 li div{
+    width: 60px;height: 18px;
+    float: left;
+    border-right: 1px solid #dddddd;
+    margin-right: 6px;
+}
+.con-7-0 li div i{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: 5px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_index_20180209.png");
+    width: 11px;
+    height: 11px;
+    margin-left: -4px;
+    background-position: -16px -32px;
+}
+
+
+
+.con-7-1{
+    width: 740px;
+    height: 260px;
+    float: left;
+    background: white;
+    border-left: 1px dotted gray;
+}
+.con-7-1 ul{
+    width: 700px;
+    height: 20px;
+    background: white;
+
+}
+.con-7-1 li{
+    background: white;
+    float: left;
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0 8px;
+    color: #3983e5;
+}
+.con-7 p{
+    background: white;
+}
+.con-7-1 .box4{
+    width: 730px;
+    height: 204px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.con-7-1 .sbox4{
+    width: 220px;
+    height:100%;
+    position: relative;
+    background: white;
+}
+.s4-1 {
+    width: 220px;
+    height: 147px;
+    background-image: url("https://pic.c-ctrip.com/car/osd/online/vehicle_new/Ford_Fiesta.png");
+    background-size: 100% 100%;
+}
+.s-3-1{
+    width: 152px;
+    height: 34px;
+    font-size: 12px;
+    color: gray;
+    float: left;
+    margin-top: 10px;
+}
+.s-3-2{
+    position: relative;
+
+}
+.s-3-2 .sp2{
+    color: #ff6600;
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+}
+.s-3-2 .sp1{
+    position: absolute;
+    right: 85px;top: 0;
+}
+
+.s-3-2 .sp3{
+    position: absolute;
+    right: 30px;top: 10px;
+}
+
+.con-c5{
+    width: 980px;height: 290px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+
+.con-c6{
+    width: 980px;height: 190px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.box5{
+    width: 980px;height: 145px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 10px;
+}
+.box5 p{
+    background: white;
+}
+.sbox5{
+    width: 320px;height: 145px;
+    background: white;
+}
+.s5-t{
+    width: 223px;height: 97px;position: relative;
+}
+
+.t-l{
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: #abcbf5;
+    float: left;
+}
+.t-l i{
+    display: inline-block;
+    border-radius: 50%;
+    height: 34px;
+    width: 46px;
+    position: absolute;
+    left: 18%;
+    top: 25%;
+    background: #abcbf5;
+    background-image: url("https://pic.c-ctrip.com/platform/online/home/un_index_supply.png");
+    background-position: 0 0;
+}
+.t-r{
+    width: 223px;
+    height: 100%;
+}
+.s5-b{
+    width: 223px;height: 40px;
+}
+.t-r h5{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.t-r p{
+    width: 218px;height: 55px;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.s5-b{
+    width: 318px;height: 40px;
+    position: relative;
+    border-top: 1px solid #dddddd;
+
+}
+
+.s5-b>div{
+    width: 100px;height: 30px;
+    float: left;
+    border-right: 1px dotted gray;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+.s5-b img{
+    width: 24px;height: 24px;
+}
+
+.bot-1{
+    width: 980px;height: 368px;
+    margin: auto;
+    background: white;
+    margin-top: 40px;
+}
+.b-t-1>div{
+    float: left;
+}
+.bot-1-t{
+    width: 980px;height: 100px;
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+.bot-1-t>div{
+    float: left;
+}
+.b-t-1{
+    width: 220px;height: 84px;
+    border-left: 1px solid #e0e0e0;
+}
+.bot-1-t h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.t-1-l>span{
+    width: 100%;
+    height: 30px;
+    color: grey;
+    box-sizing: border-box;
+    padding-left: 10px;
+    text-align: center;
+}
+.t-1-r{
+    width: 50px;
+    height: 20px;
+    float: right;
+}
+
+.b-t-r{
+    width: 726px;height: 100px;
+    border-left: 1px solid #e0e0e0;
+}
+.t-r-1{
+    width: 100%;height: 26px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.t-r-2{
+    width: 100%;
+    height:35px ;
+}
+.t-r-2>div{
+    width: 90px;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-image: url("https://pic.c-ctrip.com/platform/online/home/pic_partner.png");
+    background-repeat: no-repeat;
+    border-right: 1px solid #e0e0e0;
+
+}
+
+.bot-1-b{
+    width: 980px;height: 268px;
+    margin: auto;
+    background: white;
+}
+.b-1{
+    width: 953px;height: 72px;
+    background: white;
+}
+.b-1>div{
+    width: 80px;height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    float: left;
+}
+.b-1>ul{
+    float: left;
+    background: white;
+    overflow: hidden;
+}
+.b-1 li{
+    float: left;
+    width: 80px;height: 100%;
+    background: white;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.b-2{
+    width: 953px;height: 30px;
+    background: white;
+}
+
+.b-2>div{
+    width: 80px;height: 24px;
+    margin-top: 5px;
+    font-size: 14px;
+    float: left;
+    margin-left: 20px;
+}
+.b-2>ul{
+    float: left;
+    background: white;
+}
+.b-2 li{
+    float: left;
+    background: white;
+    width: 80px;height: 24px;
+    color: grey;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
