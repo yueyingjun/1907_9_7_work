@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+      <style>
+        body ul{
+            width: 990px;
+
+           list-style: none;
+        }
+          .title1{
+              width: 990px;
+              height: 36px;
+              background: #f8ffcc;
+
+          }
+          .title1-1{
+              width:100px;
+              height: 100%;
+
+              float: left;
+          }
+          .title1-1-1{
+              margin-left: 20px;
+              margin-top: 10px;
+              text-align: center;
+              font-size: 12px;
+              float: left;
+          }
+          .title1-2{
+              margin-top: 10px;
+              margin-left: 30px;
+              width: 120px;
+              height: 36px;
+              float: left;
+
+              text-align: center;
+          }
+          .title1-3{
+              width: 696px;
+              height: 36px;
+
+              float: right;
+          }
+          li{
+              margin-top: 10px;
+              float: left;
+              margin-left: 30px;
+              color: blue;
+
+          }
+
+           .title2{
+               width:990px ;
+               height: 80px;
+
+
+           }
+          .title2-1{
+
+              width: 300px;
+
+          }
+          img{
+                 width: 126px ;
+              height: 43px;
+              margin-top: 15px;
+
+              float: left;
+          }
+         .title2-2{
+             width: 400px;
+             height: 90%;
+             float: left;
+
+               margin-left: 50px;
+
+         }
+          .form-control{
+               width:274px;
+              height:28px ;
+              float: left;
+               margin-top: 25px;
+
+          }
+          .btn{
+              float: left;
+              margin-top:20px;
+          }
+          .title2-3{
+              width:200px;
+              height: 60px;
+
+              float: right;
+              text-align: right;
+              margin-right: 30px;
+              margin-top: 10px;
+          }
+
+          .title3{
+              width:990px;
+              height:60px;
+              border:1px solid red;
+              float: left;
+              background: #68b5ff;
+          }
+           .title3-1 {
+               width: 50px;
+               height: 35px;
+               float: left;
+
+               margin-left: 20px;
+               margin-top: 25px;
+               margin-right: 15px;
+               color: antiquewhite;
+               font-size: 15px;
+           }
+          .title3 .btn-group{
+              float: left;
+              margin-bottom: 20px;
+          }
+
+       .title4{
+              float: left;
+              width: 990px;
+              height: 340px;
+              background-image: url("https://dimg04.c-ctrip.com/images/zg0i1700000134mgd7454.jpg");
+              background-repeat: no-repeat;
+
+          }
+          .title4-1 {
+              float: left;
+              width: 550px;
+              height: 300px;
+
+              margin-top: 30px;
+              margin-left: 30px;
+              background: #fff6f9;
+          }
+          .title4-1-left{
+              width: 100px;
+              height: 100%;
+
+              background: #68b5ff;
+              float: left;
+          }
+          .title4-1-left-1{
+              margin-top: 25px;
+              color: #f8ffcc;
+              font-size: 15px;
+              margin-left: 20px;
+
+          }
+          .title4-1-right{
+              width: 440px;
+              height: 100%;
+
+              float: left;
+          }
+          .title4-1-right-top{
+              width: 100%;
+              height: 60px;
+
+          }
+          .form-horizontal{
+              width: 100%;
+              height: 380px;
+          }
+
+          .title5{
+              width: 990px;
+              height: 439px;
+              float: left;
+
+          }
+          .title5-1{
+                width: 100%;
+                 height: 30px;
+              background: #aeffee;
+
+          }
+         .title5-1 span{
+              margin-left: 30px;
+              margin-top: 30px;
+              font-size: 20px;
+          }
+          .title5-2{
+              width: 990px;
+              height: 50px;
+          }
+          .title5-2 .han{
+              margin-top: 15px;
+              margin-left: 15px;
+              font-size: 12px;
+              float: left;
+
+        }
+          .title5-3 {
+              width: 990px;
+              height: 330px;
+
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              align-content: space-around;
+          }
+          .title5-3 .tu{
+              width: 220px;
+              height: 160px;
+
+          }
+          .tu img{
+              width: 100%;
+              height: 100%;
+          }
+
+          .title6{
+               width: 990px;
+              height: 439px;
+              float: left;
+
+          }
+          .title6-1{
+                width: 100%;
+                 height: 30px;
+              background: #68b5ff;
+
+          }
+         .title6-1 span{
+              margin-left: 30px;
+              margin-top: 30px;
+              font-size: 20px;
+          }
+          .title6-2{
+              width: 990px;
+              height: 400px;
+
+          }
+          .title6-2-left{
+              width: 300px;
+              height: 400px;
+
+              float: left;
+          }
+          .title6-2-left-1{
+              width: 300px;
+              height: 195px;
+
+          }
+          .title6-2-left-1-top{
+              font-size: 25px;
+              font-weight: bold;
+              text-align: center;
+          }
+          .title6-2-left-1-botom div{
+              margin-left: 10px;
+              margin-top: 10px;
+
+          }
+          .title6-2-right{
+              width: 655px;
+              height: 400px;
+              float: left;
+          }
+          .title6-2-right-top{
+              width: 100%;
+              height: 30px;
+
+          }
+          .title6-2-right-top .han{
+               margin-top: 15px;
+              margin-left: 15px;
+              font-size: 12px;
+              float: left;
+
+          }
+          .title6-2-right-bottom{
+              width: 100%;
+              height: 365px;
+
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              align-content: space-around;
+          }
+          .title6-2-right-bottom .tu{
+              width: 200px;
+              height: 150px;
+          }
+          .title6-2-right-bottom .tu img{
+                width: 100%;
+              height: 100%;
+          }
+
+          .title7{
+              width: 990px;
+              height: 550px;
+              border: 1px solid red;
+              float: left;
+
+          }
+             .title7-1{
+                width: 100%;
+                 height: 30px;
+              background: #aeffee;
+
+          }
+         .title7-1 span{
+              margin-left: 30px;
+              margin-top: 30px;
+              font-size: 20px;
+          }
+          .title7-2{
+              width: 990px;
+              height: 50px;
+          }
+          .title7-2 .han{
+              margin-top: 15px;
+              margin-left: 15px;
+              font-size: 12px;
+              float: left;
+
+        }
+          .title7-3{
+              width: 100%;
+              height: 500px;
+              border: 1px solid red;
+
+               display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              align-content: space-around;
+
+          }
+          .title7-3-1{
+              width: 200px;
+              height: 80px;
+              background: #aeffee;
+          }
+
+          .title8{
+              width: 990px;
+              height: 500px;
+
+          }
+             .title8-1{
+                width: 100%;
+                 height: 30px;
+              background: #68b5ff;
+                 float: left;
+
+          }
+         .title8-1 span{
+              margin-left: 30px;
+              margin-top: 30px;
+              font-size: 20px;
+          }
+          .title8-2{
+              width: 100%;
+              height:300px;
+              float: left;
+
+          }
+            .title8-2-left{
+              width: 300px;
+              height: 300px;
+                float: left;
+
+          }
+         .title8-2-left-1-top{
+              font-size: 25px;
+              font-weight: bold;
+              text-align: center;
+          }
+           .title8-2-left-1-botom div{
+              margin-left: 20px;
+              margin-top: 20px;
+
+          }
+           .title8-2-right{
+               float: left;
+               width: 650px;
+               height: 300px;
+           }
+           .title8-2-right-top{
+              width: 98%;
+              height: 30px;
+
+          }
+          .title8-2-right-top .han{
+               margin-top: 15px;
+              margin-left: 15px;
+              font-size: 12px;
+              float: left;
+
+          }
+          .title8-2-right-bottom{
+              width: 100%;
+              height: 250px;
+          }
+          .title8-2-right-bottom .tu{
+              width: 30%;
+              height: 250px;
+              float: left;
+          }
+          .title8-2-right-bottom .tu img{
+              margin-left: 10px;
+              width: 90%;
+              height: 75%;
+          }
+            .title8-2-right-bottom .tu div{
+             font-size: 15px;
+                margin-left: 20px;
+          }
+
+          .title9{
+              width: 990px;
+              height: 500px;
+          }
+           .title9-1{
+                width: 100%;
+                 height: 30px;
+              background: #68b5ff;
+                 float: left;
+
+          }
+          .title9-1 span{
+              margin-left: 30px;
+              margin-top: 30px;
+              font-size: 20px;
+          }
+           .title9-2{
+              width: 100%;
+              height:200px;
+              float: left;
+
+          }
+          .title9-2-1{
+              width: 330px;
+              height: 150px;
+              float: left;
+          }
+          .title9-2-1-top{
+              width: 330px;
+              height: 100px;
+          }
+          .title9-2-1-bottom{
+              width: 330px;
+              height: 40px;
+          }
+          .title9-2-1-bottom div{
+              font-size: 15px;
+              float: left;
+              margin-left: 35px;
+              margin-top: 10px;
+          }
+          .title9-2-1-top-left{
+              width: 100px;
+              height: 95px;
+              float: left;
+          }
+          .title9-2-1-top-left img{
+              margin-top: 5px;
+              margin-left: 5px;
+              width: 80px;
+              height: 80px;
+
+          }
+          .title9-2-1-top-right{
+              width: 220px;
+              height: 95px;
+              float: left;
+          }
+
+           .title10{
+               width: 990px;
+               height: 100px;
+               float: left;
+           }
+           .title10-left{
+               float: left;
+           }
+          .title10-left-top{
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-left: 20px;
+          }
+          .title10-left-bottom-1{
+              margin-left: 20px;
+              margin-top: 5px;
+
+          }
+          .title10-right{
+              width: 800px;
+              height: 100%;
+              float: left;
+          }
+          .title10-right-top{
+              margin-left: 100px;
+
+          }
+          .title10-right-bottom{
+              width: 800px;
+              height: 80px;
+              float: left;
+          }
+           .title10-right-bottom .title10-2{
+            margin-left: 40px;
+               float: left;
+          }
+
+          .title11{
+              width: 990px;
+              height: 50px;
+              float: left;
+          }
+          .title11-left{
+              font-weight: bold;
+              font-size: 20px;
+              float: left;
+          }
+          .title11-right{
+              margin-left: 50px;
+              float: left;
+          }
+          .title11-right .wang{
+              float: left;
+              margin-left: 30px;
+
+
+          }
+     </style>
+
+  </head>
+  <body>
+    <div class="title1">
+        <div class="title1-1">
+            <div class="title1-1-1">
+                让旅行更幸福
+            </div>
+        </div>
+         <div class="title1-2">
+            <span>
+                <em class="ico-global"></em>
+                "language"
+                <b class="n-arrow"></b>
+            </span>
+        </div>
+         <div class="title1-3">
+          <ul class="title1-3-1">
+              <li class="title1-3-1-1">
+                  你好，请登录
+              </li>
+               <li class="title1-3-1-1">
+                   免费注册
+               </li>
+               <li class="title1-3-1-1">
+                   消息
+               </li>
+               <li class="title1-3-1-1">
+                   我的携程
+               </li>
+               <li class="title1-3-1-1">
+                   我的订单
+               </li>
+               <li class="title1-3-1-1">
+                   客服中心
+               </li>
+               <li class="title1-3-1-1">
+                   携程商旅
+               </li>
+               <li class="title1-3-1-1">
+                   <span class="手机">
+                       <i class="ico_app"></i>
+                   </span>
+               </li>
+                <li class="title1-3-1-1">
+                    <i class="ico_wechat"></i>
+                </li>
+          </ul>
+        </div>
+    </div>
+    <div class="title2">
+       <div class="title2-1">
+            <img src="https://pic.c-ctrip.com/common/c_logo2013.png">
+       </div>
+         <div class="title2-2">
+          <input type="text" class="form-control" placeholder="搜索旅行地/酒店/旅游/景点门票/交通">
+           <button type="button" class="btn btn-primary">收索</button>
+
+       </div>
+         <div class="title2-3">
+            <div class="title2-3-1">
+                境内：95010
+            </div>
+              <div class="title2-3-2">
+                （或）400-830-6666
+            </div>
+       </div>
+    </div>
+    <div class="title3">
+        <div class="title3-1">
+            首页
+        </div>
+
+      <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    酒店 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    机票 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    火车 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    船 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    礼品卡 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    自由行 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    跟团游 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    全球购 <span class="caret"></span>
+  </button>
+
+
+</div>
+         <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    攻略 <span class="caret"></span>
+  </button>
+
+
+</div>
+
+         <div class="title3-1">
+            目的地
+        </div>
+         <div class="title3-1">
+            金融
+        </div>
+    </div>
+    <div class="title4">
+   <div class="title4-1">
+       <div class="title4-1-left">
+            <div class="title4-1-left-1">
+               酒店
+           </div>
+           <div class="title4-1-left-1">
+               机票
+           </div>
+            <div class="title4-1-left-1">
+               旅游
+           </div>
+            <div class="title4-1-left-1">
+               跟团游
+           </div>
+            <div class="title4-1-left-1">
+               自由行
+           </div>
+            <div class="title4-1-left-1">
+               火车
+           </div>
+            <div class="title4-1-left-1">
+               用车
+           </div>
+       </div>
+       <div class="title4-1-right">
+           <div class="title4-1-right-top">
+           <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    国内酒店 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+                <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    海外酒店 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+                <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    民宿 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+                <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    酒店团购 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+                 <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    民宿 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
+       </div>
+           <div class="title4-1-right-bottom">
+
+        <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">机票</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">酒店</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+             <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">地点</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="hanhanhan" placeholder="Password">
+    </div>
+  </div>
+
+</form>
+           </div>
+       </div>
+   </div>
+    </div>
+    <div class="title5">
+        <div class="title5-1">
+           <span>热门</span>
+            <span>特价旅游</span>
+             <span>出境游</span>
+            <span>境内游</span>
+             <span>周边游</span>
+            <span>邮轮</span>
+             <span>门票</span>
+            <span>当地玩乐</span>
+             <span>主标题</span>
+            <span>高端游</span>
+        </div>
+         <div class="title5-2">
+            <div class="han">境内</div>
+               <div class="han">日本</div>
+               <div class="han">东南亚</div>
+               <div class="han">欧洲</div>
+               <div class="han">美洲</div>
+               <div class="han">澳洲东非</div>
+        </div>
+         <div class="title5-3">
+              <div class="tu">
+                  <img src="https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://dimg05.c-ctrip.com/images/100f180000013p2c086E4_C_221_166.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://dimg04.c-ctrip.com/images/100b11000000qbl7v8A10_C_221_166.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg">
+              </div>
+              <div class="tu">
+                  <img src="https://dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://dimg01.c-ctrip.com/images/100m0u000000jqip1B411_C_221_166.jpg">
+              </div>
+        </div>
+    </div>
+     <div class="title6">
+        <div class="title6-1">
+           <span>海外酒店</span>
+            <span>海外民宿+短租</span>
+             <span>国内酒店</span>
+            <span>酒店+景点</span>
+             <span>客栈民宿</span>
+            <span>团购</span>
+        </div>
+         <div class="title6-2">
+                <div class="title6-2-left">
+             <div class="title6-2-left-1">
+                 <div class="title6-2-left-1-top">
+                     促销
+                 </div>
+                 <div class="title6-2-left-1-botom">
+                     <div>谁便全世界-新加坡国家馆</div>
+                       <div>谁便全世界-国家国家馆</div>
+                       <div>谁便全世界-澳大利亚国家馆</div>
+                       <div>暑期亲子游世界</div>
+                       <div>谁便全世界-泰国国家馆</div>
+                 </div>
+
+             </div>
+               <div class="title6-2-left-1">
+                 <div class="title6-2-left-1-top">
+                     发现酒店
+                 </div>
+                 <div class="title6-2-left-1-botom">
+                     <div>玻利维亚务农酒店推荐</div>
+                       <div>苏门岛把安达宁走极度加酒店</div>
+                       <div>奥地利</div>
+                       <div>俄罗斯山酒店</div>
+                       <div>谁便全世界-泰国国家馆</div>
+                 </div>
+
+             </div>
+         </div>
+                  <div class="title6-2-right">
+                      <div class="title6-2-right-top">
+            <div class="han">热门城市</div>
+               <div class="han">都市购物</div>
+               <div class="han">海岛休闲</div>
+               <div class="han">旅游胜地</div>
+
+        </div>
+                    <div class="title6-2-right-bottom">
+              <div class="tu">
+                  <img src="https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://images3.c-ctrip.com/overseas/city/bangkok256-256.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://images3.c-ctrip.com/overseas/city/tokyo256-256.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://images3.c-ctrip.com/overseas/city/kualalumpur256-256.jpg">
+              </div>
+                        <div class="tu">
+                  <img src="https://images3.c-ctrip.com/overseas/city/tokyo256-256.jpg">
+              </div>
+               <div class="tu">
+                  <img src="https://images3.c-ctrip.com/overseas/city/kualalumpur256-256.jpg">
+              </div>
+
+
+                    </div>
+                    </div>
+        </div>
+    </div>
+    <div class="title7">
+        <div class="title7-1">
+           <span>国际.港澳台特价机票</span>
+            <span>国内特价机票</span>
+        </div>
+         <div class="title7-2">
+            <div class="han">热门往返</div>
+               <div class="han">亚洲</div>
+               <div class="han">欧洲</div>
+               <div class="han">美洲</div>
+               <div class="han">非洲</div>
+        </div>
+         <div class="title7-3">
+             <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+              <div class="title7-3-1">
+                 <div class="title7-3-1-1">
+                     <p class="item-name">上海 <i class="icon icon-round"></i> 纽约</p>
+                     <p class="item-info"><span class="date">9月11日 - 9月18日</span></p>
+                     <p class="item-info"><span class="price"><dfn>¥</dfn>66<i class="price_info">起</i></span><span class="button  button-yellow">立抢</span></p>
+                 </div>
+             </div>
+
+        </div>
+    </div>
+
+     <div class="title8">
+        <div class="title8-1">
+           <span>境外租车</span>
+            <span>境外接送机</span>
+             <span>国内租车</span>
+            <span>国内接送机</span>
+             <span>日租包车</span>
+        </div>
+         <div class="title8-2">
+                <div class="title8-2-left">
+             <div class="title8-2-left-1">
+                 <div class="title8-2-left-1-top">
+                     热门城市
+                 </div>
+                 <div class="title8-2-left-1-botom">
+                     <div>
+                         <span>洛杉矶</span>
+                          <span>旧金山</span>
+                          <span>墨尔本</span>
+                     </div>
+                      <div>
+                         <span>纽约</span>
+                          <span>曼谷</span>
+                          <span>基督城</span>
+                     </div>
+                      <div>
+                         <span>普吉岛</span>
+                          <span>温哥华</span>
+                          <span>悉尼</span>
+                     </div>
+                      <div>
+                         <span>奥克兰</span>
+                          <span>拉斯维加斯</span>
+                          <span>西雅图</span>
+                     </div>
+                      <div>
+                         <span>伦敦</span>
+                          <span>法兰克福</span>
+                          <span>多伦多</span>
+                     </div>
+                      <div>
+                         <span>巴萨</span>
+                          <span>迪拜</span>
+                     </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+                  <div class="title8-2-right">
+                      <div class="title8-2-right-top">
+            <div class="han">小型轿车</div>
+               <div class="han">中型轿车</div>
+               <div class="han">大型轿车</div>
+               <div class="han">高档轿车</div>
+                           <div class="han">中型suv</div>
+               <div class="han">标准suv</div>
+               <div class="han">全尺寸suv</div>
+               <div class="han">更多</div>
+
+        </div>
+                    <div class="title8-2-right-bottom">
+              <div class="tu">
+                  <img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Ford_Fiesta.png">
+                  <div>美国洛杉矶</div>
+                  <div>紫加梦幻1号公路</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Kia_Rio.png">
+                  <div>加拿大 温哥华</div>
+                  <div>环游如画温哥华岛</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Toyota_Corolla.png">
+                  <div>澳大利亚 墨尔本</div>
+                  <div>大洋路劫色美海岸线</div>
+              </div>
+
+
+
+                    </div>
+                    </div>
+        </div>
+    </div>
+      <div class="title8">
+        <div class="title8-1">
+           <span>当地玩乐.处境</span>
+            <span>当地玩乐。境内</span>
+        </div>
+         <div class="title8-2">
+                <div class="title8-2-left">
+             <div class="title8-2-left-1">
+                 <div class="title8-2-left-1-top">
+                     热门目的地
+                 </div>
+                 <div class="title8-2-left-1-botom">
+                     <div>
+                         <span>普吉岛</span>
+                          <span>曼谷</span>
+                          <span>东京</span>
+                         <span>轻慢</span>
+                     </div>
+                      <div>
+                         <span>香港</span>
+                          <span>压张</span>
+                          <span>巴厘岛</span>
+                           <span>沙巴</span>
+                     </div>
+                      <div>
+                         <span>大版</span>
+                          <span>迪拜</span>
+                          <span>澳门</span>
+                     </div>
+                      <div>
+                         <span>墨尔本</span>
+                          <span>冲绳</span>
+                          <span>西陵</span>
+                     </div>
+                      <div>
+                         <span>新加坡</span>
+                          <span>台北</span>
+                          <span>台男</span>
+                     </div>
+                      <div>
+                         <span>巴萨</span>
+                          <span>迪拜</span>
+                     </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+                  <div class="title8-2-right">
+                      <div class="title8-2-right-top">
+            <div class="han">一日游</div>
+               <div class="han">演出赛事</div>
+               <div class="han">交通接驳</div>
+               <div class="han">当地美食</div>
+                           <div class="han">游船光光</div>
+               <div class="han">SPA水疗</div>
+               <div class="han">特色体验</div>
+               <div class="han">更多</div>
+
+        </div>
+                    <div class="title8-2-right-bottom">
+              <div class="tu">
+                  <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+                  <div>携程转线</div>
+                  <div>日本冲绳</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg">
+                  <div>青菜白庙</div>
+                  <div>泰国。清迈</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://dimg04.c-ctrip.com/images/350b10000000pm2zgA5CF_C_280_158.jpg">
+                  <div>曼谷内啥</div>
+                  <div>泰国。曼谷</div>
+              </div>
+
+
+
+                    </div>
+                    </div>
+        </div>
+    </div>
+     <div class="title8">
+        <div class="title8-1">
+           <span>境外租车</span>
+            <span>境外接送机</span>
+             <span>国内租车</span>
+            <span>国内接送机</span>
+             <span>日租包车</span>
+        </div>
+         <div class="title8-2">
+                <div class="title8-2-left">
+             <div class="title8-2-left-1">
+                 <div class="title8-2-left-1-top">
+                     热门城市
+                 </div>
+                 <div class="title8-2-left-1-botom">
+                     <div>
+                         <span>洛杉矶</span>
+                          <span>旧金山</span>
+                          <span>墨尔本</span>
+                     </div>
+                      <div>
+                         <span>纽约</span>
+                          <span>曼谷</span>
+                          <span>基督城</span>
+                     </div>
+                      <div>
+                         <span>普吉岛</span>
+                          <span>温哥华</span>
+                          <span>悉尼</span>
+                     </div>
+                      <div>
+                         <span>奥克兰</span>
+                          <span>拉斯维加斯</span>
+                          <span>西雅图</span>
+                     </div>
+                      <div>
+                         <span>伦敦</span>
+                          <span>法兰克福</span>
+                          <span>多伦多</span>
+                     </div>
+                      <div>
+                         <span>巴萨</span>
+                          <span>迪拜</span>
+                     </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+                  <div class="title8-2-right">
+                      <div class="title8-2-right-top">
+            <div class="han">小型轿车</div>
+               <div class="han">中型轿车</div>
+               <div class="han">大型轿车</div>
+               <div class="han">高档轿车</div>
+                           <div class="han">中型suv</div>
+               <div class="han">标准suv</div>
+               <div class="han">全尺寸suv</div>
+               <div class="han">更多</div>
+
+        </div>
+                    <div class="title8-2-right-bottom">
+              <div class="tu">
+                  <img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Ford_Fiesta.png">
+                  <div>美国洛杉矶</div>
+                  <div>紫加梦幻1号公路</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Kia_Rio.png">
+                  <div>加拿大 温哥华</div>
+                  <div>环游如画温哥华岛</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Toyota_Corolla.png">
+                  <div>澳大利亚 墨尔本</div>
+                  <div>大洋路劫色美海岸线</div>
+              </div>
+
+
+
+                    </div>
+                    </div>
+        </div>
+    </div>
+      <div class="title8">
+        <div class="title8-1">
+           <span>当地玩乐.处境</span>
+            <span>当地玩乐。境内</span>
+        </div>
+         <div class="title8-2">
+                <div class="title8-2-left">
+             <div class="title8-2-left-1">
+                 <div class="title8-2-left-1-top">
+                     热门目的地
+                 </div>
+                 <div class="title8-2-left-1-botom">
+                     <div>
+                         <span>普吉岛</span>
+                          <span>曼谷</span>
+                          <span>东京</span>
+                         <span>轻慢</span>
+                     </div>
+                      <div>
+                         <span>香港</span>
+                          <span>压张</span>
+                          <span>巴厘岛</span>
+                           <span>沙巴</span>
+                     </div>
+                      <div>
+                         <span>大版</span>
+                          <span>迪拜</span>
+                          <span>澳门</span>
+                     </div>
+                      <div>
+                         <span>墨尔本</span>
+                          <span>冲绳</span>
+                          <span>西陵</span>
+                     </div>
+                      <div>
+                         <span>新加坡</span>
+                          <span>台北</span>
+                          <span>台男</span>
+                     </div>
+                      <div>
+                         <span>巴萨</span>
+                          <span>迪拜</span>
+                     </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+                  <div class="title8-2-right">
+                      <div class="title8-2-right-top">
+            <div class="han">一日游</div>
+               <div class="han">演出赛事</div>
+               <div class="han">交通接驳</div>
+               <div class="han">当地美食</div>
+                           <div class="han">游船光光</div>
+               <div class="han">SPA水疗</div>
+               <div class="han">特色体验</div>
+               <div class="han">更多</div>
+
+        </div>
+                    <div class="title8-2-right-bottom">
+              <div class="tu">
+                  <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+                  <div>携程转线</div>
+                  <div>日本冲绳</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg">
+                  <div>青菜白庙</div>
+                  <div>泰国。清迈</div>
+              </div>
+                          <div class="tu">
+                  <img src="https://dimg04.c-ctrip.com/images/350b10000000pm2zgA5CF_C_280_158.jpg">
+                  <div>曼谷内啥</div>
+                  <div>泰国。曼谷</div>
+              </div>
+
+
+
+                    </div>
+                    </div>
+        </div>
+    </div>
+
+        <div class="title9">
+        <div class="title9-1">
+           <span>旅行服务</span>
+        </div>
+         <div class="title9-2">
+               <div class="title9-2-1">
+                   <div class="title9-2-1-top">
+                       <div class="title9-2-1-top-left">
+                        <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+
+
+                       </div>
+                         <div class="title9-2-1-top-right">
+                           <div class="title9-2-1-top-right-1">
+                               处境WIFI
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                                    全球出镜WIFE猪苓
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                               流量不限，多人共享，携带便捷，低价信号强
+                           </div>
+                       </div>
+                   </div>
+                   <div class="title9-2-1-bottom">
+                       <div>日本</div>
+                        <div>韩国</div>
+                        <div>欧洲通用</div>
+                       </div>
+               </div>
+             <div class="title9-2-1">
+                   <div class="title9-2-1-top">
+                       <div class="title9-2-1-top-left">
+                        <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+
+
+                       </div>
+                         <div class="title9-2-1-top-right">
+                           <div class="title9-2-1-top-right-1">
+                               处境WIFI
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                                    全球出镜WIFE猪苓
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                               流量不限，多人共享，携带便捷，低价信号强
+                           </div>
+                       </div>
+                   </div>
+                   <div class="title9-2-1-bottom">
+                       <div>日本</div>
+                        <div>韩国</div>
+                        <div>欧洲通用</div>
+                       </div>
+               </div>
+              <div class="title9-2-1">
+                   <div class="title9-2-1-top">
+                       <div class="title9-2-1-top-left">
+                        <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+
+
+                       </div>
+                         <div class="title9-2-1-top-right">
+                           <div class="title9-2-1-top-right-1">
+                               处境WIFI
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                                    全球出镜WIFE猪苓
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                               流量不限，多人共享，携带便捷，低价信号强
+                           </div>
+                       </div>
+                   </div>
+                   <div class="title9-2-1-bottom">
+                       <div>日本</div>
+                        <div>韩国</div>
+                        <div>欧洲通用</div>
+                       </div>
+               </div>
+        </div>
+    </div>
+      <div class="title9">
+        <div class="title9-1">
+           <span>旅行服务</span>
+        </div>
+         <div class="title9-2">
+               <div class="title9-2-1">
+                   <div class="title9-2-1-top">
+                       <div class="title9-2-1-top-left">
+                        <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+
+
+                       </div>
+                         <div class="title9-2-1-top-right">
+                           <div class="title9-2-1-top-right-1">
+                               处境WIFI
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                                    全球出镜WIFE猪苓
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                               流量不限，多人共享，携带便捷，低价信号强
+                           </div>
+                       </div>
+                   </div>
+                   <div class="title9-2-1-bottom">
+                       <div>日本</div>
+                        <div>韩国</div>
+                        <div>欧洲通用</div>
+                       </div>
+               </div>
+             <div class="title9-2-1">
+                   <div class="title9-2-1-top">
+                       <div class="title9-2-1-top-left">
+                        <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+
+
+                       </div>
+                         <div class="title9-2-1-top-right">
+                           <div class="title9-2-1-top-right-1">
+                               处境WIFI
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                                    全球出镜WIFE猪苓
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                               流量不限，多人共享，携带便捷，低价信号强
+                           </div>
+                       </div>
+                   </div>
+                   <div class="title9-2-1-bottom">
+                       <div>日本</div>
+                        <div>韩国</div>
+                        <div>欧洲通用</div>
+                       </div>
+               </div>
+              <div class="title9-2-1">
+                   <div class="title9-2-1-top">
+                       <div class="title9-2-1-top-left">
+                        <img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg">
+
+
+                       </div>
+                         <div class="title9-2-1-top-right">
+                           <div class="title9-2-1-top-right-1">
+                               处境WIFI
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                                    全球出镜WIFE猪苓
+                           </div>
+                                <div class="title9-2-1-top-right-2">
+                               流量不限，多人共享，携带便捷，低价信号强
+                           </div>
+                       </div>
+                   </div>
+                   <div class="title9-2-1-bottom">
+                       <div>日本</div>
+                        <div>韩国</div>
+                        <div>欧洲通用</div>
+                       </div>
+               </div>
+        </div>
+    </div>
+
+       <div class="title10">
+           <div class="title10-left">
+               <div class="title10-left-top">
+                   合作优惠
+               </div>
+               <div class="title10-left-bottom">
+                   <div class="title10-left-bottom-1">
+                       光大信用卡优惠旅游季
+                   </div>
+                     <div class="title10-left-bottom-1">
+                         上海建行指定龙卡转向
+                   </div>
+               </div>
+           </div>
+            <div class="title10-right">
+                <div class="title10-right-top">
+                    合作伙伴
+                </div>
+                   <div class="title10-right-bottom">
+                         <div class="title10-2">
+                             <img src="https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg">
+                         </div>
+                         <div class="title10-2">
+                             <img src="https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg">
+                         </div>
+                         <div class="title10-2">
+                             <img src="https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg">
+                         </div>
+                         <div class="title10-2">
+                             <img src="https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg">
+                         </div>
+                </div>
+       </div>
+       </div>
+
+       <div class="title11">
+           <div class="title11-left">
+               携程导航
+           </div>
+           <div class="title11-right">
+                    <div class="wang">酒店预订</div>
+                <div class="wang">海外酒店</div>
+                <div class="wang">特价机票</div>
+                <div class="wang">国及机票</div>
+                <div class="wang">旅游路线</div>
+                <div class="wang">景点门票</div>
+               <div class="wang">火车票</div>
+                 <div class="wang">酒店团购</div>
+           </div>
+       </div>
+     <div class="title11">
+           <div class="title11-left">
+               酒店预订
+           </div>
+           <div class="title11-right">
+                    <div class="wang">城市酒店</div>
+                <div class="wang">国家酒店</div>
+                <div class="wang">北京酒店</div>
+                <div class="wang">上海酒店</div>
+                <div class="wang">广州酒店</div>
+                <div class="wang">程导酒店</div>
+               <div class="wang">杭州酒店</div>
+                <div class="wang">新加坡酒店</div>
+           </div>
+       </div>
+     <div class="title11">
+           <div class="title11-left">
+               特价机票
+           </div>
+           <div class="title11-right">
+                    <div class="wang">上海机票</div>
+               <div class="wang">背景机票</div>
+               <div class="wang">上海机票</div>
+               <div class="wang">广州机票</div>
+               <div class="wang">深圳机票</div>
+               <div class="wang">杭州机票</div>
+               <div class="wang">太原机票</div>
+               <div class="wang">成都机票</div>
+
+           </div>
+       </div>
+     <div class="title11">
+           <div class="title11-left">
+               旅游度假
+           </div>
+           <div class="title11-right">
+                    <div class="wang">国内旅游攻略</div>
+                <div class="wang">处境旅游攻略</div>
+                   <div class="wang">马尔代夫旅游</div>
+                <div class="wang">普吉岛旅游</div>
+                   <div class="wang">巴厘岛旅游</div>
+                <div class="wang">及走到旅游</div>
+                   <div class="wang">日本旅游</div>
+                <div class="wang">新加坡旅游</div>
+
+           </div>
+       </div>
+     <div class="title11">
+           <div class="title11-left">
+               攻略指南
+           </div>
+           <div class="title11-right">
+                    <div class="wang">攻略社区</div>
+                <div class="wang">旅游攻略</div>
+                <div class="wang">旅行游记</div>
+                <div class="wang">旅游回答</div>
+                <div class="wang">周末旅游</div>
+                <div class="wang">攻略如下</div>
+               <div class="wang">火车票</div>
+                 <div class="wang">酒店团购</div>
+           </div>
+       </div>
+     <div class="title11">
+           <div class="title11-left">
+               快速入口
+           </div>
+           <div class="title11-right">
+                    <div class="wang">团购导航</div>
+                <div class="wang">门票导航</div>
+                <div class="wang">客站管理系统</div>
+                <div class="wang">精选目的地</div>
+                <div class="wang">中小企业差率</div>
+                <div class="wang">存款证明</div>
+               <div class="wang">有款证明</div>
+                <div class="wang">新加坡酒店</div>
+           </div>
+       </div>
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
