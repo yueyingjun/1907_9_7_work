@@ -1,0 +1,169 @@
+.head{
+    width: 100%;
+    height: 36px;
+    background-color: #cccccc;
+}
+.head-one{
+    width: 1180px;
+    height: 100%;
+    margin: auto;
+    font-size: 12px;
+}
+.head-one .head-left{
+    float: left;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+}
+.head-left>span{
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 36px;
+    float: left;
+}
+.head-right{
+    float: right;
+    width: 586px;
+    height: 100%;
+}
+.head-right>span{
+    color: #2691fd;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    padding: 0 10px;
+}
+.head-right>ul{
+    float: left;
+    height:36px;
+    line-height: 36px;
+    margin: 0 10px;
+}
+.head-right>ul>span{
+    padding: 0 10px;
+    border-right: 1px solid #a39d9d;
+}
+.head-bottom{
+    width: 1180px;
+    height: 80px;
+    /*border: 1px solid red;*/
+    margin: auto;
+}
+.logo{
+    width: 126px;
+    height: 43px;
+    margin: 18px 0px;
+    float: left;
+}
+.logo>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("https://pic.c-ctrip.com/common/c_logo2013.png") no-repeat center center;
+}
+.sousuo{
+    width: 422px;
+    height: 30px;
+    margin: 23px 30px;
+    border: 1px solid #a4cbff;
+    float: left;
+    border-radius: 5px;
+}
+.sousuo .input{
+    width: 380px;
+    height: 100%;
+    border-radius: 5px;
+    float: left;
+}
+.sousuo .button{
+    width: 40px;
+    height: 100%;
+    background-color: #a4cbff;
+    float: right;
+    border-radius: 5px
+}
+.sousuo .button:hover{
+    color: #6da5ef;
+}
+.head-bottom-right{
+    width: 150px;
+    height: 52px;
+    float: right;
+    margin: 20px 10px 0 0;
+    font-size: 12px;
+    text-align: right;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: #2577e3;
+}
+.nav .nav-content{
+    width: 1180px;
+    height: 100%;
+    margin: auto;
+}
+.nav .nav-content>span{
+    line-height: 40px;
+    padding: 0 10px;
+    border-right: 1px solid #777777;
+    color: white;
+}
+.nav-content-dropdown{
+    width: 1180px;
+    height: 40px;
+    margin: auto;
+    font-size: 14px;
+}
+.nav-content-direct{
+    width: 70px;
+    height: 20px;
+    margin: 10px 0;
+    background-color: #2691fd;
+    float: left;
+}
+.nav-content-dropdown>span{
+    line-height: 40px;
+    padding: 0 10px;
+}
+.lunbotu{
+    width: 1920px;
+    height: 380px;
+    position: relative;
+}
+.search{
+    width: 471px;
+    height: 275px;
+    position: absolute;
+    top: 75px;
+    left: 90px;
+    background-color: white;
+}
+.content{
+    width: 1180px;
+    height: 429px;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+.content-title{
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 2px solid #2691fd;
+    position: relative;
+}
+.content-title:after{
+    content: "太原出发";
+    width: 73px;
+    height: 23px;
+    color: #2691fd;
+    font-size: 12px;
+    position: absolute;
+    bottom: 2px;
+}
+.content-title>span{
+    padding: 0 10px;
+}
+
+
