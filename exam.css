@@ -1,0 +1,47 @@
+.left-top{
+    height: 30px;
+    width: 140px;
+    float: right;
+    border-bottom: 1px solid red;
+}
+.left-top div:nth-of-type(2){
+    float: right;
+}
+.left>div{
+    float: right;
+}
+.left-bottom{
+    height: 100px;
+    
+}
+.left-bottom a div:nth-of-type(2){
+    float: right;
+    height: 30px;
+    width: 90px;
+    border: 1px solid #e41515;
+}
+.daohang2>div{
+    float: left;
+    
+}
+.daohang2{
+    width: 1200px;
+    float: left;
+}
+.fenlei{
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.btn{
+    background: #e41515;
+}
+.kaoshi{
+    margin-right: 500px;
+}
+.chaxun{
+    margin-left: 533px;
+}
+.pagination{
+    margin-left: 969px;
+}
