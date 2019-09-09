@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="image/bootstrap.min.css">
+    <style type="text/css">
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url('image/fonts/glyphicons-halflings-regular.eot');
+            src: url('image/fonts/glyphicons-halflings-regular.eot?#iefix')
+            format('embedded-opentype'), url('image/fonts/glyphicons-halflings-regular.woff')
+            format('woff'), url('image/fonts/glyphicons-halflings-regular.ttf')
+            format('truetype'),
+            url('image/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
+            format('svg');		}
+    </style>
+        <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        bod{
+            padding: 0;margin:0;
+        }
+        .top1{
+            float: left;
+            width: 100%;height: 42px;
+        }
+        .top1-1{
+            margin: auto;
+            width:90%;height: 100%;
+        }
+        .top1-1 span{
+            float: left;
+            margin-top: 10px;margin-left:10px;
+            font-size: 12px;
+            font:12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+        }
+        .top1-2 b{
+            float: left;
+            color: #1b79ff;
+            margin-top: 13px;margin-left:300px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .top1-2 span{
+            float: left;
+            font-size: 14px;
+            margin-top: 10px;margin-left: 13px;
+            cursor: pointer;
+        }
+        .top1-2 span:hover{
+            color: #1b79ff;
+        }
+        .top2{
+            float: left;
+            width: 100%;height: 100px;
+        }
+        .top2-1{
+            margin: auto;
+            width:90%;height: 100%;
+            border: 1px solid white;
+        }
+        .img{
+            float: left;
+            height: 70%;width: 150px;
+            margin-top: 20px;
+            background: url("http://pic.c-ctrip.com/common/c_logo2013.png") no-repeat;
+            background-size: 100% auto;
+        }
+        .top2-1>.row{
+            margin-top: 30px;
+        }
+        .top3{
+            float: left;
+            width: 100%;height: 42px;
+        }
+
+        .top3-1{
+            margin: auto;
+            width:90%;height: 100%;
+        }
+        .top3-1 span{
+            font-size: 15px;
+            color: white;
+        }
+        .top4{
+            float: left;
+            width: 100%;height: 42px;
+        }
+        .top4-1{
+            margin-left: 50px;
+            width:95%;height: 100%;
+
+        }
+        .top5{
+            float: left;
+            width: 100%;height: 400px;
+            background: url("https://dimg04.c-ctrip.com/images/3009180000013phufC273.jpg") no-repeat;
+            background-size: 100% auto;
+        }
+        .top5-1{
+            width:50%;height: 65.5%;
+            margin-top: 40px;
+            margin-left: 40px;
+            background-color: white;
+        }
+        .top5-11{
+            float: left;
+            width:20%;height: 100%;
+        }
+        .top5-11 span{
+            font-size: 16px;
+            color: white;
+        }
+        .top5-12{
+            float: left;
+            width: 80%;height: 15%;
+        }
+        .top5-13{
+            float: right;
+            height: 85%;width: 80%;
+        }
+        #a{
+            margin-left: 450px;margin-top: 5px;
+            border: 1px solid #ff8e32;
+            background-color: #ffb422;
+        }
+        #a:hover{
+            background-color: #ff672c;
+        }
+
+        .top6{
+            float: left;
+            width: 100%;height: 42px;
+        }
+        .top6 a{
+            font-size: 20px;
+            color: black;
+        }
+        .top6 a:hover{
+            color: #1b79ff;
+        }
+        .top7{
+            float: left;
+            margin-top: 10px;
+            width: 100%;
+            height: 400px;
+        }
+        .top7-1{
+            float: left;
+            height: 42px;width: 50%;
+            margin-left: 55px;
+        }
+        .top7-2{
+            float: left;
+            height: 330px;width: 70%;
+            margin-left: 55px;
+        }
+        .top7-3{
+            float: right;
+            height: 330px;width: 25%;
+        }
+        .top7-2 ul{
+            padding: 0;margin: 0;
+            width: 100%;height: 100%;
+            list-style: none;
+        }
+        .top7-2 li{
+            float: left;
+            width: 22.25%;height: 48%;
+            margin-left: 17px;
+            margin-top: 3px;
+            position: relative;
+            cursor: pointer;
+        }
+        .top7-2 li img{
+            width: auto;height: 100%;
+        }
+        .top7-2 li>div{
+            position: absolute;
+            left: 0;top: 0;
+            width: 40%;height: 15%;
+            background-color: #ff6d17;
+            border-bottom-right-radius:10px;
+        }
+        .center1{
+            float: left;
+            height: 400px;width: 100%;
+        }
+        .center1-1{
+            margin: auto;
+            width: 90%;height: 42px;
+
+        }
+        .center1-1 a{
+            font-weight: bolder;
+            font-size: 15px;
+            color: black;
+        }
+        .center1-1 a:hover{
+            color:#1b79ff;
+        }
+        .center1-2{
+            margin-left: 100px;
+            width: 90%;height: 42px;
+            border: 1px solid white;
+
+        }
+        .center1-3{
+            float: left;
+            width: 70%;height: 300px;
+            margin-left: 50px;
+
+        }
+        .center1-3 ul{
+            padding: 0;margin: 0;
+            width: 100%;height: 100%;
+            list-style: none;
+        }
+        .center1-3 li{
+            float: left;
+            width: 22.25%;height: 48%;
+            margin-left: 17px;
+            margin-top: 5px;
+            position: relative;
+            cursor: pointer;
+            position: relative;
+        }
+        .center1-3 li>button{
+           position: absolute;
+            bottom: 0;right: 0;
+            border: 1px solid #ffb523;
+            background-color: #ffb422;
+            color: white;
+        }
+        .center1-3 li:hover{
+            box-shadow: -20px 20px 20px -20px;
+        }
+        .center1-4{
+            float: right;
+            margin-right: 120px;
+            width: 15%;height: 300px;
+        }
+        .center1-4 img{
+            width: auto;height: 100%;
+        }
+    </style>
+
+</head>
+<body>
+<div class="top1">
+    <div class="top1-1">
+        <span>让旅行更幸福</span>
+        <ul class="nav nav-pills" style="float: left">
+            <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    luanguage<span class="caret"></span>
+                </a>
+        </ul>
+        <div class="top1-2">
+            <b>您好，请登录</b>
+            <span>免费注册</span>
+            <span>消息</span>
+        </div>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#">我的携程</a></li>
+            <li><a href="#">我的订单</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    客服中心 <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li><a class="glyphicon glyphicon-briefcase"  href="#">携程商旅</a></li>
+            <li><a class="glyphicon glyphicon-home"  href="#"></a></li>
+            <li><a class=" glyphicon glyphicon-envelope"  href="#"></a></li>
+        </ul>
+    </div>
+</div>
+<div class="top2">
+    <div class="top2-1">
+        <div class="img"></div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="搜索旅行地/酒店/旅游景点/门票/交通">
+                    <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+      </span>
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </div>
+</div>
+<div class="top3">
+    <div class="top3-1">
+        <ul class="nav nav-tabs" style="background-color: #1b79ff">
+        <li class="active" ><a href="#"><span style="color: #2b669a">首页</span></a></li>
+        <li ><a href="#"><span>酒店</span></a></li>
+        <li><a href="#"><span>旅游</span></a></li>
+        <li><a href="#"><span>跟游团</span></a></li>
+        <li><a href="#"><span>自由行</span></a></li>
+        <li><a href="#"><span>机票</span></a></li>
+        <li><a href="#"><span>火车</span></a></li>
+        <li><a href="#"><span>汽车.船</span></a></li>
+        <li><a href="#"><span>用车</span></a></li>
+        <li><a href="#"><span>门票</span></a></li>
+        <li><a href="#"><span>攻略</span></a></li>
+        <li><a href="#"><span>全球购</span></a></li>
+        <li><a href="#"><span>礼品卡</span></a></li>
+        <li><a href="#"><span>邮轮</span></a></li>
+        <li><a href="#"><span>目的地</span></a></li>
+        <li><a href="#"><span>金融</span></a></li>
+        <li><a href="#"><span>更多</span></a></li>
+        </ul>
+    </div>
+</div>
+<div class="top4">
+    <div class="top4-1">
+        <ul class="nav nav-pills">
+            <li role="presentation" ><a href="#">境外直通车</a></li>
+            <li role="presentation" ><a class="" href="#">海外酒店</a></li>
+            <li role="presentation" ><a class="" href="#">国际港澳台机票</a></li>
+            <li role="presentation" ><a class="" href="#">境外出租</a></li>
+            <li role="presentation" ><a class="" href="#">国际港澳台火车票</a></li>
+            <li role="presentation" ><a class="" href="#">出境游</a></li>
+            <li role="presentation" ><a class="" href="#">高端游</a></li>
+            <li role="presentation" ><a class="" href="#">出境.港澳台门票</a></li>
+            <li role="presentation" ><a class="" href="#">签证</a></li>
+            <li role="presentation" ><a class="" href="#">保险</a></li>
+            <li role="presentation" ><a class="" href="#">WIFI.电话卡</a></li>
+            <li role="presentation" ><a class="" href="#">境外接送机</a></li>
+            <li role="presentation" ><a class="" href="#">外币兑换</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top5">
+    <div class="top5-1">
+        <div class=" top5-11">
+            <ul class="nav nav-pills nav-stacked" style="background-color: #1b79ff">
+                <li class="active" ><a href="#"><span style="color:white;">酒店</span></a></li>
+                <li ><a href="#"><span >机票</span></a></li>
+                <li ><a href="#"><span>旅游</span></a></li>
+                <li ><a href="#"><span>跟团游</span></a></li>
+                <li ><a href="#"><span>自由行</span></a></li>
+                <li ><a href="#"><span>用车</span></a></li>
+            </ul>
+        </div>
+        <div class="top5-12">
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#">国内酒店</a></li>
+                <li role="presentation"><a href="#">海外酒店</a></li>
+                <li role="presentation"><a href="#">民宿</a></li>
+                <li role="presentation"><a href="#">酒店团购</a></li>
+                <li role="presentation"><a href="#">酒店+景点</a></li>
+                <li role="presentation"><a href="#">会议+团房</a></li>
+            </ul>
+        </div>
+        <div class="top5-13">
+            <div class="row" style=" margin-top: 10px;margin-left: 0px">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">目的地</button></span>
+                        <input type="text" class="form-control" placeholder="中文/拼音">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style=";margin-top: 10px;margin-left: 0px">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">入住日期</button></span>
+                        <input type="text" class="form-control" placeholder="2019-9-9">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">退房日期</button></span>
+                        <input type="text" class="form-control" placeholder="2019-9-9">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="float: left;margin-top: 10px;margin-left: 0px">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">房间数</button></span>
+                        <input type="text" class="form-control" placeholder="1间">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">住客数</button></span>
+                        <input type="text" class="form-control" placeholder="1成人">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;margin-left: 0px;">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">酒店级别</button></span>
+                        <input type="text" class="form-control" placeholder="不限">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-btn"><button class="btn btn-default" type="button">关键字</button></span>
+                        <input type="text" class="form-control" placeholder="（选填）酒店/地标/商圈">
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-default btn-lg " id="a" >搜索</button>
+        </div>
+    </div>
+</div>
+<div class="top6">
+    <span style="font-size: 10px;color: #1b79ff;margin-top: 15px;float: left;margin-left: 20px">旅游</span>
+    <ul class="nav nav-pills" style="float: left;border-bottom: 2px solid #1b79ff">
+        <li role="presentation" ><a href="#" style="color: #1b79ff">热门</a></li>
+        <li role="presentation" ><a class="" href="#">特价旅游</a></li>
+        <li role="presentation" ><a class="" href="#">出境游</a></li>
+        <li role="presentation" ><a class="" href="#">周边游</a></li>
+        <li role="presentation" ><a class="" href="#">邮轮</a></li>
+        <li role="presentation" ><a class="" href="#">门票</a></li>
+        <li role="presentation" ><a class="" href="#">当地玩乐</a></li>
+        <li role="presentation" ><a class="" href="#">主题游</a></li>
+        <li role="presentation" ><a class="" href="#">高端游</a></li>
+    </ul>
+</div>
+<div class="top7">
+    <div class="top7-1">
+            <ul class="nav nav-pills" >
+                <li role="presentation" ><a class="" href="#">境内</a></li>
+                <li role="presentation" ><a class="" href="#">日本</a></li>
+                <li role="presentation" ><a class="" href="#">东南亚</a></li>
+                <li role="presentation" ><a class="" href="#">欧洲</a></li>
+                <li role="presentation" ><a class="" href="#">美洲</a></li>
+                <li role="presentation" ><a class="" href="#">澳中东亚</a></li>
+            </ul>
+    </div>
+    <div class="top7-2">
+        <ul>
+            <li>
+                <img src="//dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+            <li>
+                <img src="//dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+            <li>
+                <img src="//dimg05.c-ctrip.com/images/100f180000013p2c086E4_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+            <li>
+                <img src="//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+            <li>
+                <img src="//dimg04.c-ctrip.com/images/100b11000000qbl7v8A10_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+            <li>
+                <img src="//dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+            <li>
+                <img src="//dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+            <li>
+                <img src="//dimg01.c-ctrip.com/images/100m0u000000jqip1B411_C_221_166.jpg" alt="">
+                <div><span style="color:white;">月销56400笔</span></div>
+            </li>
+        </ul>
+    </div>
+    <div class="top7-3" style="margin-left: 10px">
+        <img src="https://dimg04.c-ctrip.com/images/zg0n180000013lxjp6299.jpg" alt="" style="height: 100%;width: auto;">
+    </div>
+</div>
+<div class="center1">
+    <div class="center1-1">
+        <ul class="nav nav-pills" style="float: left;border-bottom: 2px solid #1b79ff">
+            <li role="presentation" ><a href="#" style="color: #1b79ff">港澳台特价机票</a></li>
+            <li role="presentation" ><a class="" href="#">国内特价机票</a></li>
+
+        </ul>
+    </div>
+    <div class="center1-2">
+        <ul class="nav nav-pills" >
+            <li role="presentation" ><a class="" href="#">热门往返</a></li>
+            <li role="presentation" ><a class="" href="#">亚洲</a></li>
+            <li role="presentation" ><a class="" href="#">欧洲</a></li>
+            <li role="presentation" ><a class="" href="#">美洲</a></li>
+            <li role="presentation" ><a class="" href="#">非洲</a></li>
+        </ul>
+    </div>
+    <div class="center1-3">
+        <ul>
+            <li><b >上海 ⇌ 纽约<br></b>
+                <span >9月14日-9月21日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">96</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+            <li><b >上海 ⇌ 洛杉矶<br></b>
+                <span >9月14日-9月26日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">106</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+            <li><b >上海 ⇌ 曼谷<br></b>
+                <span >9月14日-9月26日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">106</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+            <li><b >上海 ⇌ 香港<br></b>
+                <span >9月14日-9月26日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">106</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+            <li><b >上海 ⇌ 澳门<br></b>
+                <span >9月14日-9月26日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">106</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+            <li><b >上海 ⇌ 胡志明市<br></b>
+                <span >9月14日-9月26日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">106</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+            <li><b >上海 ⇌ 首尔<br></b>
+                <span >9月14日-9月26日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">106</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+            <li><b >上海 ⇌ 名古屋br></b>
+                <span >9月14日-9月26日 <br></span>
+                <span style="position: absolute;bottom: 10px">￥<b style="font-size: 20px;color: #ff672c">106</b>元起</span>
+                <button class="btn btn-default btn-lg " >立抢</button>
+
+            </li>
+        </ul>
+    </div>
+    <div class="center1-4">
+        <img src="//images4.c-ctrip.com/target/60010q000000gsgjnAD29.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
