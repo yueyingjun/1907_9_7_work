@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>携程</title>
+    <style>
+        body,p,h1,h2,ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+        }
+        .max{
+            width: 100%;
+        }
+        .top{
+            width:1180px;
+            height: 36px;
+            margin: auto;
+            font: 12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+            color: #333;
+            background-color: #F4F4F4;
+        }
+        .topl{
+            font-size: 12px;
+            color: #666;
+            display: inline-block;
+            margin: 10px 0 0 14px;
+            float: left;
+        }
+        .topc{
+            display: inline-block;
+            padding: 0px 15px 0px 13px;
+            line-height: 35px;
+            border: 1px solid transparent;
+            float: left;
+        }
+        .topc-logo{
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            vertical-align: middle;
+            margin-top: -2px;
+            margin-right: 2px;
+            *margin-right: 4px;
+            background-position: -8px -8px;
+        }
+        a{
+            text-decoration: none;
+            outline: none;
+            font-style: normal;
+            color: #000;
+        }
+        .topr{
+            width:587px;
+            height: 36px;
+            float: right;
+            font-size: 12px;
+            box-sizing: border-box;
+        }
+      .topr div{
+          float: right;
+      }
+
+        .topr div:nth-child(8) a{
+
+            height: 36px;
+            width: auto;
+            display: inline-block;
+            line-height: 12px;
+            color: #0066CC;
+            margin-left:10px;
+            text-align: center;
+            padding-top: 12px;
+            box-sizing: border-box;
+        }
+
+        .topr div:nth-child(7) a{
+
+            display: inline-block;
+            line-height: 12px;
+            margin-left:10px;
+            text-align: center;
+            margin-top: 12px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #DDDDDD;
+        }
+        .topr div:nth-child(6) a{
+
+            display: inline-block;
+            line-height: 12px;
+            margin-left:10px;
+            text-align: center;
+            margin-top: 12px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #DDDDDD;
+        }
+        .topr div:nth-child(5) span{
+
+            display: inline-block;
+            line-height: 12px;
+            margin-left:10px;
+            text-align: center;
+            margin-top: 12px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #DDDDDD;
+        }
+        .topr div:nth-child(4) span{
+
+            display: inline-block;
+            line-height: 12px;
+            margin-left:10px;
+            text-align: center;
+            margin-top: 12px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #DDDDDD;
+        }
+        .topr div:nth-child(3) a{
+
+            display: inline-block;
+            line-height: 12px;
+            margin-left:10px;
+            text-align: center;
+            margin-top: 12px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #DDDDDD;
+        }
+        .topr-logo{
+            width: auto;height: 36px;
+            float:right;
+        }
+        .topr-logo div:nth-child(1){
+            height: 36px;
+            width: 36px;
+            background-repeat: no-repeat;
+            background-image: url('https://pic.c-ctrip.com/platform/online/home/sprite2019527.png');
+            background-position: -86.4px -59px;
+
+        }
+        .topr-logo div:nth-child(2){
+            height: 36px;
+            width: 36px;
+            background-repeat: no-repeat;
+            background-position: -89px -93px;
+            background-image: url(https://pic.c-ctrip.com/platform/online/home/sprite2019527.png);
+            float: right;
+        }
+        .search{
+            width:1180px;
+            height: 80px;
+            border:1px solid white;
+            margin: auto;
+        }
+        .search div:nth-child(1){
+            width:130px;
+            height: 100%;
+            padding-top: 18px;
+            box-sizing: border-box;
+            float: left;
+        }
+        .search div:nth-child(1) a{
+            width: 126px;
+            height: 43px;
+            display: block;
+            background-image: url(https://pic.c-ctrip.com/common/c_logo2013.png);
+        }
+        .search div:nth-child(2){
+            width:200px;
+            height: auto;
+            margin-top: 18px;
+            float: left;
+            font-size: 12px;
+            font-family: "Microsoft Yahei", Tahoma;
+            border-radius: 4px;
+            border: 1px solid #8ebefc;
+            box-sizing: border-box;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_header_footer20160610.png") no-repeat;
+            position: relative;
+        }
+        .search div:nth-child(3){
+            float: right;
+            position: relative;
+            left: -4px;
+            top: 20px;
+        }
+        .dd{
+            position: relative;
+            left: 8px;
+        }
+        .n-box{
+            width: 100%;
+            height: 40px;
+            background-color: #2577e3;
+            margin: 0 auto 30px;
+        }
+        .navc{
+            width: 1180px;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+        }
+        .navc a{
+            position: relative;
+            display: block;
+            height: 40px;
+            padding: 0 11px;
+            color: #fff;
+            float: left;
+            font-size: 15px;
+            line-height: 40px;
+        }
+        .nbc{
+            width: 1180px;
+            height: 22px;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            font-size: 12px;
+            margin-top: 5px;
+            text-align: center;
+            line-height: 22px;
+        }
+        .nbc a:nth-child(1){
+            width: 65px;
+            position: relative;
+            float: left;
+            margin-right: 20px;
+            padding: 0 5px;
+            background: #74a8ed;
+            color: #fff;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 2px;
+        }
+        .pic{
+            width:1920px;
+            height: 340px;
+            margin: auto;
+            background-image: url(https://dimg04.c-ctrip.com/images/zg0n170000012yyfxF41D.jpg);
+        }
+        .nav1{
+            width:1180px;
+            height: 38px;
+            border-bottom: 2px solid #3983e5;
+            margin: auto;
+            margin-top: 15px;
+        }
+        .nav1 span{
+            display: inline-block;
+            height: 36px;
+
+            line-height: 30px;
+            color: #333;
+            margin-right: 30px;
+            font-size: 16px;
+            position: relative;
+
+            text-align: left;
+        }
+         .nav1pic {
+             width: 1176px;
+             height: 390px;
+             border-left: 1px solid #ddd;
+             border-bottom:  1px solid #ddd;
+             border-right: 1px solid #ddd;
+             margin: auto;
+             position: relative;
+             top: -10px;
+         }
+         .nav1pic>div:nth-child(1){
+            height: 20px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+         .nav1pic>div:nth-child(1) span{
+            display: inline-block;
+            background-color: #3983e5;
+            color: white;
+            border-radius: 3px;
+            margin: 2px 10px;
+
+        }
+        .nav1pic>div:nth-child(2){
+            width: 910px;
+            height: 330px;
+            float: left;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+            margin-left: 10px;
+
+        }
+        .nav1pic>div:nth-child(2) div{
+            /* background-size:160px 220px ; */
+            background-repeat: no-repeat;
+            height: 160px;
+            width: 220px;
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(1){
+            background-image: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg);
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(2){
+            background-image: url(https://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg);
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(3){
+            background-image: url(https://dimg05.c-ctrip.com/images/100f180000013p2c086E4_C_221_166.jpg);
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(4){
+            background-image: url(https://dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg);
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(5){
+            background-image: url(https://dimg04.c-ctrip.com/images/100b11000000qbl7v8A10_C_221_166.jpg);
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(6){
+            background-image: url(https://dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg);
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(7){
+            background-image: url(https://dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg);
+        }
+        .nav1pic>div:nth-child(2)>div:nth-child(8){
+            background-image: url(https://dimg01.c-ctrip.com/images/100m0u000000jqip1B411_C_221_166.jpg);
+        }
+
+        .nav1pic>div:nth-child(3) {
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 220px;
+            height: 330px;
+            float: left;
+            background-image: url(https://dimg04.c-ctrip.com/images/zg0n180000013lxjp6299.jpg);
+        }
+
+        .nav2{
+            height:429px ;
+            width: 1180px;
+            margin: 28px auto 0;
+
+        }
+        .nav2bl{
+            position: relative;
+            float: left;
+            display: inline;
+            width: 197px;
+            height: 375px;
+            padding: 0 20px 15px;
+            overflow: hidden;
+            border-left: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+
+        }
+       h1{
+           width: 187px;
+           height: 38px;
+           font-size: 14px;
+           color: #333;
+           line-height: 38px;
+       }
+        .nav2bl a{
+           width: 197px;
+            height: 32px;
+            overflow: hidden;
+            position: relative;
+            padding-top: 5px;
+            font: 12px "Microsoft yahei", arial, Simsun, sans-serif;
+            line-height: 32px;
+        }
+        .nav2br{
+            width: 940px;
+            height: 375px;
+            border-bottom: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            float: right;
+        }
+        .nav2brt{
+            width: 910px;
+            height: 20px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .nav2brt a{
+            background:#3983e5 ;
+            color:white;
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: 12px;
+        }
+        .nav2brtl{
+            float: left;
+        }
+        .nav2brtr{
+            float: right;
+        }
+        .nav2brb{
+            width: 910px;
+            height: 345px;
+            overflow: hidden;
+            border: 1px solid red;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+        .nav2brbl{
+            width: 690px;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            float: left;
+        }
+        .nav2brbl div{
+            width: 220px;
+            height: 160px;
+        }
+        .nav2brbl div:nth-child(1){
+            background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+            background-size: 220px auto;
+
+        }
+        .nav2brbl div:nth-child(2){
+            background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+            background-size: 220px auto;
+
+        }
+        .nav2brbl div:nth-child(3){
+            background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+            background-size: 220px auto;
+
+        }
+        .nav2brbl div:nth-child(4){
+            background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+            background-size: 220px auto;
+
+        }
+        .nav2brbl div:nth-child(5){
+            background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+            background-size: 220px auto;
+
+        }
+        .nav2brbl div:nth-child(6){
+            background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+            background-size: 220px auto;
+        }
+        .nav2brbr{
+            width: 220px;
+            height: 330px;
+            float: right;
+        }
+        .nav2brbr div{
+            width: 220px;
+            height: 100%;
+              background: url("https://pages.c-ctrip.com/hotel/201805/thailand/220330.jpg") no-repeat center;
+            background-size: 220px auto;
+        }
+
+        .nav3{
+            width: 1178px;
+            height: 450px;
+            margin: auto;
+        }
+        .nav3  .nav2brt{
+            width: 1178px;
+            height: 20px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .nav3b{
+            width: 1178px;
+            height: 353px;
+            overflow: hidden;
+        }
+        .nav3bl{
+            width: 910px;
+            height: 100%;
+            display: flex;
+            float: left;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .nav3bl>div{
+            width: 220px;
+            height: 106px;
+           background-color: #f8f8f8;
+        }
+        .nav3br{
+            float: right;
+            width: 220px;
+            height: 340px;
+           background: url("https://images4.c-ctrip.com/target/60010q000000gsgjnAD29.jpg") no-repeat center;
+            background-size: 220px auto;
+            margin-right: 10px;
+        }
+        .nav3bl .aa{
+            color: #333333;
+            width: 194px ;
+            height: 20px;
+            margin: 0 0 3px;
+            padding: 0 5px;
+            font-size: 12px;
+            position: relative;
+            left: 5px;
+            top: 5px;
+        }
+        .nav3bl .bb{
+            color: #999;
+            width: 194px ;
+            height: 18px;
+            font-size: 12px;
+            margin-bottom: 28px;
+            position: relative;
+            left: 10px;
+            top: 4px;
+        }
+        .nav3bl   .cc{
+            color: #ff6600;
+            width: 46px ;
+            height: 33px;
+            font-size: 14px;
+            float: left;
+            line-height: 33px;
+            position: relative;
+            left: 10px;
+
+        }
+        .nav3bl   .dd{
+            color: #ffffff;
+            width: 50px ;
+            height: 27px;
+            font-size: 14px;
+            float: right;
+            margin-right: 8px;
+            background-color: #ff8000;
+        }
+        .nav4b{
+            width: 1178px;
+            height: 260px;
+            margin: auto;
+
+        }
+        .navb4l{
+            width: 230px;
+            height: 260px;
+            border-left: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+            float: left;
+          }
+        .navb4r{
+            width: 945px;
+            height: 260px;
+            border-bottom: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+<div class="max">
+    <div class="top">
+
+    <div class="topl">
+        让旅行更幸福
+    </div>
+    <div class="topc">
+        <em class="topc-logo"></em>
+        Language
+    </div>
+        <div class="topr">
+            <div class="topr-logo">
+                <div></div>
+                <div></div>
+            <div><a href="" alt="">客服中心</a></div>
+            <div><span>我的订单</span></div>
+            <div><span>我的携程</span> </div>
+            <div><a href="" alt="">消息</a> </div>
+            <div><a href="" alt="">免费注册</a></div>
+            <div><a href="" alt="">您好,请登录</a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="search">
+        <div>
+            <a href=""></a>
+        </div>
+
+        <div>
+            <input type="text" placeholder="搜索旅行地/酒店/旅游/景点门票/交通">
+            <button type="button"><a href=""></a></button>
+        </div>
+
+        <div>
+            <ul>
+                <li class="dd"> 境内：95010 </li>
+                <li>(或) 400-830-6666 </li>
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="n-box">
+        <div class="navc">
+            <a href="">首页</a>
+            <a href="">酒店</a>
+            <a href="">旅游</a>
+            <a href="">跟团游</a>
+            <a href="">自由行</a>
+            <a href="">机票</a>
+            <a href="">火车</a>
+            <a href="">汽车 船</a>
+            <a href="">用车</a>
+            <a href="">门票</a>
+            <a href="">攻略</a>
+            <a href="">全球购</a>
+            <a href="">礼品卡</a>
+            <a href="">商旅</a>
+            <a href="">邮轮</a>
+            <a href="">目的地</a>
+            <a href="">金融</a>
+            <a href="">更多</a>
+        </div>
+        <div class="nbc">
+            <a href="">境外直通车</a>
+            <a href="http://hotels.ctrip.com/international#ctm_ref=tti_hp_sni_hoi_txt_1">海外酒店</a>
+            <a href="https://flights.ctrip.com/international/search#ctm_ref=tti_hp_sni_fli_txt_2">国际•港澳台机票</a>
+            <a href="http://car.ctrip.com/hwzijia#ctm_ref=tti_hp_sni_car_txt_3">境外租车</a>
+            <a href="http://rails.ctrip.com#ctm_ref=tti_hp_sni_tra_txt_4">国际•港台火车票</a>
+            <a href="http://vacations.ctrip.com/international#ctm_ref=tti_hp_sni_vac_txt_5">出境游</a>
+            <a href="http://www.hhtravel.com/#ctm_ref=tti_hp_sni_top_txt_9">高端游</a>
+            <a href="http://piao.ctrip.com/oversea#ctm_ref=tti_hp_sni_ply_txt_6">出境•港澳台门票</a>
+            <a href="http://vacations.ctrip.com/visa#ctm_ref=tti_hp_sni_visa_txt_7">签证</a>
+            <a href="http://vacations.ctrip.com/insurance/search/t-2.html#ctm_ref=tti_hp_sni_insurance_txt_10">保险</a>
+            <a href="http://huodong.ctrip.com/wifi#ctm_ref=tti_hp_sni_wifi_txt_8">WiFi•电话卡</a>
+            <a href="http://car.ctrip.com/hwdaijia?chtype=14485#ctm_ref=tti_hp_sni_jsj_txt_11">境外接送机</a>
+            <a href="http://forex.ctrip.com/?bid=11&amp;1=1#ctm_ref=tti_hp_sni_forex_txt_12">外币兑换</a>
+        </div>
+    </div>
+    <div class="pic"></div>
+    <div class="nav1">
+        <span>热门</span>
+        <span>特价旅游</span>
+        <span>出境游</span>
+        <span>境内游</span>
+        <span>周边游</span>
+        <span>邮轮</span>
+        <span>门票</span>
+        <span>当地玩乐</span>
+        <span>主题游</span>
+        <span>高端游</span>
+    </div>
+    <div class="nav1pic">
+        <div>
+            <span>境内</span>
+            <span>日本</span>
+            <span>东南亚</span>
+            <span>欧洲</span>
+            <span>美洲</span>
+            <span>澳中东非</span>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <div class="nav2">
+            <div class="nav1">
+                <span>海外酒店</span>
+                <span>海外民宿+短租</span>
+                <span>国内酒店</span>
+                <span>酒店+景点</span>
+                <span>客栈民宿</span>
+                <span>团购</span>
+            </div>
+            <div class="nav2b">
+                <div class="nav2bl">
+                    <div>
+                        <h1>促销</h1>
+                        <a href="">睡遍全世界—新加坡国家馆</a><br>
+                        <a href="">睡遍全世界—日本国家馆</a><br>
+                        <a href="">睡遍全世界—澳大利亚国家馆</a><br>
+                        <a href="">暑期亲子游世界</a><br>
+                        <a href="">睡遍全世界—泰国国家馆</a><br>
+                        <h1>发现酒店</h1>
+                        <a href="">玻利维亚乌尤尼酒店推荐</a><br>
+                        <a href="">苏梅岛巴安达灵洲际度假酒店</a><br>
+                        <a href="">奥地利巴德伊舍酒店推荐</a><br>
+                        <a href="">俄罗斯喀山酒店推荐</a>
+                    </div>
+                    <div>
+                </div>
+
+            </div>
+                <div class="nav2br">
+                        <div class="nav2brt">
+                            <div class="nav2brtl">
+                                <a href="javascript:void(0);" pinyin="ReMenChengShi">热门城市</a>
+                                <a href="javascript:void(0);" pinyin="DuShiGouWu">都市购物</a>
+                                <a href="javascript:void(0);" pinyin="HaiDaoXiuXian">海岛休闲</a>
+                                <a href="javascript:void(0);" pinyin="LvYouShengDi">旅游胜地</a>
+                            </div>
+                            <div class="nav2brtr">
+                                <a href="http://hotels.ctrip.com/international/#ctm_ref=ssc_hp_htl_sni_more_1">更多海外酒店 </i></a>
+                            </div>
+                        </div>
+                        <div class="nav2brb">
+                            <div class="nav2brbl">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            </div>
+                            <div class="nav2brbr">
+                            <div>7</div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        </div>
+    <div class="nav3">
+        <div class="nav1">
+            <span> 国际•港澳台特价机票</span>
+            <span>国内特价机票</span>
+        </div>
+        <div class="nav2brt">
+            <div class="nav2brtl">
+                <a href="javascript:void(0);" pinyin="ReMenWangFan">热门往返</a>
+                <a href="javascript:void(0);" pinyin="YaZhou">亚洲</a>
+                <a href="javascript:void(0);" pinyin="OuZhou">欧洲</a>
+                <a href="javascript:void(0);" pinyin="MeiZhou">美洲</a>
+                <a href="javascript:void(0);" pinyin="FeiZhou">非洲</a>
+            </div>
+            <div class="nav2brtr">
+                <a href="https://flights.ctrip.com/international/#ctm_ref=Iflt_hp_hot_ad_i" >更多国际•港澳台特价机票  </a>
+            </div>
+        </div>
+        <div class="nav3b">
+            <div class="nav3bl">
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+                <div class="a">
+                    <div class="aa">
+                        上海-->纽约
+                    </div>
+                    <div class="bb">
+                        9月14日-9月21日
+                    </div>
+                    <div>
+                        <div class="cc">￥96起</div>
+                        <div class="dd">立抢</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav3br"></div>
+        </div>
+    </div>
+    <div class="nav4">
+        <div class="nav1">
+            <span>境外租车</span>
+            <span>境外接送机</span>
+            <span>国内租车</span>
+            <span>国内接送机</span>
+            <span>日租包车</span>
+        </div>
+        <div class="nav4b">
+        <div class="navb4l">
+            <h1>热门城市</h1><br>
+            <span>洛杉矶</span>
+            <span>旧金山</span>
+            <span>纽约</span><br>
+            <span>旧金山</span>
+            <span>基督城</span>
+            <span>普吉岛</span><br>
+            <span>温哥华</span>
+            <span>悉尼</span>
+            <span>奥克兰</span><br>
+            <span>拉斯维加速</span>
+            <span>西雅图</span>
+            <span>伦敦</span><br>
+            <span>法兰克福</span>
+            <span>多伦多</span>
+            <span>巴黎</span><br>
+            <span>迪拜</span>
+        </div>
+        <div class="navb4r">
+            <div class="navb4rt"></div>
+        </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
