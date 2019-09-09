@@ -1,0 +1,1999 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>携程机票</title>
+    <script src="banner.js"></script>
+    <style>
+        body,ul,li{
+            margin: 0;
+            padding: 0;
+            font-size: 10px;
+            color: #666;
+            list-style: none;
+
+        }
+        .a1{
+            width: 100%;
+            height: 30px;
+            background: #f4f4f4;
+            margin-top: 0;
+            padding: 0;
+
+        }
+        .a1-center{
+            width: 1200px;
+            height: 100%;
+            margin: auto;
+        }
+        .a1-xingfu{
+
+            line-height: 30px;
+            float: left;
+        }
+        .a1-lan-img1{
+            float: left;
+            background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+            width: 10px;
+            height: 10px;
+            vertical-align: middle;
+            margin-top: 10px;
+            margin-left: 20px;
+            background-position: -8px -8px;
+        }
+
+        .a1-lan-lan{
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .a1-lan-img2{
+            float: left;
+            background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+            width: 8px;
+            height: 5px;
+            vertical-align: middle;
+            margin-top: 10px;
+            margin-left: 10px;
+            overflow: hidden;
+            background-position: -46px -58px;
+        }
+        .a1 ul{
+            margin-left: 600px;
+        }
+        .a1 ul li{
+            list-style: none;
+            margin-left: 10px;
+            float: left;
+            margin-top: 10px;
+            border-right:1px solid #cccccc;
+            padding-right: 10px;
+            box-sizing: border-box;
+        }
+        .a1-lan-img3{
+            float: right;
+            background:url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+            width: 10px;
+            height: 5px;
+            vertical-align: middle;
+            margin-top: 5px;
+            margin-left: 10px;
+            overflow: hidden;
+            background-position: -46px -58px;
+        }
+        .a1-holle{
+            color: red;
+            border-right: none;
+        }
+        .a1-lan-img4{
+            background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+            float: left;
+            width: 10px;
+            height: 10px;
+            vertical-align: middle;
+            margin-right: 4px;
+            margin-top: 3px;
+            overflow: hidden;
+            background-position: -8px -66px;
+        }
+        .a1-lan-img5{
+            background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+            height: 15px;
+            width: 10px;
+            display: inline-block;
+            overflow: hidden;
+            background-position: -100px -67px;
+        }
+        .a1-lan-img6{
+            background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+            height: 18px;
+            width: 18px;
+            display: inline-block;
+            overflow: hidden;
+            background-position: -97px -99px;
+        }
+        a{
+            text-decoration: none;
+            color: #666;
+        }
+        .a1-bottom{
+            height: 80px;
+            width: 100%;
+            padding-top: 20px;
+            box-sizing: border-box;
+
+        }
+        .a1-bottom-left{
+            float: left;
+
+        }
+        .a1-bottom-center {
+            margin-top: 10px;
+            height: 40px;
+            width: 400px;
+            float: left;
+            border: 1px solid #666;
+
+
+
+        }
+        .a1-bottom-center form input{
+            height: 30px;
+            width: 350px;
+            display: block;
+            float: left;
+        }
+        .a1-bottom-right{
+            height: 60px;
+            width: 130px;
+            display: block;
+            float: right;
+
+        }
+        .a1-bottom-center-sou{
+
+            width: 40px;
+            height: 40px;
+            float: right;
+
+        }
+        .a1-bottom-center-sou img{
+            height:40px;
+            width: 50px;
+            background: #0EABD7;
+            margin-left: -5px;
+        }
+        .a1-dao{
+            background: #2577E3;
+            height: 40px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .a1-dao-center{
+            width: 1200px;
+            height: 100%;
+
+            margin:  0 auto;
+
+        }
+        .a1-dao-center>div{
+            float: left;
+            font-size:15px;
+            color: #ffffff;
+            margin-right: 20px;
+            line-height: 40px;
+        }
+
+        .a2{
+
+            display: inline-block;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            line-height: 0;
+            font-size: 0;
+            margin-left: 5px;
+            vertical-align: middle;
+            border-top: 5px solid #fff;
+            border-bottom: 0 none;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            _color: #e9e11a;
+            _filter: chroma(color=#e9e11a);
+            -webkit-transition: transform 0.2s ease 0s;
+            transition: transform 0.2s ease 0s;
+        }
+
+        .a3{
+            height: 20px;
+            width: 1200px;
+            margin: auto;
+
+        }
+        .a3-left{
+            height: 100%;
+            width: 60px;
+            background: #0EAB;
+            color: #ffffff;
+            border-radius: 10%;
+            float: left;
+        }
+        .a3 ul{
+            line-height: 20px;
+            margin-top: 1px;
+            width: 1100px;
+            display: flex;
+            justify-content:space-between;
+            float: left;
+        }
+        .a3 ul li{
+            list-style: none;
+        }
+        .a3 ul li div{
+
+        }
+        .yuwai-img1{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -26px 0;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img2{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: 0 0;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img3{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -130px 0;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img4{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -52px 0;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3{   display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -26px -52px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img6{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height:20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -104px -26px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img7{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -26px -26px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img8{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: 0 -52px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img9{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -78px -26px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img10{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height:20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -130px -26px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img11{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width:20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -78px -26px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a3-img12{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -26px -78px;
+            float: left;
+            margin-top: 3px;
+        }
+
+        .a3-img13{
+            display: inline-block;
+            background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -1px;
+            background-position: -24px -79px;
+            float: left;
+            margin-top: 3px;
+        }
+        .a4 {
+            position: relative;
+            margin: auto;
+            width:100%;
+            height: 340px;
+            background: #cccccc;
+            margin-top: 10px;
+
+        }
+        .a4-img  .tupian img{
+            width: 100%;
+            height: 100%
+
+        }
+        .a4-img>.tupian {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: opacity 1s;
+        }
+
+        .dot {
+            position: absolute;
+            bottom: 20px;
+            left: calc(50% - 50px);
+            width: 100px;
+            height: 10px;
+            z-index: 20;
+        }
+
+        .diandian {
+            width: 10px;
+            height: 10px;
+            background-color: chartreuse;
+            float: right;
+            margin: 0px 4px;
+            border: 1px solid;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 50%;
+
+        }
+
+        .diandian.active {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .biao{
+            height: 300px;
+            width: 500px;
+            background: #ffffff;
+            z-index: 1000;
+            position: relative;
+            left: 100px;
+            left: 150px;
+            top: 20px;
+        }
+        .biao-left{
+            width: 100px;
+            height: 100%;
+            background: #0EABD7;
+            float: left;
+        }
+        .biao-left ul li{
+            height: 45.85px;
+            width: 100%;
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 50px;
+        }
+        .biao-left ul li:nth-child(1){
+            background: #fff;
+            color: #000;
+        }
+        .biao-top{
+            width: 400px;
+            height: 30px;
+            margin-top: 15px;
+            border-bottom: 1px solid #666;
+            float: right;
+        }
+        .biao-top ul li{
+            line-height: 30px;
+            text-align: center;
+            float: left;
+            font-size: 15px;
+            margin-left: 10px;
+            font-weight: bold;
+
+        }
+        .biao-right{
+            float: left;
+            right: 0;
+            font-size: 15px;
+            color: #000;
+            height: 250px;
+            width: 400px;
+        }
+        .swiper-wrapper{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            display: flex;
+            box-sizing: content-box;
+        }
+        . element.style1{
+            width: 780px;
+            height: 235px;
+            background-size: 100% 100%;
+            background-image: url(https://dimg04.c-ctrip.com/images/zg0e180000013r9fa984B.jpg);
+        }
+        . element.style2{
+            width: 780px;
+            height: 235px;
+            background-size: 100% 100%;
+            background-image: url("https://dimg04.c-ctrip.com/images/zg0a180000013rici50FD.jpg");
+        }
+        . element.style3{
+            width: 780px;
+            height: 235px;
+            background-size: 100% 100%;
+            background-image:url("https://dimg04.c-ctrip.com/images/zg0e180000013r9fa984B.jpg");
+        }
+        . element.style4{
+            width: 780px;
+            height: 235px;
+            background-size: 100% 100%;
+            background-image: url("https://dimg04.c-ctrip.com/images/zg0a180000013rici50FD.jpg");
+        }
+        .text{
+            width: 200px;
+            float: left;
+            margin-left: 5px;
+            margin-top: 20px;
+
+        }
+        .text1{
+            width: 400px;
+            float: left;
+            margin-left: 5px;
+            margin-top: 20px;
+        }
+        .text1 div{
+            width: 50px;
+            height: 30px;
+            float: left;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        .text div{
+            float: left;
+            height: 30px;
+            width: 60px;
+            font-size: 15px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .input1{
+            display: block;
+            float: left;
+            height: 30px;
+            width: 250px;
+        }
+        .input2{
+            display: block;
+            float: left;
+            height: 30px;
+            width: 100px;
+        }
+
+        .remen{
+            height: 450px;
+            width: 1200px;
+
+            margin: auto;
+            margin-top: 20px;
+        }
+        .remen-top{
+            height: 40px;
+            width: 100%;
+            border-bottom: 2px solid #0EABD7;
+
+        }
+        .remen-top ul li{
+            float: left;
+            margin-left:30px;
+            font-size: 15px;
+            color: #000;
+            line-height: 40px;
+        }
+        .remen-center{
+            height: 40px;
+            width: 100%;
+
+
+        }
+        .remen-center ul li{
+            float: left;
+            margin-left:40px;
+            font-size: 15px;
+            color: #0EABD7;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .remen-img{
+            height: 160px;
+            width: 250px;
+
+
+            float: left;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .remen-img5{
+            height: 300px;
+            width: 200px;
+
+            box-sizing: border-box;
+            float: right;
+            margin-right: 15px;
+            margin-top: 10px;
+
+        }
+        .back1{
+            background: url("https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg");
+            background-size:100% 100%;
+
+        }
+        .back2{
+            background: url("https://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+        .back3{
+            background: url("https://dimg05.c-ctrip.com/images/100f180000013p2c086E4_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+        .back4{
+            background: url("https://dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+        .back5{
+            background: url("https://dimg04.c-ctrip.com/images/zg0n180000013lxjp6299.jpg");
+            background-size:100% 100%;
+
+
+        }
+        .back6{
+            background: url("https://dimg04.c-ctrip.com/images/100b11000000qbl7v8A10_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+        .back7{
+            background: url("https://dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+
+        .back7{
+            background: url("https://dimg01.c-ctrip.com/images/100m0u000000jqip1B411_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+
+        .back8{
+            background: url("https://dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+        .back9{
+            background: url("https://dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg");
+            background-size:100% 100%;
+
+
+        }
+        .yuan1{
+            padding: 30px 5px;
+            width: 100px;
+            height: 50px;
+            overflow: hidden;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            transition: all .3s;
+            position: relative;
+            top:25px;
+            left: 55px;
+
+        }
+
+        .yuan-text1{
+            border-bottom: 1px solid #ffffff;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .yuan-text2{
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        .hai{
+
+            height: 450px;
+            width: 1200px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .hai-bottom{
+            height: 400px;
+            width: 100%;
+
+        }
+        .hai-bottom-left{
+            width: 200px;
+            height: 100%;
+            float: left;
+            padding-left: 20px;
+            padding-top: 20px;
+
+        }
+        .hai-bottom-right{
+            width:1000px ;
+            height: 100%;
+
+            float: right;
+        }
+        .back-back2{
+            background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+            background-size: 100% 100%;
+        }
+        .back-back3{
+            background: url("https://images3.c-ctrip.com/overseas/city/bangkok256-256.jpg");
+            background-size: 100% 100%;
+        }
+
+        .back-back4{
+            background: url("https://images3.c-ctrip.com/overseas/city/tokyo256-256.jpg");
+            background-size: 100% 100%;
+        }
+
+        .back-back5{
+            background: url("https://pages.c-ctrip.com/hotel/201805/thailand/220330.jpg");
+            background-size: 100% 100%;
+        }
+
+        .back-back6{
+            background: url("https://images3.c-ctrip.com/overseas/city/kualalumpur256-256.jpg");
+            background-size: 100% 100%;
+        }
+
+        .back-back7{
+            background: url("https://images3.c-ctrip.com/overseas/city/osaka256-256.jpg");
+            background-size: 100% 100%;
+        }
+
+        .back-back8{
+            background: url("https://images3.c-ctrip.com/ad/apph5/2017/phuket_256_256_01.jpg");
+            background-size: 100% 100%;
+        }
+
+
+        .jipiao{
+            height: 450px;
+            width: 1200px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .piao-maxbox{
+            height: 400px;
+            width: 100%;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .piao-box{
+            height: 100px;
+            width: 200px;
+            background: #F8F8F8;
+            padding: 10px;
+            float: left;
+            margin-left: 10px;
+            margin-top: 30px;
+
+
+        }
+        .piao-box p{
+            font-size: 15px;
+            color: #000000;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .box-left{
+            width: 60px;
+            font-size: 15px;
+            color: #000000;
+            line-height: 30px;
+            text-align: center;
+            float: left;
+        }
+        .box-right{
+            background: #FF4E22;
+            color: #000000;
+            font-size: 15px;
+            float: right;
+            border-radius: 10%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            width: 100px;
+        }
+        .dangdi{
+            height: 250px;
+            width: 1200px;
+            margin: auto;
+            margin-top: 60px;
+
+        }
+        .dangdi-left{
+            float: left;
+            height: 250px;
+            width: 200px;
+            border-right:1px solid #ccc ;
+        }
+        .dangdi-left .difang{
+            font-size: 15px;
+            color: #9999;
+            border-right: 1px solid #cccccc;
+            float: left;
+            margin-left: 15px;
+            padding-right: 10px;
+            margin-bottom: 10px;
+
+        }
+        .dangdi-left p{
+            font-size: 20px;
+            color: #2d2;
+            margin-left: 10px;
+
+
+        }
+        .car{
+            height: 200px;
+            width: 220px;
+            float: left;
+            padding-left: 20px;
+        }
+        .car p{
+            margin:0;
+            padding: 0;
+            margin-top: 5px;
+        }
+        .lxfw{
+            height: 200px;
+            width: 1200px;
+            margin: auto;
+        }
+        .fuwu{
+            height: 150px;
+            width: 385px;
+            border: 1px solid #e9e11a;
+        }
+        .fuwu-box{
+            height:150px;
+            width: 385px;
+            float: left;
+            margin-left: 10px;
+
+        }
+        .fuwu-top{
+            width: 100%;
+            height: 100px;
+            border-bottom: 1px solid #e9e11a;
+        }
+        .fuwu-top-left{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background: (5,5,5,0.4);
+            float: left;
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+        .fuwu-top-right{
+            float: right;
+            margin-right: 10px;
+        }
+        .fuwu-top-right p{
+            font-size: 20px;
+            color: #2d2d;
+        }
+
+        .fuwu-bottom{
+            height: 50px;
+            width: 100%;
+        }
+        .fuwu-bottom-box{
+            height: 50px;
+            width: 80px;
+            float: left;
+            margin-left: 15px;
+        }
+        .hzyh{
+            width: 1200px;
+            height: 100px;
+            margin: auto;
+        }
+        .hzyh-left{
+            font-size: 15px;
+            float: left;
+            margin-left: 20px;
+            padding-top: 20px;
+        }
+        .hzyh-right{
+            float: left;
+        }
+        .hzyh-right ul li div{
+
+            display: inline-block;
+            width: 150px;
+            height: 0;
+            padding-top: 30px;
+            overflow: hidden;
+            background-image: url("https://pic.c-ctrip.com/platform/online/home/pic_partner.png");
+            background-repeat: no-repeat;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-right: none;
+
+        }
+        .hzyh-right ul li{
+            height: 100px;
+            width: 150px;
+            border-right: 1px dotted #0EAB;
+            float: left;
+        }
+        .other{
+            width: 1200px;
+            height: 40px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .other-center{
+            width: 1100px;
+            height: 100%;
+            margin: auto;
+        }
+        .other-left{
+            float: left;
+            font-size: 20px;
+            font-weight: bold;
+            width: 100px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .other-right{
+            float: left;
+            width: 1000px;
+            text-align: center;
+            border-bottom: 1px dotted #cccccc;
+
+        }
+
+        .other-right ul li{
+            float: left;
+            width: 60px;
+            margin-left: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="a1">
+    <div class="a1-center">
+        <div class="a1-xingfu">让旅行更幸福</div>
+        <div class="a1-lan">
+            <div class="a1-lan-img1"></div>
+            <div class="a1-lan-lan"><a href="">Language</a></div>
+            <div class="a1-lan-img2"></div>
+        </div>
+        <ul>
+            <li class="a1-holle" style="border: none"><a href="">您好,请登录</a></li>
+            <li style="border: none"><a href="">免费注册</a></li>
+            <li >
+                <div class="a1-lan-img4"></div><a>消息</a></li>
+            <li><a href="">我的携程</a>
+                <div class="a1-lan-img3"></div>
+            </li>
+            <li><a href="">我的订单</a>
+                <div class="a1-lan-img3"></div>
+            </li>
+            <li><a>客服中心</a></li>
+            <li class="a1-lan-img5" style="border: none"></li>
+            <li class="a1-lan-img6" style="border: none"></li>
+
+        </ul>
+
+    </div>
+</div>
+
+<div class="a1-bottom">
+    <div class="a1-center">
+        <div class="a1-bottom-left">
+            <img src="https://pic.c-ctrip.com/common/c_logo2013.png">
+        </div>
+        <div class="a1-bottom-center">
+            <form>
+                <input type="text" placeholder="搜索旅行地/酒店/旅游/景点门票/交通">
+            </form>
+            <div class="a1-bottom-center-sou"><img src="images/搜索.png"></div>
+        </div>
+        <div class="a1-bottom-right">
+            境内：95010<br>
+            (或)400-830-6666
+            <div class="a1-lan-img3">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="a1-dao">
+    <div class="a1-dao-center">
+        <div>首页</div>
+        <div>酒店   <div  class="a2"></div></div>
+        <div>旅游
+            <div  class="a2"></div>
+        </div>
+        <div>跟团游</div>
+        <div>自由行</div>
+        <div>机票    <div  class="a2"></div></div>
+        <div>火车    <div  class="a2"></div></div>
+        <div>汽车·船   <div  class="a2"></div></div>
+        <div>用车   <div  class="a2"></div></div>
+        <div>门票   <div  class="a2"></div></div>
+        <div>攻略</div>
+        <div>全球购   <div  class="a2"></div></div>
+        <div>礼品卡   <div  class="a2"></div></div>
+        <div>商旅   <div  class="a2"></div></div>
+        <div>邮轮</div>
+        <div>目的地</div>
+        <div>金融</div>
+        <div>更多   <div  class="a2"></div></div>
+    </div>
+</div>
+
+<div class="a3">
+    <div class="a3-left">域外直通车</div>
+    <ul>
+        <li> <div class="a3-img1"></div>海外酒店</li>
+        <li> <div class="a3-img2"></div>国际·港澳机票</li>
+        <li><div class="a3-img3"></div>境外出租</li>
+        <li><div class="a3-img4"></div>国际·港澳台火车票</li>
+        <li><div class="a3-img5"></div>出境游</li>
+        <li><div class="a3-img6"></div>高端游</li>
+        <li><div class="a3-img7"></div>出境·港澳台门票</li>
+        <li><div class="a3-img8"></div>签证</li>
+        <li><div class="a3-img9"></div>保险</li>
+        <li><div class="a3-img10"></div>Wifi·电话卡</li>
+        <li><div class="a3-img11"></div>境外接送机</li>
+        <li><div class="a3-img12"></div>外币兑换</li>
+    </ul>
+</div>
+
+<!--轮播图-->
+<div class="a4">
+
+    <ul class="a4-img">
+        <li class="tupian">
+            <img src="https://dimg04.c-ctrip.com/images/700h0r000000grb6vD3EF_1920_340_17.jpg" alt="轮播图" >
+        </li>
+        <li class="tupian">
+            <img src="https://dimg04.c-ctrip.com/images/zg011700000121b1s2F86.jpg" alt="轮播图">
+        </li>
+        <li class="tupian">
+            <img src="https://dimg04.c-ctrip.com/images/zg0k1700000130bhaCA00.jpg" alt="轮播图">
+        </li>
+        <li class="tupian">
+            <img src="https://dimg04.c-ctrip.com/images/zg07170000013qd2aCA36.jpg" alt="轮播图">
+        </li>
+        <li class="tupian">
+            <a href=""> <img src="https://dimg04.c-ctrip.com/images/zg0n170000012yyfxF41D.jpg" alt="轮播图">
+            </a>
+        </li>
+    </ul>
+    <div class="biao">
+        <div class="biao-left">
+            <ul>
+                <li>酒店</li>
+                <li>机票</li>
+                <li>旅游</li>
+                <li>跟团游</li>
+                <li>自由行</li>
+                <li>火车</li>
+                <li>用车</li>
+            </ul>
+        </div>
+        <div class="biao-top">
+            <ul>
+                <li><a href="">国内酒店</a></li>
+                <li><a href="">海外酒店</a></li>
+                <li><a href="">民宿</a></li>
+                <li><a href="">酒店团购</a></li>
+                <li><a href="">酒店+景点</a></li>
+                <li><a href="">会议·团房</a></li>
+            </ul>
+        </div>
+        <div class="biao-right">
+            <div class="text1">
+                <div>目的地</div>
+                <input type="text" placeholder="中文/拼音" class="input1">
+            </div>
+            <div class="text">
+                <div>入住日期</div>
+                <input type="text" placeholder="中文/拼音" class="input2">
+            </div>
+            <div class="text"><div>退房日期</div><input type="text" placeholder="中文/拼音" class="input2"></div>
+            <div class="text"><div>房间数</div><input type="text" placeholder="中文/拼音" class="input2"></div>
+            <div class="text"><div>住客数</div><input type="text" placeholder="中文/拼音" class="input2"></div>
+            <div class="text"><div>酒店级别</div><input type="text" placeholder="中文/拼音" class="input2"></div>
+            <div class="text"><div>关键词</div><input type="text" placeholder="中文/拼音" class="input2"></div>
+        </div>
+
+    </div>
+    <div class="swiper-wrapper">
+        <div class="element.style1"></div>
+        <div class="element.style2"></div>
+        <div class="element.style3"></div>
+        <div class="element.style4"></div>
+
+    </div>
+    <div class="dot">
+        <div class="diandian active"></div>
+        <div class="diandian"></div>
+        <div class="diandian"></div>
+        <div class="diandian"></div>
+        <div class="diandian"></div>
+    </div>
+
+</div>
+
+
+<div class="remen">
+    <div class="remen-top">
+        <ul>
+            <li>热门</li>
+            <li>特价旅游</li>
+            <li>出境游</li>
+            <li>境内游</li>
+            <li>周边游</li>
+            <li>邮轮</li>
+            <li>门票</li>
+            <li>当地玩乐</li>
+            <li>主题游</li>
+            <li>高端游</li>
+        </ul>
+    </div>
+    <div class="remen-center">
+        <ul>
+            <li>境内</li>
+            <li>日本</li>
+            <li>东南亚</li>
+            <li>欧洲</li>
+            <li>美洲</li>
+            <li>奥中东非</li>
+        </ul>
+    </div>
+    <div class="remen-bottom">
+        <div class="remen-img back1">
+            <div class="yuan1">
+                <div class="yuan-text1">北京</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">816</span>  /人起</div>
+            </div>
+        </div>
+        <div class="remen-img back2">
+            <div class="yuan1">
+                <div class="yuan-text1">三亚</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">1116</span>  /人起</div>
+            </div>
+        </div>
+        <div class="remen-img back3">
+            <div class="yuan1">
+                <div class="yuan-text1">重庆</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">817</span>  /人起</div>
+            </div>
+        </div>
+        <div class="remen-img back4">
+            <div class="yuan1">
+                <div class="yuan-text1">桂林</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">1150</span>  /人起</div>
+            </div>
+        </div>
+        <div class="remen-img5 back5">
+
+        </div>
+        <div class="remen-img back6">
+            <div class="yuan1">
+                <div class="yuan-text1">上海</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">1038</span>  /人起</div>
+            </div>
+        </div>
+        <div class="remen-img back7">
+            <div class="yuan1">
+                <div class="yuan-text1">张家界</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">1158</span>  /人起</div>
+            </div>
+        </div>
+        <div class="remen-img back8">
+            <div class="yuan1">
+                <div class="yuan-text1">厦门</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">816</span>  /人起</div>
+            </div>
+        </div>
+        <div class="remen-img back9">
+            <div class="yuan1">
+                <div class="yuan-text1">西安</div>
+                <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">476</span>  /人起</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="hai">
+    <div class="remen-top">
+        <ul>
+            <li>海外酒店</li>
+            <li>海外民俗+短租</li>
+            <li>国内酒店</li>
+            <li>酒店+景点</li>
+            <li>客栈民俗</li>
+            <li>团购</li>
+        </ul>
+    </div>
+    <div class="hai-bottom">
+        <div class="hai-bottom-left">
+            <p style="font-size: 16px;font-weight: bold">促销</p>
+            <p>睡遍全世界-新家坡博物馆</p>
+            <p>睡遍全世界-日本博物馆</p>
+            <p>睡遍全世界-澳大利亚站</p>
+            <p>暑期亲自游世界</p>
+            <p>睡遍全世界-泰国博物馆</p>
+            <p style="font-size: 16px;font-weight: bold">发现酒店</p>
+            <p>玻利维亚乌尤尼酒店推荐</p>
+            <p>苏梅岛把安达灵州界度假酒店</p>
+            <p>奥地利巴德伊舍酒店推荐</p>
+            <p>俄罗斯喀山酒店推荐</p>
+        </div>
+        <div class="hai-bottom-right">
+            <div class="remen-center">
+                <ul>
+                    <li>境内</li>
+                    <li>日本</li>
+                    <li>东南亚</li>
+                    <li>欧洲</li>
+                    <li>美洲</li>
+                    <li>奥中东非</li>
+                </ul>
+            </div>
+            <div class="remen-img back-back2">
+                <div class="yuan1">
+                    <div class="yuan-text1">新家坡</div>
+                    <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">70</span>  /人起</div>
+                </div>
+            </div>
+            <div class="remen-img back-back3">
+                <div class="yuan1">
+                    <div class="yuan-text1">曼谷</div>
+                    <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">18</span>  /人起</div>
+                </div>
+            </div>
+            <div class="remen-img back-back4">
+                <div class="yuan1">
+                    <div class="yuan-text1">东京</div>
+                    <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">121</span>  /人起</div>
+                </div>
+            </div>
+            <div class="remen-img5 back-back5">
+
+            </div>
+
+            <div class="remen-img back-back6">
+                <div class="yuan1">
+                    <div class="yuan-text1">吉隆坡</div>
+                    <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">27</span>  /人起</div>
+                </div>
+            </div>
+            <div class="remen-img back-back7">
+                <div class="yuan1">
+                    <div class="yuan-text1">大阪</div>
+                    <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">44</span>  /人起</div>
+                </div>
+            </div>
+            <div class="remen-img back-back8">
+                <div class="yuan1">
+                    <div class="yuan-text1">吉普岛</div>
+                    <div class="yuan-text2">￥<span style="font-size: 20px; color: #FF852A;">41</span>  /人起</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="jipiao">
+
+    <div class="remen-top" >
+        <ul>
+            <li>国际·港澳台特价机票</li>
+            <li>国内特价机票</li>
+        </ul>
+
+    </div>
+
+    <div class="piao-maxbox">
+        <div >
+            <div class="remen-center">
+                <ul>
+                    <li>热门往返</li>
+                    <li>亚洲</li>
+                    <li>欧洲</li>
+                    <li>美洲</li>
+                    <li>非洲</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+        <div class="remen-img5 back-back5"> </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+        <div class="piao-box">
+            <p>上海-纽约</p>
+            <p>9月14日-9月21日</p>
+            <div class="box-left">￥<span style="font-size: 22px; color: #FF852A">94</span>起</div>
+            <div class="box-right">立抢</div>
+        </div>
+
+    </div>
+
+
+    <div class="dangdi">
+
+        <div class="remen-top" >
+            <ul>
+                <li>境外租车</li>
+                <li>境外接送机</li>
+                <li>国内租车</li>
+                <li>国内接送机</li>
+                <li>日租包车</li>
+            </ul>
+        </div>
+        <div class="dangdi-left">
+            <div>
+                <p>热门目的地</p>
+                <div class="difang">吉普岛</div>
+                <div class="difang">曼谷</div>
+                <div class="difang">东京</div>
+                <div class="difang">清迈</div>
+                <div class="difang">香港</div>
+                <div class="difang">芽庄</div>
+                <div class="difang">巴厘岛</div>
+                <div class="difang">沙巴</div>
+                <div class="difang">大版</div>
+                <div class="difang">岘港</div>
+                <div class="difang">迪拜</div>
+                <div class="difang">澳门</div>
+                <div class="difang">冲绳</div>
+                <div class="difang">悉尼</div>
+                <div class="difang">新家坡</div>
+                <div class="difang">台北</div>
+            </div>
+
+        </div>
+        <div>
+            <div class="remen-center">
+                <ul>
+                    <li>小型轿车</li>
+                    <li>中性轿车</li>
+                    <li>大型轿车</li>
+                    <li>高档轿车</li>
+                    <li>中性SUV</li>
+                    <li>大性SUV</li>
+                    <li>标准SUV</li>
+                    <li>全尺寸SUV</li>
+                    <li>更多</li>
+
+                </ul>
+                <div class="car">
+                    <div ><img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Ford_Fiesta.png" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Kia_Rio.png" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/Toyota_Corolla.png" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://pic.c-ctrip.com/car/osd/online/vehicle_new/VW_up!.png" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="dangdi">
+
+        <div class="remen-top" >
+            <ul>
+                <li>当地玩乐·出境</li>
+                <li>当地玩乐·境内</li>
+            </ul>
+        </div>
+        <div class="dangdi-left">
+            <div>
+                <p>当季推荐</p>
+                <div class="difang">吉普岛</div>
+                <div class="difang">曼谷</div>
+                <div class="difang">东京</div>
+                <div class="difang">清迈</div>
+                <div class="difang">香港</div>
+                <div class="difang">芽庄</div>
+                <div class="difang">巴厘岛</div>
+                <div class="difang">沙巴</div>
+                <div class="difang">大版</div>
+                <div class="difang">岘港</div>
+                <div class="difang">迪拜</div>
+                <div class="difang">澳门</div>
+                <div class="difang">冲绳</div>
+                <div class="difang">悉尼</div>
+                <div class="difang">新家坡</div>
+                <div class="difang">台北</div>
+            </div>
+
+        </div>
+        <div>
+            <div class="remen-center" >
+                <ul>
+                    <li>一日游</li>
+                    <li>演出/赛事</li>
+                    <li>交通接驳</li>
+                    <li>当地美食</li>
+                    <li>游船观光</li>
+                    <li>spa水疗</li>
+                    <li>特色体验</li>
+                    <li>更多</li>
+                    <li>更多</li><li>更多</li>
+                </ul>
+                <div class="car">
+                    <div ><img src="https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://dimg04.c-ctrip.com/images/350b10000000pm2zgA5CF_C_280_158.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://dimg04.c-ctrip.com/images/350i10000000pfzsaB933_C_280_158.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="dangdi">
+
+        <div class="remen-top" >
+            <ul>
+                <li>目的地攻略</li>
+                <li>旅游旗舰店</li>
+            </ul>
+        </div>
+        <div class="dangdi-left">
+            <div>
+                <p>当季推荐</p>
+                <div class="difang">吉普岛</div>
+                <div class="difang">曼谷</div>
+                <div class="difang">东京</div>
+                <div class="difang">清迈</div>
+                <div class="difang">香港</div>
+                <div class="difang">芽庄</div>
+                <div class="difang">巴厘岛</div>
+                <div class="difang">沙巴</div>
+                <div class="difang">大版</div>
+                <div class="difang">岘港</div>
+                <div class="difang">迪拜</div>
+                <div class="difang">澳门</div>
+                <div class="difang">冲绳</div>
+                <div class="difang">悉尼</div>
+                <div class="difang">新家坡</div>
+                <div class="difang">台北</div>
+            </div>
+
+        </div>
+        <div>
+            <div class="remen-center" >
+                <ul>
+                    <li>热门商户</li>
+                    <li>新店首选</li>
+                    <li>奢品大牌</li>
+                    <li>口碑推荐</li>
+                    <li>综合商场</li>
+                    <li>综合商场</li>
+                    <li>综合商场</li>
+                    <li>综合商场</li>
+                </ul>
+                <div class="car">
+                    <div ><img src="https://images4.c-ctrip.com/target/zd0d0i00000097qa9955E_C_570_285.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://images4.c-ctrip.com/target/zd0d0f0000007ckfk0B0C_C_570_285.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://images4.c-ctrip.com/target/zd0w0j000000b7c8g09C8_C_570_285.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://images4.c-ctrip.com/target/zd0d080000003hpvb9BBA_C_570_285.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="dangdi">
+
+        <div class="remen-top" >
+            <ul>
+                <li>目的地攻略</li>
+                <li>旅游旗舰店</li>
+            </ul>
+        </div>
+        <div class="dangdi-left">
+            <div>
+                <p>当季推荐</p>
+                <div class="difang">吉普岛</div>
+                <div class="difang">曼谷</div>
+                <div class="difang">东京</div>
+                <div class="difang">清迈</div>
+                <div class="difang">香港</div>
+                <div class="difang">芽庄</div>
+                <div class="difang">巴厘岛</div>
+                <div class="difang">沙巴</div>
+                <div class="difang">大版</div>
+                <div class="difang">岘港</div>
+                <div class="difang">迪拜</div>
+                <div class="difang">澳门</div>
+                <div class="difang">冲绳</div>
+                <div class="difang">悉尼</div>
+                <div class="difang">新家坡</div>
+                <div class="difang">台北</div>
+            </div>
+
+        </div>
+        <div>
+            <div class="remen-center" >
+                <ul>
+                    <li>氢气球专栏</li>
+                    <li>旅行正当时</li>
+                    <li>旅行正当时</li>
+                    <li>看海悠悠乐</li>
+                    <li>教你买买买</li>
+                    <li>教你买买买</li>
+                    <li>教你买买买</li>
+
+                </ul>
+                <div class="car">
+                    <div ><img src="https://dimg06.c-ctrip.com/images/100k0w000000kgkgfC8BA_R_220_160.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://dimg02.c-ctrip.com/images/100e0w000000kfb626E83_R_220_160.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://dimg01.c-ctrip.com/images/100m0w000000kuq4eB05F_R_220_160.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+                <div class="car">
+                    <div ><img src="https://dimg04.c-ctrip.com/images/10030v000000k4kfb4E3C_R_220_160.jpg" style="height: 146px; width: 220px;"></div>
+                    <p>美国洛杉矶</p>
+                    <p>自家梦幻1号公路 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥<span style="font-size: 18px; color: #FF852A">164</span>起</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="lxfw">
+        <div class="remen-top"  style="margin-top: 30px;">
+            <ul>
+                <li>旅行服务</li>
+            </ul>
+        </div>
+        <div class="fuwu-box">
+            <div class="fuwu">
+                <div class="fuwu-top">
+                    <div class="fuwu-top-left"></div>
+                    <div class="fuwu-top-right"><p>出镜Wifi</p>
+                        全球出境wifi租赁<br>流量不限量，多人共享，携带方便，低价信号强
+                    </div>
+                </div>
+                <div class="fuwu-bottom">
+
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fuwu-box" >
+            <div class="fuwu">
+                <div class="fuwu-top">
+                    <div class="fuwu-top-left"></div>
+                    <div class="fuwu-top-right"><p>出镜Wifi</p>
+                        全球出境wifi租赁<br>流量不限量，多人共享，携带方便，低价信号强
+                    </div>
+                </div>
+                <div class="fuwu-bottom">
+
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="margin:0; padding:0;display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="fuwu-box" >
+            <div class="fuwu">
+                <div class="fuwu-top">
+                    <div class="fuwu-top-left"></div>
+                    <div class="fuwu-top-right"><p>出镜Wifi</p>
+                        全球出境wifi租赁<br>流量不限量，多人共享，携带方便，低价信号强
+                    </div>
+                </div>
+                <div class="fuwu-bottom">
+
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="margin:0; padding:0;display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="lxfw">
+        <div class="remen-top"  style="margin-top: 30px;">
+            <ul>
+                <li>企业商旅</li>
+            </ul>
+        </div>
+        <div class="fuwu-box">
+            <div class="fuwu">
+                <div class="fuwu-top">
+                    <div class="fuwu-top-left"></div>
+                    <div class="fuwu-top-right"><p>出镜Wifi</p>
+                        全球出境wifi租赁<br>流量不限量，多人共享，携带方便，低价信号强
+                    </div>
+                </div>
+                <div class="fuwu-bottom">
+
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fuwu-box" >
+            <div class="fuwu">
+                <div class="fuwu-top">
+                    <div class="fuwu-top-left"></div>
+                    <div class="fuwu-top-right"><p>出镜Wifi</p>
+                        全球出境wifi租赁<br>流量不限量，多人共享，携带方便，低价信号强
+                    </div>
+                </div>
+                <div class="fuwu-bottom">
+
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="margin:0; padding:0;display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="fuwu-box" >
+            <div class="fuwu">
+                <div class="fuwu-top">
+                    <div class="fuwu-top-left"></div>
+                    <div class="fuwu-top-right"><p>出镜Wifi</p>
+                        全球出境wifi租赁<br>流量不限量，多人共享，携带方便，低价信号强
+                    </div>
+                </div>
+                <div class="fuwu-bottom">
+
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="margin:0; padding:0;display: block; float: left"> 日本</p>
+                    </div>
+                    <div class="fuwu-bottom-box">
+                        <img src="https://pic.c-ctrip.com/index/v3.0/supply_icon.png" style="margin-top: 10px; display: block;float: left">
+                        <p style="display: block; float: left"> 日本</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="hzyh">
+        <div class="hzyh-left"><p style="color: black;margin: 0;padding: 0; font-weight: bold">合作优惠</p><br>光大信用卡约惠旅游季<br>上海建行指定龙卡专项</div>
+        <div class="hzyh-right">
+            <ul>
+                <li ><div class="class=li1"></div></li>
+                <li ><div class="class=li1"></div></li>
+                <li ><div class="class=li1"></div></li>
+                <li ><div class="class=li1"></div></li>
+                <li ><div class="class=li1"></div></li>
+                <li ><div class="class=li1"></div></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="other">
+        <div class="other-center">
+            <div class="other-left">携程导航</div>
+            <div class="other-right">
+                <ul>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="other">
+        <div class="other-center">
+            <div class="other-left">携程导航</div>
+            <div class="other-right">
+                <ul>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                </ul>
+            </div>
+        </div><div class="other-center">
+        <div class="other-left">携程导航</div>
+        <div class="other-right">
+            <ul>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+            </ul>
+        </div>
+    </div><div class="other-center">
+        <div class="other-left">携程导航</div>
+        <div class="other-right">
+            <ul>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+                <li>城市酒店</li>
+            </ul>
+        </div>
+    </div>
+        <div class="other-center">
+            <div class="other-left">携程导航</div>
+            <div class="other-right">
+                <ul>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                    <li>城市酒店</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
