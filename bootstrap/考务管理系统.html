@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考务管理系统</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+
+
+    <style>
+        body{
+            margin: 0;padding: 0;
+            background: #FAFAFA;
+        }
+
+        nav{
+            height: 60px;width: 1200px;
+            margin: auto;
+            background: #c9302c;
+            border: 2px solid #f5f5f5;
+        }
+        .nav>div{
+            float: left;
+        }
+        .top-left{
+            width: 220px;height: 100%;
+            float: left;
+            background: white;
+        }
+        .top-left>div{
+            float: left;
+        }
+        .top-left .im{
+            width: 45px;
+            height: 45px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        .top-left img{
+            width: 100%;height: 100%;
+        }
+        .sp{
+            width: 120px;height: 100%;
+            margin-top: 18px;
+            margin-left: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+        .top-cen{
+            width: 400px;height: 100%;
+            float: left;
+            margin-left: 20px;
+        }
+        .top-cen>div{
+            width: 80px;height: 30px;
+            float: left;
+            margin-top: 20px;
+            color: white;
+        }
+        .top-right{
+            width: 250px;height: 100%;
+            float: right;
+        }
+        .top-right>div{
+            float: left;
+        }
+        .right1:nth-child(1){
+            width: 45px;height: 45px;
+            margin-top: 5px;
+            margin-right: 10px;
+            position: relative;
+        }
+        .right1:nth-child(1) span{
+            width: 40px;height: 40px;
+            margin: auto;
+            position: absolute;
+            left: 0;top: 0;right: 0;bottom: 0;
+        }
+        .right1:nth-child(2){
+            width: 45px;height: 45px;
+            margin-right: 10px;
+            margin-top: 5px;
+            border: 1px solid white;
+            border-radius: 50%;
+
+        }
+        .right1 img{
+            width: 100%;height: 100%;
+            border-radius: 50%;
+        }
+        .right1:nth-child(3){
+            width: 60px;height: 45px;
+            color: white;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        .right1:nth-child(4){
+            width: 45px;height: 45px;
+            color: white;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        .lingdang span{
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 25px;
+        }
+
+        .con{
+            width: 1196px;height: 640px;
+            border-right: 2px solid #f5f5f5;
+            border-bottom: 2px solid #1c1c1c;
+            border-right: 1px solid #2D2D2D;
+            margin: auto;
+            margin-top: -2px;
+        }
+        .con>div{
+            float: left;
+        }
+        .con .left{
+            width: 225px;height: 100%;
+            border-right: 2px solid #f5f5f5;
+            border-top: 2px solid #f5f5f5;
+            background: white;
+        }
+        .con .left>div{
+            width: 100%;
+            height: 40px;
+            margin-left: 30px;
+            margin-right: 20px;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .left span{
+            margin-right: 10px;
+        }
+       .con .right{
+            width: 970px;height: 100%;
+        }
+        .right-one{
+            width: 100%;height: 20px;
+            border-left: 2px solid #c9302c;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .right-one span{
+            margin-left: 10px;
+            letter-spacing: 3px;
+            font-size: 13px;
+        }
+        .right-two{
+            width:950px ;height: 580px;
+            background: white;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .two-1{
+            width: 100%;height: 40px;
+            border-bottom: 2px solid #FAFAFA;
+            font-size: 14px;
+        }
+
+        .two-1-1{
+            width: 140px;
+            height: 15px;
+            font-size: 12px;
+            border-left: 2px solid #c9302c;
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .two-1 span{
+            margin-left: 10px;
+        }
+        .two-1-2{
+            width: 80px;height: 27px;
+
+            float: right;
+            margin-right: 10px;
+
+        }
+        .two-1-2 button{
+            background: #c9302c;
+            color: white;
+            font-size: 12px;
+            width: 80px;height: 100%;
+            margin-top: 5px;
+            float: right;
+        }
+        .two-2{
+            width: 100%;
+            height: 150px;
+            border-bottom: 2px solid #f5f5f5;
+        }
+        .two-2>div{
+            width: 500px;
+            height: 45px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+        .two-2-1{
+            width: 40px;
+            height: 15px;
+            border-left: 2px solid #c9302c;
+            font-size: 12px;
+            margin-left: 10px;
+            padding-left: 10px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .two-2-0>div{
+            float: left;
+        }
+        .two-2-2{
+            margin-top: 5px;
+            box-sizing: border-box;
+            padding-left: 5px;
+        }
+        .two-2-2>button{
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+        .two-2-2 button:nth-of-type(1){
+            background: #c9302c;
+            color: white;
+        }
+        .two-2-2 button:nth-of-type(2){
+            background: #ebcccc;
+            color: #c9302c;
+        }
+        .two-2-2 button:nth-of-type(3){
+            background: #ebcccc;
+            color: #c9302c;
+        }
+        .two-2-2 button:nth-of-type(4){
+            background: #ebcccc;
+            color: #c9302c;
+        }
+        .two-3{
+            width: 100%;
+            height:330px ;
+        }
+        .two-3-top{
+            width: 100%;
+            height: 60px;
+            border-bottom: 2px solid #f5f5f5;
+            float: left;
+        }
+        .two-3-top>form{
+            margin-top: 10px;
+        }
+        .two-3-top form button{
+            width: 150px;
+            text-align: left;
+            margin-right: 10px;
+            color: grey;
+        }
+        .two-3-top >button{
+            float: right;
+            margin-top: -35px;
+            margin-right: 10px;
+            background: #c9302c;
+            color: white;
+        }
+        .two-3-bot table td:nth-of-type(8) {
+            width: 12.5%;
+        }
+        .two-3-bot table td:nth-of-type(8) span{
+            color: #c9302c;
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+        .two-4{
+            width: 100%;
+            height:50px;
+            margin-left: 20px;
+        }
+        .two-4>div{
+            float: left;
+            color: #2D2D2D;
+            font-size: 14px;
+        }
+        .two-4 div:nth-of-type(1){
+            width: 600px;
+            text-align: right;
+            box-sizing: border-box;
+            padding-top: 20px;
+            font-size: 12px;
+            margin-right: 10px;
+        }
+        .two-4 div:nth-of-type(2) {
+            width: 80px;
+            height: 30px;
+            margin-top: 15px;
+        }
+        .two-4 div:nth-of-type(3){
+            margin-top: -75px;
+            margin-left: 225px;
+        }
+        .two-4 div:nth-of-type(4){
+            font-size: 12px;
+            margin-top: -30px;
+        }
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+<div>
+    <nav>
+        <div class="top-left">
+            <div class="im"><img src="a.jpg" alt=""></div>
+            <div class="sp"><span>考务管理系统</span></div>
+        </div>
+        <div class="top-cen">
+
+            <div><span>试卷管理</span></div>
+            <div> <span>课程体系</span></div>
+            <div><span>考试管理</span></div>
+
+
+
+        </div>
+        <div class="top-right">
+            <div class="right1 lingdang" style="color: white"><span class="glyphicon glyphicon-bell"></span></div>
+            <div class="right1"><img src="a.jpg" alt=""></div>
+            <div class="right1"><span>95教师</span></div>
+            <div class="right1">
+                <button class="btn btn-default dropdown-toggle" type="button" style="background: #c9302c;color: white" >
+                    <span class="glyphicon glyphicon-align-justify"></span>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="con">
+        <div class="left">
+            <div>
+                <span class="glyphicon glyphicon-paperclip"></span>
+                自动组卷设置
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-link"> </span>
+                组卷中心
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-book"></span>
+                题库管理
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-one">
+                <span>试卷管理 > 题库管理 > 课程题库</span>
+            </div>
+            <div class="right-two">
+                <div class="two-1">
+                    <div class="two-1-1"><span>系名 &nbsp 计算机系</span></div>
+                    <div class="two-1-1"><span>专业 &nbsp 软件工具</span></div>
+                    <div class="two-1-1"><span>课程名称 &nbsp 测试课程php</span></div>
+                    <div class="btn-group two-1-2">
+                        <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            <span>下载模板</span>
+                        </button>
+                    </div>
+                        <div class="btn-group two-1-2">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            <span>添加题目</span>
+                        </button>
+                        </div>
+                            <div class="btn-group two-1-2">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            导入客观题
+                        </button>
+                            </div>
+
+                                <div class="btn-group two-1-2">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            导入主观题
+                        </button>
+                                </div>
+                </div>
+                <div class="two-2">
+                    <div>
+                        <div class="btn-group two-2-0">
+                            <div class="two-2-1">题型</div>
+                            <div class="btn-group two-2-2">
+                                <button style="margin-right: 5px " type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    <span>主观题</span>
+                                </button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    客观题
+                                </button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn-group two-2-0">
+                            <div class="two-2-1">分类</div>
+                            <div class="two-2-2">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    单选题
+                                </button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    多选题
+                                </button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    判断题
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn-group two-2-0">
+                            <div class="two-2-1">难易</div>
+                            <div class="two-2-2">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    全部
+                                </button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    容易
+                                </button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    普通
+                                </button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    困难
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two-3">
+                    <div class="two-3-top">
+                        <form class="form-inline">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                时间排序
+                                <span class="caret" style="float: right;margin-top: 5px"></span>
+                            </button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                组卷次数排序
+                                <span class="caret" style="float: right;margin-top: 5px"></span>
+                            </button>
+                            <div class="form-group">
+                                <label for="exampleInputEmail2"></label>
+                                <input type="text" class="form-control" id="exampleInputEmail2" placeholder="请输入题干">
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-search"></span>
+                            查询
+                        </button>
+                    </div>
+                    <div class="two-3-bot">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td>题干</td>
+                                <td>题型</td>
+                                <td>分类</td>
+                                <td>难易</td>
+                                <td>答案</td>
+                                <td>解析</td>
+                                <td>上传人</td>
+                                <td>操作</td>
+                            </tr>
+                            <tr>
+                                <td>111</td>
+                                <td>客观题</td>
+                                <td>单选题</td>
+                                <td>容易</td>
+                                <td>D</td>
+                                <td>444</td>
+                                <td>13456</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>111</td>
+                                <td>客观题</td>
+                                <td>单选题</td>
+                                <td>容易</td>
+                                <td>D</td>
+                                <td>444</td>
+                                <td>13456</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>111</td>
+                                <td>客观题</td>
+                                <td>单选题</td>
+                                <td>容易</td>
+                                <td>D</td>
+                                <td>444</td>
+                                <td>13456</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>111</td>
+                                <td>客观题</td>
+                                <td>单选题</td>
+                                <td>容易</td>
+                                <td>D</td>
+                                <td>444</td>
+                                <td>13456</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>111</td>
+                                <td>客观题</td>
+                                <td>单选题</td>
+                                <td>容易</td>
+                                <td>D</td>
+                                <td>444</td>
+                                <td>13456</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </td>
+                            <tr>
+                                <td>111</td>
+                                <td>客观题</td>
+                                <td>单选题</td>
+                                <td>容易</td>
+                                <td>D</td>
+                                <td>444</td>
+                                <td>13456</td>
+                                <td>
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </td>
+                            </tr>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+                <div class="two-4">
+                    <div><span>共7条</span></div>
+                    <div class="dropdown">
+                        <button style="width: 80px;height: 25px;text-align: center" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span style="font-size: 12px">5条/页</span>
+                            <span class="caret" style="margin-left: 10px"></span>
+                        </button>
+                    </div>
+                    <div>
+                        <div aria-label="Page navigation">
+                            <ul class="pagination" style="font-size: 12px;margin-left: 10px;" >
+                                <li class="disabled" ><a  href="#" ><span aria-hidden="true">&laquo;</span></a></li>
+                                <li ><a  href="#" style="background: #c9302c ;color: white;"  style="color: white" >1 <span class="sr-only">(current)</span></a></li>
+                                <li ><a href="#" style="font-size: 12px">2 <span class="sr-only">(current)</span></a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="input-group input-group-sm">
+                        前往
+                        <input style="width: 40px;height: 20px;text-align: center;box-sizing: border-box;padding: 5px" type="text" placeholder="1">
+                        页
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
