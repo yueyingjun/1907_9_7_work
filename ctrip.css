@@ -1,0 +1,147 @@
+    body,ul,li,a,span,h1,h2,h3,h4,h5,h6{
+        color:black;
+        font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+        padding:0;margin:0;
+        font-style:normal;
+        text-decoration:none;
+        list-style:none;
+    }
+    a:hover{
+        color:blue;
+    }
+.container{
+    width:100%;
+    margin:auto;
+}
+.div-s-1{
+    width:5%;
+}
+.div-s-2{
+    width:10%;
+}
+.div-s-3{
+    width:15%;
+}
+.div-s-4{
+    width:20%;
+}
+.div-s-5{
+    width:25%;
+}
+.div-s-6{
+    width:30%;
+}
+.div-s-7{
+    width:35%;
+}
+.div-s-8{
+    width:40%;
+}
+.div-s-9{
+    width:45%;
+}
+.div-s-10{
+    width:50%;
+}
+.div-s-11{
+    width:55%;
+}
+.div-s-12{
+    width:60%;
+}
+.div-s-13{
+    width:65%;
+}
+.div-s-14{
+    width:70%;
+}
+.div-s-15{
+    width:75%;
+}
+.div-s-16{
+    width:80%;
+}
+.div-s-17{
+    width:85%;
+}
+.div-s-18{
+    width:90%;
+}
+.div-s-19{
+    width:95%;
+}
+.div-s-20{
+    width:100%;
+}
+.div-s-hide{
+    display:none;
+}
+@media screen and (min-width:1200px){
+    .container{
+        width:100%;
+        margin:auto;
+    }
+    .div-ss-1{
+        width:5%;
+    }
+    .div-ss-2{
+        width:10%;
+    }
+    .div-ss-3{
+        width:15%;
+    }
+    .div-ss-4{
+        width:20%;
+    }
+    .div-ss-5{
+        width:25%;
+    }
+    .div-ss-6{
+        width:30%;
+    }
+    .div-ss-7{
+        width:35%;
+    }
+    .div-ss-8{
+        width:40%;
+    }
+    .div-ss-9{
+        width:45%;
+    }
+    .div-ss-10{
+        width:50%;
+    }
+    .div-ss-11{
+        width:55%;
+    }
+    .div-ss-12{
+        width:60%;
+    }
+    .div-ss-13{
+        width:65%;
+    }
+    .div-ss-14{
+        width:70%;
+    }
+    .div-ss-15{
+        width:75%;
+    }
+    .div-ss-16{
+        width:80%;
+    }
+    .div-ss-17{
+        width:85%;
+    }
+    .div-ss-18{
+        width:90%;
+    }
+    .div-ss-19{
+        width:95%;
+    }
+    .div-ss-20{
+        width:100%;
+    }
+    .div-s-hide{
+        display:block;
+    }
+}
