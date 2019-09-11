@@ -1,0 +1,22 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,pre,form,table {
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+i{
+    font-style: normal;
+}
+body{
+    background-color: #faf9f9;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333333;
+    -webkit-text-size-adjust: 100%;
+    -webkit-user-select:none
+}
+a{
+    text-decoration: none;
+    color: black;
+}

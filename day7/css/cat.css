@@ -1,0 +1,295 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color: #2691fd;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+}
+.face{
+    width: 280px;
+    height: 250px;
+    border-radius: 125px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+    z-index: 2;
+}
+.eye-left{
+    width: 60px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top: -30px;
+    left: 75px;
+}
+.eye-right{
+    width: 60px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top: -30px;
+    right: 80px;
+}
+.eye-left-black{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    background-color: black;
+}
+.eye-right-black{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    background-color: black;
+}
+.nose{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: #db0000;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+.vertical-line{
+    width: 2px;
+    height: 130px;
+    background-color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 135px;
+}
+.vertical-line-bottom{
+    width: 200px;
+    height: 100px;
+    border-bottom: 3px solid black;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+}
+.nose-white{
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.huzi-left div:nth-child(1){
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    position: absolute;top: 75px;
+    left: 20px;
+    transform: rotate(20deg);
+}
+.huzi-left div:nth-child(2){
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    position: absolute;top: 100px;
+    left: 20px;
+}
+.huzi-left div:nth-child(3){
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    position: absolute;top: 125px;
+    left: 20px;
+    transform: rotate(-20deg);
+}
+.huzi-right div:nth-child(1){
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    position: absolute;top: 75px;
+    right: 25px;
+    transform: rotate(-20deg);
+}
+.huzi-right div:nth-child(2){
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    position: absolute;top: 100px;
+    right: 25px;
+}
+.huzi-right div:nth-child(3){
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    position: absolute;top: 125px;
+    right: 25px;
+    transform: rotate(20deg);
+}
+.body{
+    width: 240px;
+    height: 240px;
+    background-color: #2691fd;
+    margin: -40px auto 0;
+    position: relative;
+    border: 1px solid black;
+}
+.bozi{
+    width: 280px;
+    height: 23px;
+    border-radius: 15px;
+    background-color: red;
+    border: 1px solid black;position: absolute;
+    top: -1px;
+    left: -20px;
+    z-index: 3;
+}
+.bozi>.lingdang{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    left: 118px;
+}
+.lingdang>.lingdang-line{
+    width: 39px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 12px;
+    left: 1px;
+}
+.lingdang>.lingdang-circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}.lingdang>.lingdang-vertical-line{
+    width: 2px;
+    height: 14px;
+    background-color: black;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+}
+.packet{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: absolute;
+    background-color: white;
+    top: -5px;
+    left: 19px;
+}
+.packet>div{
+    width: 160px;
+    height: 80px;
+    border-radius: 0 0 80px 80px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.body .arm-left{
+    width: 130px;
+    height: 50px;
+    background-color: #2691fd;
+    border: 1px solid black;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 38px;
+    left: -93px;
+}
+.body .arm-left .hand{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+.body .arm-right{
+    width: 130px;
+    height: 50px;
+    background-color: #2691fd;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 38px;
+    right: -93px;
+}
+.body .arm-right .hand{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: absolute;
+    top: -10px;
+    right: -20px;
+}
+.leg-leg{
+    width: 20px;
+    height: 15px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: white;
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+}
+.body:after{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -1px;
+    left: 111px;
+}
+.foot-left{
+     width: 130px;
+     height: 30px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 60px 40px 40px 40px;
+     position: absolute;
+     bottom: -30px;
+     left: -15px;
+}
+.foot-right{
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 60px 40px 40px 40px;
+    position: absolute;
+    bottom: -30px;
+    right: -15px;
+}

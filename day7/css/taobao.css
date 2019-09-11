@@ -1,0 +1,260 @@
+
+.backgroud{
+    width: 100%;
+    /*height:3rem;*/
+    overflow: hidden;
+    background-color: #f83039;
+}
+.head{
+    width: 7rem;
+    height: 1.2rem;
+    /*border: 1px solid red;*/
+    margin: 0.2rem auto;
+    font-size: 0.2rem;
+    color: white;
+    display: flex;
+    /*position: fixed;*/
+    /*justify-content: space-between;*/
+}
+.head-left{
+    width: 1rem;
+    height: 1.2rem;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+.head-left>img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.head-center{
+    width: 4.5rem;
+    height: 0.8rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    margin: 0.2rem 0.3rem;
+    color: #000;
+}
+.head-center>img{
+    width: 0.7rem;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+.head-center>span{
+    vertical-align: 10px;
+    font-size: 0.3rem;
+}
+.head-right{
+    width: 1rem;
+    height: 1.2rem;
+    text-align: center;
+}
+.head-right>img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.nav{
+    width: 7rem;
+    height: 0.6rem;
+    /*border: 1px solid red;*/
+    margin: 0.2rem auto;
+    font-size: 0.2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.4rem;
+}
+.nav>span:hover{
+    border-bottom: 2px solid white;
+}
+.lunbopic{
+    display: flex;
+}
+.lunbopic>img{
+    width: 100%;
+    height: 100%;
+}
+.xuanxiang{
+    width: 7rem;
+    height: 2.6rem;
+    /*border: 1px solid red;*/
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    font-size: 0.2rem;
+}
+.xuanxiang>a{
+    width: 1.3rem;
+    height: 1.3rem;
+    display: block;
+    color: #333333;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 0.05rem;
+}
+.xuanxiang>a>img{
+    width: 1.1rem;
+    height: 0.8rem;
+}
+.content{
+    width: 100%;
+    /*height: 20rem;*/
+    overflow: hidden;
+    background-image: url("../img/back.jpg");
+}
+.content-top-content{
+    margin: auto;
+    width: 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-top>h3{
+    color: red;
+    text-align: center;
+}
+.content-top-left{
+    width: 1.5rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    text-align: center;
+}
+.content-top-left>img{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.content-top-left>span{
+    display: block;
+    height: 0.5rem;
+    background-color: pink;
+    font-family: 黑体;
+    color: white;
+}
+.content-top-center{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    position: relative;
+}
+.content-top-center>img{
+    height: 2rem;
+    width: 2.5rem;
+}
+.content-top-center>span{
+    display: block;
+    height: 0.5rem;
+    width: 100%;
+    background-color: pink;
+    font-family: 黑体;
+    color: white;
+    position: absolute;
+    bottom: 0.05rem;
+}
+.content-top-right{
+    width: 1.5rem;
+    height: 2rem;
+    /*border: 1px solid red;*/
+    border-radius: 0.2rem;
+    text-align: center;
+    position: relative;
+}
+.content-top-right>img{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.content-top-right>span{
+    display: block;
+    height: 0.5rem;
+    width: 100%;
+    background-color: pink;
+    font-family: 黑体;
+    color: white;
+    position: absolute;
+    bottom: 0.05rem;
+}
+.content-center{
+    width: 7rem;
+    /*height: 9rem;*/
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    margin: auto;
+    background-color: white;
+    margin-top: 0.2rem;
+}
+.content-center-one{
+    width: 3.5rem;
+    height: 3rem;
+    float: left;
+}
+.content-center-one>div{
+    width: 1.7rem;
+    height: 2.2rem;
+    /*border: 1px solid red;*/
+    float: left;
+    background-color: #ffecef;
+    text-align: center;
+}
+.content-center-one>div>img{
+    width: 1.3rem;
+}
+.content-center-one>div:nth-of-type(1)>h3{
+    color: red;
+}
+.content-center-one>div:nth-of-type(2)>h3{
+    color: orangered;
+}
+.content-center-bottom{
+    width: 100%;
+    height: 1rem;
+}
+.content-center-bottom>span{
+    display: inline-block;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    font-family: 黑体;
+    font-weight: bolder;
+}
+.content-center-bottom>p{
+    display: inline-block;
+    font-size: 0.28rem;
+    line-height: 1rem;
+}
+.content-pic{
+    width: 7rem;
+    height: 2rem;
+    margin: 0.2rem auto 0;
+}
+.content-pic>img{
+    width: 100%;
+    height: 100%;
+}
+.content-bottom{
+    width: 7rem;
+    height: 2rem;
+    margin: 0.2rem auto 0;
+}
+.content-bottom .content-bottom-one{
+    width: 1.5rem;
+    height: 2.5rem;
+    border: 1px solid red;
+    float: left;
+    margin: 0 0.1rem;
+}
+.content-bottom-one>img{
+    width: 1.5rem;
+    height: 1.7rem;
+}
+.content-bottom-ones{
+    height: 0.8rem;
+    background-color: #2691fd;
+    margin-top: -0.1rem;
+    font-size: 0.2rem;
+    text-align: center;
+}
+/*.content-bottom-ones>h3{*/
+    /*font-size: 0.15rem;*/
+/*}*/
