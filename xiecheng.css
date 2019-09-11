@@ -1,0 +1,1008 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #666;
+    list-style: none;
+
+}
+.top{
+    width: 100%;
+    height: 36px;
+    background: #f4f4f4;
+    margin-top: 0;
+    padding: 0;
+
+}
+.top-center{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.top-xingfu{
+
+    line-height: 36px;
+    float: left;
+}
+.top-lan-img1{
+    float: left;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-position: -8px -8px;
+}
+
+.top-lan-lan{
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.top-lan-img2{
+    float: left;
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+    width: 8px;
+    height: 5px;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-left: 10px;
+    overflow: hidden;
+    background-position: -46px -58px;
+}
+.top ul{
+    margin-left: 600px;
+}
+.top ul li{
+    list-style: none;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    border-right:1px solid #cccccc;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.top-lan-img3{
+    float: right;
+    background:url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+    width: 8px;
+    height: 5px;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-left: 10px;
+    overflow: hidden;
+    background-position: -46px -58px;
+}
+.top-holle{
+    color: blue;
+    border-right: none;
+}
+.top-lan-img4{
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+    float: left;
+    width: 14px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-top: 3px;
+    overflow: hidden;
+    background-position: -8px -66px;
+}
+.top-lan-img5{
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+    height: 16px;
+    width: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background-position: -100px -67px;
+}
+.top-lan-img6{
+    background: url("https://pic.c-ctrip.com/platform/online/home/sprite2019527.png");
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    overflow: hidden;
+    background-position: -97px -99px;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+.top-bottom{
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+
+}
+.top-bottom-left{
+    float: left;
+
+}
+.top-bottom-center {
+    margin-top: 10px;
+    height: 35px;
+    width: 400px;
+    float: left;
+    border: 1px solid #666;
+
+
+
+}
+.top-bottom-center form input{
+    height: 30px;
+    width: 350px;
+    display: block;
+    float: left;
+}
+.top-bottom-right{
+    height: 60px;
+    width: 130px;
+    display: block;
+    float: right;
+
+}
+.top-bottom-center-sou{
+
+    width: 42px;
+    height: 36px;
+    float: right;
+
+}
+.top-bottom-center-sou img{
+    height:36px;
+    width: 48px;
+    background: #0EABD7;
+    margin-left: -5px;
+}
+.top-dao{
+    background: #2577E3;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.top-dao-center{
+    width: 1200px;
+    height: 100%;
+
+    margin:  0 auto;
+
+}
+.top-dao-center>div{
+    float: left;
+    font-size:16px;
+    color: #ffffff;
+    margin-right: 19px;
+    line-height: 40px;
+}
+
+.jian{
+
+    display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 3px solid #fff;
+    border-bottom: 0 none;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    _color: #ff3fff;
+    _filter: chroma(color=#ff3fff);
+    -webkit-transition: transform 0.2s ease 0s;
+    transition: transform 0.2s ease 0s;
+}
+
+.yuwai{
+    height: 22px;
+    width: 1200px;
+    margin: auto;
+
+}
+.yuwai-left{
+    height: 100%;
+    width: 60px;
+    background: #0EABD7;
+    color: #ffffff;
+    border-radius: 10%;
+    float: left;
+}
+.yuwai ul{
+    line-height: 22px;
+    margin-top: 1px;
+    width: 1100px;
+    display: flex;
+    justify-content:space-between;
+    float: left;
+}
+.yuwai ul li{
+    list-style: none;
+}
+.yuwai ul li div{
+
+}
+.yuwai-img1{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -26px 0;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img2{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: 0 0;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img3{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -130px 0;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img4{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -52px 0;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img5{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -26px -52px;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img6{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -104px -26px;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img7{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -26px -26px;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img8{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: 0 -52px;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img9{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -78px -26px;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img10{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -130px -26px;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img11{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -78px -26px;
+    float: left;
+    margin-top: 3px;
+}
+.yuwai-img12{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -26px -78px;
+    float: left;
+    margin-top: 3px;
+}
+
+.yuwai-img13{
+    display: inline-block;
+    background: url("https://pic.c-ctrip.com/platform/online/home/un_icon_index_type20170111.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+    background-position: -24px -79px;
+    float: left;
+    margin-top: 3px;
+}
+.banner {
+    position: relative;
+    margin: auto;
+    width:100%;
+    height: 340px;
+    background: #cccccc;
+    margin-top: 10px;
+
+}
+.banner-img  .tupian img{
+    width: 100%;
+    height: 100%
+
+}
+.banner-img>.tupian {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+}
+
+.dot {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 10px;
+    z-index: 20;
+}
+
+.diandian {
+    width: 10px;
+    height: 10px;
+    background-color: chartreuse;
+    float: right;
+    margin: 0px 4px;
+    border: 1px solid;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+
+}
+
+.diandian.active {
+    background: rgba(255, 255, 255, 0.4);
+}
+.biao{
+    height: 300px;
+    width: 490px;
+    background: #ffffff;
+    z-index: 999;
+    position: relative;
+    left: 100px;
+    left: 167px;
+    top: 20px;
+}
+.biao-left{
+    width: 100px;
+    height: 100%;
+    background: #0EABD7;
+    float: left;
+    }
+.biao-left ul li{
+    height: 42.85px;
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+}
+.biao-left ul li:nth-child(1){
+    background: #fff;
+    color: #000;
+}
+.biao-top{
+    width: 380px;
+    height: 27px;
+    margin-top: 15px;
+    border-bottom: 1px solid #666;
+    float: right;
+}
+.biao-top ul li{
+    line-height: 27px;
+    text-align: center;
+    float: left;
+    font-size: 13px;
+    margin-left: 8px;
+    font-weight: bold;
+
+}
+.biao-right{
+    float: left;
+    right: 0;
+    font-size: 13px;
+    color: #000;
+    height: 250px;
+    width: 380px;
+}
+.text{
+    width: 170px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 20px;
+
+}
+ .text1{
+    width: 350px;
+    float: left;
+     margin-left: 5px;
+     margin-top: 20px;
+}
+.text1 div{
+    width: 50px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+.text div{
+    float: left;
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.input1{
+    display: block;
+    float: left;
+    height: 30px;
+    width: 250px;
+}
+.input2{
+    display: block;
+    float: left;
+    height: 30px;
+    width: 100px;
+}
+
+.remen{
+    height: 430px;
+    width: 1200px;
+
+    margin: auto;
+    margin-top: 20px;
+}
+.remen-top{
+    height: 40px;
+    width: 100%;
+    border-bottom: 2px solid #0EABD7;
+
+}
+.remen-top ul li{
+    float: left;
+    margin-left:30px;
+    font-size: 16px;
+    color: #000;
+    line-height: 40px;
+}
+.remen-center{
+    height: 40px;
+    width: 100%;
+
+
+}
+.remen-center ul li{
+    float: left;
+    margin-left:40px;
+    font-size: 14px;
+    color: #0EABD7;
+    line-height: 40px;
+    text-align: center;
+}
+
+.remen-img{
+    height: 160px;
+    width: 220px;
+
+
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.remen-img5{
+    height: 320px;
+    width: 220px;
+
+    box-sizing: border-box;
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+
+}
+.back1{
+    background: url("https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg");
+    background-size:100% 100%;
+
+}
+.back2{
+    background: url("https://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg");
+    background-size:100% 100%;
+
+
+}
+.back3{
+    background: url("https://dimg05.c-ctrip.com/images/100f180000013p2c086E4_C_221_166.jpg");
+    background-size:100% 100%;
+
+
+}
+.back4{
+    background: url("https://dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg");
+    background-size:100% 100%;
+
+
+}
+.back5{
+    background: url("https://dimg04.c-ctrip.com/images/zg0n180000013lxjp6299.jpg");
+    background-size:100% 100%;
+
+
+}
+.back6{
+    background: url("https://dimg04.c-ctrip.com/images/100b11000000qbl7v8A10_C_221_166.jpg");
+    background-size:100% 100%;
+
+
+}
+.back7{
+    background: url("https://dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg");
+    background-size:100% 100%;
+
+
+}
+
+ .back7{
+     background: url("https://dimg01.c-ctrip.com/images/100m0u000000jqip1B411_C_221_166.jpg");
+     background-size:100% 100%;
+
+
+ }
+
+.back8{
+     background: url("https://dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg");
+     background-size:100% 100%;
+
+
+ }
+.back9{
+    background: url("https://dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg");
+    background-size:100% 100%;
+
+
+}
+.yuan1{
+    padding: 30px 5px;
+    width: 102px;
+    height: 52px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all .3s;
+    position: relative;
+    top:25px;
+    left: 55px;
+
+}
+
+.yuan-text1{
+    border-bottom: 1px solid #ffffff;
+    font-size: 20px;
+    color: #ffffff;
+}
+.yuan-text2{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.hai{
+
+    height: 430px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.hai-bottom{
+    height: 380px;
+    width: 100%;
+
+}
+.hai-bottom-left{
+    width: 210px;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.hai-bottom-right{
+    width:960px ;
+    height: 100%;
+
+    float: right;
+}
+.back-back2{
+    background: url("https://images3.c-ctrip.com/overseas/city/singapore256-256.jpg");
+    background-size: 100% 100%;
+}
+.back-back3{
+    background: url("https://images3.c-ctrip.com/overseas/city/bangkok256-256.jpg");
+    background-size: 100% 100%;
+}
+
+.back-back4{
+    background: url("https://images3.c-ctrip.com/overseas/city/tokyo256-256.jpg");
+    background-size: 100% 100%;
+}
+
+.back-back5{
+    background: url("https://pages.c-ctrip.com/hotel/201805/thailand/220330.jpg");
+    background-size: 100% 100%;
+}
+
+.back-back6{
+    background: url("https://images3.c-ctrip.com/overseas/city/kualalumpur256-256.jpg");
+    background-size: 100% 100%;
+}
+
+.back-back7{
+    background: url("https://images3.c-ctrip.com/overseas/city/osaka256-256.jpg");
+    background-size: 100% 100%;
+}
+
+.back-back8{
+    background: url("https://images3.c-ctrip.com/ad/apph5/2017/phuket_256_256_01.jpg");
+    background-size: 100% 100%;
+}
+
+
+.jipiao{
+    height: 430px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.piao-maxbox{
+    height: 380px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.piao-box{
+    height: 100px;
+    width: 200px;
+    background: #F8F8F8;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+
+
+}
+.piao-box p{
+    font-size: 14px;
+    color: #000000;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box-left{
+    width: 60px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.box-right{
+    background: #FF4E22;
+    color: #000000;
+    font-size: 16px;
+    float: right;
+    border-radius: 10%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 90px;
+}
+.dangdi{
+    height: 260px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+
+}
+.dangdi-left{
+    float: left;
+    height: 240px;
+    width: 220px;
+    border-right:1px solid #ccc ;
+}
+.dangdi-left .difang{
+    font-size: 12px;
+    color: #999999;
+    border-right: 1px solid #cccccc;
+    float: left;
+    margin-left: 15px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+
+}
+.dangdi-left p{
+    font-size: 16px;
+    color: #2d2d2d;
+    margin-left: 10px;
+
+
+}
+.car{
+    height: 200px;
+    width: 220px;
+    float: left;
+    padding-left: 20px;
+}
+.car p{
+    margin:0;
+    padding: 0;
+    margin-top: 5px;
+}
+.lxfw{
+    height: 200px;
+    width: 1200px;
+    margin: auto;
+}
+.fuwu{
+    height: 150px;
+    width: 384px;
+    border: 1px solid #ccc;
+}
+.fuwu-box{
+    height:150px;
+    width: 384px;
+    float: left;
+    margin-left: 10px;
+
+}
+.fuwu-top{
+    width: 100%;
+    height: 102px;
+    border-bottom: 1px solid #ccc;
+}
+.fuwu-top-left{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgba(5,5,5,0.4);
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.fuwu-top-right{
+    float: right;
+    margin-right: 10px;
+}
+.fuwu-top-right p{
+    font-size: 18px;
+    color: #2d2d2d;
+}
+
+.fuwu-bottom{
+    height: 48px;
+    width: 100%;
+}
+.fuwu-bottom-box{
+    height: 48px;
+    width: 80px;
+    float: left;
+    margin-left: 15px;
+}
+.hzyh{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+	margin-top:20px;
+	margin-bottom: 40px;
+	margin-left:30px;
+
+}
+.hzyh-left{
+    font-size: 14px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.hzyh-right{
+    float: left;
+}
+.hzyh-right ul li div{
+
+    display: inline-block;
+    width: 150px;
+    height: 0;
+    padding-top: 28px;
+    overflow: hidden;
+    background-image: url("https://pic.c-ctrip.com/platform/online/home/pic_partner.png");
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-right: none;
+
+}
+.hzyh-right ul li{
+    height: 100px;
+    width: 150px;
+    border-right: 1px dotted #0EABD7;
+    float: left;
+}
+.other{
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+.other-center{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+}
+.other-left{
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+    line-height: 20px;
+    
+}
+.other-right{
+    float: left;
+    width: 1000px;
+    text-align: center;
+    border-bottom: 1px dotted #cccccc;
+
+}
+
+.other-right ul li{
+    float: left;
+    width: 60px;
+    margin-left: 20px;
+}
+
+.a-buttom{
+    width: 100%;
+    height: 210px;
+
+    margin-top: 150px;
+}
+.a-buttom-b{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.a-buttom-left-left{
+    height: 100%;
+    width: 15%;
+    border-right: 1px dotted #999;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 15px;
+}
+.a-buttom-left{
+    height: 100%;
+    width: 15%;
+    float: left;
+    border-right: 1px dotted #999;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+.a-buttom-center{
+    height: 100%;
+    width: 15%;
+    float: left;
+    border-right: 1px dotted #999;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+.a-buttom-regit{
+    height: 100%;
+    width: 15%;
+    float: left;
+    border-right: 1px dotted #999;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+.a-buttom-regit-regit{
+    height: 100%;
+    width: 15%;
+    float: left;
+    border-right: 1px dotted #999;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+.fangxin-img{
+
+    width: 40px;
+    height: 36px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/pic_partner.png");
+    background-repeat: no-repeat;
+	float:left;
+	background-position:-40px -200px;
+}
+.fangxin-img2{
+
+    width: 40px;
+    height: 36px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/pic_partner.png");
+    background-repeat: no-repeat;
+	float:left;
+	background-position:-40px -250px;
+}
