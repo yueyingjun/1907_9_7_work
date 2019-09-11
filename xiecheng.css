@@ -2,12 +2,14 @@ body{
     position: absolute;
     padding: 0;
     width: 100%;
+    height: 5000px;
+    background: #f5f5f5;
+    margin: auto;
 }
 .first{
     float: left;
     width: 100%;
     height: 40px;
-    background: #f5f5f5;
 }
 .first-one{
     float: left;
@@ -77,6 +79,7 @@ body{
     width: 100%;
     height: 100px;
     padding: 0;
+    background: #fff;
 }
 .second-one{
     float: left;
@@ -137,6 +140,7 @@ body{
     width: 100%;
     height: 50px;
     font-size: 10px;
+    background: #fff;
 }
 .fourth-a{
     float: left;
@@ -158,7 +162,7 @@ body{
     margin-top: 10px;
 }
 .fourth-c{
-     width: 150px;
+     width: 130px;
      height: 50%;
     float: left;
     margin-left:15px;
@@ -167,39 +171,2128 @@ body{
 .fiveth{
     float: left;
     width: 100%;
-    height: 300px;
-    border: 1px solid black;
+    height: 320px;
     font-size: 10px;
     background: url(https://dimg04.c-ctrip.com/images/zg0k1700000130bhaCA00.jpg) 100% 100%;
 }
 .sixth{
     float: left;
     width: 80%;
-    height: 400px;
-    border: 1px solid black;
+    height: 410px;
     margin-left:  160px;
     margin-top:20px; 
 }
 .sixth-a{
     float: left;
     width: 100%;
-    height: 50px;
+    height: 35px;
     font-size: 18px;
-    margin-top:30px; 
-    border: 1px solid gainsboro;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
 }
 .sixth-a-1{
     float: left;
-    width: 80px;
+    width: 60px;
+    margin-left:20px; 
+}
+.sixth-a-3{
+    float: left;
+    width: 75px;
     margin-left:20px; 
 }
 .six-a-2{
     width: 100px;
     float: right;
-    color: #74a8ed;
+    color: #2577e3;
     font-size: 12px;
     margin-top:10px;  
 }
+.sixth-b{
+    float: left;
+    width: 100%;
+    height: 363px;
+    font-size: 18px; 
+    background: #fff;
+}
+.sixth-b-1{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.sixth-b-1 div{
+    float: left;
+    color: #2577e3;
+    font-size: 14px;
+    margin-top:20px; 
+    margin-left: 30px;
+    cursor: pointer;
+}
+.sixth-b-1 :nth-child(1){
+    margin-left: 10px;
+}
+.sixth-b-1 div:hover{
+    background: #2577e3;
+    color: #fff;
+}
+.sixth-b-2{
+    float: left;
+    width: 100%;
+    height: 310px;
+}
+.sixth-b-2-left{
+    float: left;
+    width:78%;
+    height: 100%; 
+}
+.sixth-b-2-left div:nth-child(1){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:5px; 
+    background: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg) no-repeat center center; 
+}
+.sixth-b-2-left div:nth-child(2){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:10px; 
+    background: url(https://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg) no-repeat center center;
+}
+.sixth-b-2-left div:nth-child(3){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:10px; 
+    background: url(https://dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg) no-repeat center center;
+}
+.sixth-b-2-left div:nth-child(4){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:10px; 
+    background: url(https://dimg05.c-ctrip.com/images/100f180000013p2c086E4_C_221_166.jpg) no-repeat center center;
+}
+.sixth-b-2-left div:nth-child(5){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:5px; 
+    margin-top:10px;     
+    background: url(https://dimg04.c-ctrip.com/images/100b11000000qbl7v8A10_C_221_166.jpg) no-repeat center center;
+}
+.sixth-b-2-left div:nth-child(6){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:10px;
+    margin-top:10px;  
+    background: url(https://dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg) no-repeat center center;
+}.sixth-b-2-left div:nth-child(7){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:10px;
+    margin-top:10px;
+    background: url(https://dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg) no-repeat center center;
+}.sixth-b-2-left div:nth-child(8){
+    float: left;
+    width:24%;
+    height: 48%;
+    margin-left:10px;
+    margin-top:10px;
+    background: url(https://dimg01.c-ctrip.com/images/100m0u000000jqip1B411_C_221_166.jpg) no-repeat center center;
+}
+.sixth-b-2-right{
+    float: left;
+    width:19%;
+    height: 100%;
+    margin-left:15px; 
+    background: url(https://dimg04.c-ctrip.com/images/zg0n180000013lxjp6299.jpg) no-repeat center center;
+}
+.seventh{
+    float: left;
+    width: 80%;
+    height: 410px;
+    margin-left:  160px;
+    margin-top:20px; 
+}
+.seventh-a{
+    float: left;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
+}
+.seventh-a-1{
+    float: left;
+    width: 80px;
+    margin-left:20px; 
+}
+.seventh-a-2{
+    float: left;
+    width: 120px;
+    margin-left:20px; 
+}
+.seventh-a-3{
+    float: left;
+    width: 90px;
+    margin-left:20px; 
+}
+.seventh-b{
+    float: left;
+    width: 100%;
+    height: 363px;
+    font-size: 18px; 
+    background: #fff;
+}
+.seventh-b-left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 16px;
+    border-right:1px dotted gainsboro;  
+}
+.seventh-b-left span:nth-child(1){
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:20px;
+    margin-top:15px;  
+}
+.seventh-b-left span:nth-child(2){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(3){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(4){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(5){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(6){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(7){
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:20px;
+    margin-top:15px;  
+}
+.seventh-b-left span:nth-child(8){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(9){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(10){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-left span:nth-child(11){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.seventh-b-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.seventh-b-right-1{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.seventh-b-right-1 div{
+    float: left;
+    color: #2577e3;
+    font-size: 14px;
+    margin-top:15px; 
+    margin-left: 30px;
+    cursor: pointer;
+}
+.seventh-b-right-1 :nth-child(1){
+    margin-left: 10px;
+}
+.seventh-b-right-1 div:hover{
+    background: #2577e3;
+    color: #fff;
+}
+.seventh-b-right-1 :nth-child(5){
+    float: right;
+    margin-right:20px; 
+}
+.seventh-b-right-2{
+    float: left;
+    width: 100%;
+    height: 310px;
+}
+.seventh-b-right-2-l{
+    float: left;
+    width:74%;
+    height: 100%;    
+}
+.seventh-b-right-2-l div:nth-child(1){
+    float: left;
+    width:32%;
+    height: 48%;
+    margin-left:5px; 
+    background: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg) no-repeat center center; 
+}
+.seventh-b-right-2-l div:nth-child(2){
+    float: left;
+    width:32%;
+    height: 48%;
+    margin-left:5px; 
+    background: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg) no-repeat center center; 
+}
+.seventh-b-right-2-l div:nth-child(3){
+    float: left;
+    width:32%;
+    height: 48%;
+    margin-left:5px; 
+    background: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg) no-repeat center center; 
+}
+.seventh-b-right-2-l div:nth-child(4){
+    float: left;
+    width:32%;
+    height: 48%;
+    margin-left:5px; 
+    margin-top:10px; 
+    background: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg) no-repeat center center; 
+}
+.seventh-b-right-2-l div:nth-child(5){
+    float: left;
+    width:32%;
+    height: 48%;
+    margin-left:5px; 
+    margin-top:10px;     
+    background: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg) no-repeat center center; 
+}
+.seventh-b-right-2-l div:nth-child(6){
+    float: left;
+    width:32%;
+    height: 48%;
+    margin-left:5px; 
+    margin-top:10px; 
+    background: url(https://dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg) no-repeat center center; 
+}
+.seventh-b-right-2-r{
+    float: left;
+    width:24%;
+    height: 100%;
+    margin-left:15px; 
+    background: url(https://pages.c-ctrip.com/hotel/201805/thailand/220330.jpg) no-repeat center center;
+}
+.eighth{
+    float: left;
+    width: 80%;
+    height: 410px;
+    margin-left:  160px;
+    margin-top:20px; 
+}
+.eighth-a{
+    float: left;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
+}
+.eighth-a-1{
+    float: left;
+    width: 200px;
+    margin-left:20px; 
+}
+.eighth-a-2{
+    float: left;
+    width: 150px;
+    margin-left:20px; 
+}
+.eighth-b{
+    float: left;
+    width: 100%;
+    height: 363px;
+    font-size: 18px; 
+    background: #fff;
+}
+.eighth-b-1{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.eighth-b-1 div{
+    float: left;
+    color: #2577e3;
+    font-size: 14px;
+    margin-top:20px; 
+    margin-left: 30px;
+    cursor: pointer;
+}
+.eighth-b-1 :nth-child(1){
+    margin-left: 10px;
+}
+.eighth-b-1 div:hover{
+    background: #2577e3;
+    color: #fff;
+}
+.eighth-b-1 :nth-child(6){
+    float: right;
+    margin-right:30px; 
+}
+.eighth-b-2{
+    float: left;
+    width: 100%;
+    height: 310px;
+}
+.eighth-b-2-left{
+    float: left;
+    width:78%;
+    height: 100%; 
+}
+.eighth-b-2-left div{
+    float: left;
+    width:23%;
+    height: 32%;
+    margin-left:10px;
+    margin-top:5px;  
+    background: url(火车票.png) no-repeat center center;
+}
+.eighth-b-2-right{
+    float: left;
+    width:19%;
+    height: 100%;
+    margin-left:15px; 
+    background: url(https://images4.c-ctrip.com/target/60010q000000gsgjnAD29.jpg) no-repeat center center;
+}
+.ninth{
+    float: left;
+    width: 80%;
+    height: 410px;
+    margin-left:  160px;
+    margin-top:20px; 
+}
+.ninth-a{
+    float: left;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
+}
+.ninth-a-1{
+    float: left;
+    width: 80px;
+    margin-left:20px; 
+}
+.ninth-a-3{
+    float: left;
+    width: 90px;
+    margin-left:20px; 
+}
+.ninth-b{
+    float: left;
+    width: 100%;
+    height: 363px;
+    font-size: 18px; 
+    background: #fff;
+}
+.ninth-b-left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 16px; 
+    border-right:1px dotted gainsboro; 
+}
+.ninth-b-left span:nth-child(1){
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.ninth-b-left span:nth-child(2){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.ninth-b-left span:nth-child(3){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.ninth-b-left span:nth-child(4){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.ninth-b-left span:nth-child(5){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.ninth-b-left span:nth-child(6){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.ninth-b-left span:nth-child(7){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.aaa{
+     float: left;
+     width: 25%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;
+}
+.bbb{
+     float: left;
+     width: 25%;
+     height: 100%;
+     margin-left:10px;
+      text-align: center;     
+}
+.ccc{
+     float: left;
+     width: 32%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;      
+}
+.ddd{
+     float: left;
+     width: 27%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;      
+}
+.ninth-b-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.ninth-b-right-1{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.ninth-b-right-1 div{
+    float: left;
+    color: #2577e3;
+    font-size: 14px;
+    margin-top:15px; 
+    margin-left: 30px;
+    cursor: pointer;
+}
+.ninth-b-right-1 :nth-child(1){
+    margin-left: 10px;
+}
+.ninth-b-right-1 div:hover{
+    background: #2577e3;
+    color: #fff;
+}
+.ninth-b-right-1 :nth-child(9){
+    float: right;
+    margin-right:20px; 
+}
+.ninth-b-right-2{
+    float: left;
+    width: 100%;
+    height: 310px;
+}
+.ninth-b-right-2-one{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.ninth-b-right-2-one div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://pic.c-ctrip.com/car/osd/online/vehicle_new/Ford_Fiesta.png) no-repeat center center;    
+}
+.ninth-b-right-2-one div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.ninth-b-right-2-one div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.ninth-b-right-2-one div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.ninth-b-right-2-one div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.ninth-b-right-2-one div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.ninth-b-right-2-two{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.ninth-b-right-2-two div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://pic.c-ctrip.com/car/osd/online/vehicle_new/Kia_Rio.png) no-repeat center center;   
+}
+.ninth-b-right-2-two div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.ninth-b-right-2-two div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.ninth-b-right-2-two div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.ninth-b-right-2-two div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.ninth-b-right-2-two div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.ninth-b-right-2-three{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.ninth-b-right-2-three div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://pic.c-ctrip.com/car/osd/online/vehicle_new/Toyota_Corolla.png) no-repeat center center;    
+}
+.ninth-b-right-2-three div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.ninth-b-right-2-three div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.ninth-b-right-2-three div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.ninth-b-right-2-three div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.ninth-b-right-2-three div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.ninth-b-right-2-four{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.ninth-b-right-2-four div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://pic.c-ctrip.com/car/osd/online/vehicle_new/Fiat_500.png) no-repeat center center;
+}
+.ninth-b-right-2-four div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.ninth-b-right-2-four div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.ninth-b-right-2-four div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.ninth-b-right-2-four div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.ninth-b-right-2-four div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.tenth{
+    float: left;
+    width: 80%;
+    height: 410px;
+    margin-left:  160px;
+    margin-top:20px; 
+}
+.tenth-a{
+    float: left;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
+}
+.tenth-a-3{
+    float: left;
+    width: 150px;
+    margin-left:20px; 
+}
+.tenth-b{
+    float: left;
+    width: 100%;
+    height: 363px;
+    font-size: 18px; 
+    background: #fff;
+}
+.tenth-b-left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 16px; 
+    border-right:1px dotted gainsboro; 
+}
+.tenth-b-left span:nth-child(1){
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.tenth-b-left span:nth-child(2){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.tenth-b-left span:nth-child(3){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.tenth-b-left span:nth-child(4){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.tenth-b-left span:nth-child(5){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.tenth-b-left span:nth-child(6){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.tenth-b-left span:nth-child(7){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.aaa{
+     float: left;
+     width: 25%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;
+}
+.bbb{
+     float: left;
+     width: 25%;
+     height: 100%;
+     margin-left:10px;
+      text-align: center;     
+}
+.ccc{
+     float: left;
+     width: 32%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;      
+}
+.ddd{
+     float: left;
+     width: 27%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;      
+}
+.tenth-b-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.tenth-b-right-1{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.tenth-b-right-1 div{
+    float: left;
+    color: #2577e3;
+    font-size: 14px;
+    margin-top:15px; 
+    margin-left: 30px;
+    cursor: pointer;
+}
+.tenth-b-right-1 :nth-child(1){
+    margin-left: 10px;
+}
+.tenth-b-right-1 div:hover{
+    background: #2577e3;
+    color: #fff;
+}
+.tenth-b-right-1 :nth-child(9){
+    float: right;
+    margin-right:20px; 
+}
+.tenth-b-right-2{
+    float: left;
+    width: 100%;
+    height: 310px;
+}
+.tenth-b-right-2-one{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.tenth-b-right-2-one div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://dimg04.c-ctrip.com/images/350p1600000109qx2C354_C_280_158.jpg) no-repeat center center;    
+}
+.tenth-b-right-2-one div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.tenth-b-right-2-one div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.tenth-b-right-2-one div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.tenth-b-right-2-one div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.tenth-b-right-2-one div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.tenth-b-right-2-two{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.tenth-b-right-2-two div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://dimg06.c-ctrip.com/images/350l0n000000ec6k84D0F_C_280_158.jpg) no-repeat center center;  
+}
+.tenth-b-right-2-two div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.tenth-b-right-2-two div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.tenth-b-right-2-two div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.tenth-b-right-2-two div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.tenth-b-right-2-two div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.tenth-b-right-2-three{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.tenth-b-right-2-three div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://dimg04.c-ctrip.com/images/350b10000000pm2zgA5CF_C_280_158.jpg) no-repeat center center;   
+}
+.tenth-b-right-2-three div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.tenth-b-right-2-three div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.tenth-b-right-2-three div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.tenth-b-right-2-three div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.tenth-b-right-2-three div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.tenth-b-right-2-four{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.tenth-b-right-2-four div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://dimg04.c-ctrip.com/images/350i10000000pfzsaB933_C_280_158.jpg) no-repeat center center;
+}
+.tenth-b-right-2-four div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.tenth-b-right-2-four div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.tenth-b-right-2-four div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.tenth-b-right-2-four div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 20px;    
+    text-align: center; 
+}
+.tenth-b-right-2-four div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.eleventh{
+    float: left;
+    width: 80%;
+    height: 410px;
+    margin-left:  160px;
+    margin-top:20px; 
+}
+.eleventh-a{
+    float: left;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
+}
+.eleventh-a-3{
+    float: left;
+    width: 150px;
+    margin-left:20px; 
+}
+.eleventh-b{
+    float: left;
+    width: 100%;
+    height: 363px;
+    font-size: 18px; 
+    background: #fff;
+}
+.eleventh-b-left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 16px; 
+    border-right:1px dotted gainsboro; 
+}
+.eleventh-b-left span:nth-child(1){
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.eleventh-b-left span:nth-child(2){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.eleventh-b-left span:nth-child(3){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.eleventh-b-left span:nth-child(4){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.eleventh-b-left span:nth-child(5){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.eleventh-b-left span:nth-child(6){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.eleventh-b-left span:nth-child(7){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.aaa{
+     float: left;
+     width: 25%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;
+}
+.bbb{
+     float: left;
+     width: 25%;
+     height: 100%;
+     margin-left:10px;
+      text-align: center;     
+}
+.ccc{
+     float: left;
+     width: 32%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;      
+}
+.ddd{
+     float: left;
+     width: 27%;
+     height: 100%;
+     margin-left:10px;
+      border-right: 1px solid gainsboro;
+      text-align: center;      
+}
+.eleventh-b-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.eleventh-b-right-1{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.eleventh-b-right-1 div{
+    float: left;
+    color: #2577e3;
+    font-size: 14px;
+    margin-top:15px; 
+    margin-left: 30px;
+    cursor: pointer;
+}
+.eleventh-b-right-1 :nth-child(1){
+    margin-left: 10px;
+}
+.eleventh-b-right-1 div:hover{
+    background: #2577e3;
+    color: #fff;
+}
+.eleventh-b-right-1 :nth-child(9){
+    float: right;
+    margin-right:20px; 
+}
+.eleventh-b-right-2{
+    float: left;
+    width: 100%;
+    height: 310px;
+}
+.eleventh-b-right-2-one{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.eleventh-b-right-2-one div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://images4.c-ctrip.com/target/zd0d0i00000097qa9955E_C_570_285.jpg) no-repeat center center;  
+}
+.eleventh-b-right-2-one div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.eleventh-b-right-2-one div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.eleventh-b-right-2-one div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.eleventh-b-right-2-one div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 14px;    
+    text-align: center; 
+    border: 1px solid #f60
+}
+.eleventh-b-right-2-one div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.eleventh-b-right-2-two{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.eleventh-b-right-2-two div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://images4.c-ctrip.com/target/zd0d0f0000007ckfk0B0C_C_570_285.jpg) no-repeat center center; 
+}
+.eleventh-b-right-2-two div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.eleventh-b-right-2-two div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.eleventh-b-right-2-two div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.eleventh-b-right-2-two div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 14px;    
+    text-align: center; 
+    border: 1px solid #f60    
+}
+.eleventh-b-right-2-two div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.eleventh-b-right-2-three{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.eleventh-b-right-2-three div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://images4.c-ctrip.com/target/zd0w0j000000b7c8g09C8_C_570_285.jpg) no-repeat center center;   
+}
+.eleventh-b-right-2-three div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.eleventh-b-right-2-three div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.eleventh-b-right-2-three div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.eleventh-b-right-2-three div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 14px;    
+    text-align: center; 
+    border: 1px solid #f60    
+}
+.eleventh-b-right-2-three div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.eleventh-b-right-2-four{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.eleventh-b-right-2-four div:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 70%;
+    background: url(https://images4.c-ctrip.com/target/zd0d080000003hpvb9BBA_C_570_285.jpg) no-repeat center 100%;
+}
+.eleventh-b-right-2-four div:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    font-size: 12px;  
+}
+.eleventh-b-right-2-four div:nth-child(3){
+    float: left;
+    width: 50%;
+    height: 10%;
+    font-size: 12px;
+    color: #999;     
+}
+.eleventh-b-right-2-four div:nth-child(4){
+    float: left;
+    width: 6%;
+    height: 10%;
+    margin-left:40px; 
+    font-size: 12px;  
+}
+.eleventh-b-right-2-four div:nth-child(5){
+    float: left;
+    width: 15%;
+    height: 10%;
+    color: #f60;
+    font-size: 14px;    
+    text-align: center; 
+    border: 1px solid #f60    
+}
+.eleventh-b-right-2-four div:nth-child(6){
+    float: left;
+    width: 10%;
+    height: 10%;
+    font-size: 14px; 
+    line-height: -40px;    
+}
+.twelfth{
+    float: left;
+    width: 80%;
+    height: 380px;
+    margin-left:  160px;
+    margin-top:20px; 
+}
+.twelfth-a{
+    float: left;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
+}
+.twelfth-a-3{
+    float: left;
+    width: 150px;
+    margin-left:20px; 
+}
+.twelfth-b{
+    float: left;
+    width: 100%;
+    height: 333px;
+    font-size: 18px; 
+    background: #fff;
+}
+.twelfth-b-left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 16px; 
+    border-right:1px dotted gainsboro; 
+}
+.twelfth-b-left span:nth-child(1){
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.twelfth-b-left span:nth-child(2){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.twelfth-b-left span:nth-child(3){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.twelfth-b-left span:nth-child(4){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.twelfth-b-left span:nth-child(5){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.twelfth-b-left span:nth-child(6){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.twelfth-b-left span:nth-child(7){
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:30px;  
+}
+.twelfth-b-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.twelfth-b-right-1{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.twelfth-b-right-1 div{
+    float: left;
+    color: #2577e3;
+    font-size: 14px;
+    margin-top:15px; 
+    margin-left: 30px;
+    cursor: pointer;
+}
+.twelfth-b-right-1 :nth-child(1){
+    margin-left: 10px;
+}
+.twelfth-b-right-1 div:hover{
+    background: #2577e3;
+    color: #fff;
+}
+.twelfth-b-right-1 :nth-child(9){
+    float: right;
+    margin-right:20px; 
+}
+.twelfth-b-right-2{
+    float: left;
+    width: 100%;
+    height: 310px;
+}
+.twelfth-b-right-2-one{
+    float: left;
+    width: 25%;
+    height: 70%;
+}
+.twelfth-b-right-2-one div:nth-child(1){
+    float: left;
+    width: 95%;
+    height: 70%;
+    margin-top:70px; 
+    background: url(https://dimg06.c-ctrip.com/images/100k0w000000kgkgfC8BA_R_220_160.jpg) no-repeat center center;  
+}
+.twelfth-b-right-2-two{
+    float: left;
+    width: 25%;
+    height: 70%;
+}
+.twelfth-b-right-2-two div:nth-child(1){
+    float: left;
+    width: 95%;
+    height: 70%;
+    margin-top:70px;    
+    background: url(https://dimg02.c-ctrip.com/images/100e0w000000kfb626E83_R_220_160.jpg) no-repeat center center; 
+}
 
+.twelfth-b-right-2-three{
+    float: left;
+    width: 25%;
+    height: 70%;
+}
+.twelfth-b-right-2-three div:nth-child(1){
+    float: left;
+    width: 95%;
+    height: 70%;
+    margin-top:70px;     
+    background: url(https://dimg01.c-ctrip.com/images/100m0w000000kuq4eB05F_R_220_160.jpg) no-repeat center center; 
+}
+.twelfth-b-right-2-four{
+    float: left;
+    width: 25%;
+    height: 70%;
+}
+.twelfth-b-right-2-four div:nth-child(1){
+    float: left;
+    width: 95%;
+    height: 70%;
+    margin-top:70px;     
+    background: url(https://dimg04.c-ctrip.com/images/10030v000000k4kfb4E3C_R_220_160.jpg) no-repeat center 100%;
+}
+.thirteenth{
+    float: left;
+    width: 80%;
+    height: 220px;
+    margin-left:  160px;
+    margin-top:20px;
+}
+.thirteenth-a{
+    float: left;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    margin-top:10px; 
+    border-bottom:3px solid #2577e3 ;
+}
+.thirteenth-a-1{
+    float: left;
+    width: 100px;
+    margin-left:20px; 
+    color: #2577e3;
+}
+.thirteenth-b{
+    float: left;
+    width: 100%;
+    height: 165px;
+    margin-top:10px; 
+}
+.thirteenth-b-1{
+    float: left;
+    width: 32%;
+    height: 100%;
+    background: #fff;    
+    border:1px solid gainsboro;
+}
+.thirteenth-b-1-t{
+     float: left;
+    width: 100%;
+    height: 80%;
+}
+.thirteenth-b-1-t div:nth-child(1){
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(wifi.png) no-repeat 50% 50%;
+    margin-left:10px;
+    margin-top:10px;
 
+}
+.gc{
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.gc span:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 40%;
+    font-size: 18px;
+}
+.gc span:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 25%;
+    font-size: 14px;    
+}
+.gc span:nth-child(3){
+    float: left;
+    width: 100%;
+    height: 25%;
+    font-size: 14px;    
+}
+.thirteenth-b-1-u{
+ float: left;
+width: 100%;
+height: 20%;
+}
+.thirteenth-b-1-u div{
+ float: left;
+width: 30%;
+height: 100%;
+margin-left:10px; 
+text-align: center;
+}
+.thirteenth-b-1-u div:nth-child(1){
+    border-right:1px dotted gainsboro; 
+}
+.thirteenth-b-1-u div:nth-child(2){
+    border-right:1px dotted gainsboro; 
+}
+.thirteenth-b-2{
+    float: left;
+    width: 32%;
+    height: 100%;
+    margin-left: 24px;
+    background: #fff;
+    border:1px solid gainsboro;
+}
+.thirteenth-b-2-t{
+     float: left;
+    width: 100%;
+    height: 80%;
+}
+.thirteenth-b-2-t div:nth-child(1){
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(qz.png) no-repeat 50% 50%;
+    margin-left:10px;
+    margin-top:10px;
 
+}
+.gc{
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.gc span:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 40%;
+    font-size: 18px;
+}
+.gc span:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 25%;
+    font-size: 14px;    
+}
+.gc span:nth-child(3){
+    float: left;
+    width: 100%;
+    height: 25%;
+    font-size: 14px;    
+}
+.thirteenth-b-2-u{
+ float: left;
+width: 100%;
+height: 20%;
+}
+.thirteenth-b-2-u div{
+ float: left;
+width: 30%;
+height: 100%;
+margin-left:10px; 
+text-align: center;
+}
+.thirteenth-b-2-u div:nth-child(1){
+    border-right:1px dotted gainsboro; 
+}
+.thirteenth-b-2-u div:nth-child(2){
+    border-right:1px dotted gainsboro; 
+}
+.thirteenth-b-3{
+    float: left;
+    width: 32%;
+    height: 100%;
+    margin-left: 24px;
+    background: #fff;    
+    border:1px solid gainsboro;
+}
+.thirteenth-b-3-t{
+     float: left;
+    width: 100%;
+    height: 80%;
+}
+.thirteenth-b-3-t div:nth-child(1){
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(bx.png) no-repeat 50% 50%;
+    margin-left:10px;
+    margin-top:10px;
+
+}
+.gc{
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.gc span:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 40%;
+    font-size: 18px;
+}
+.gc span:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 25%;
+    font-size: 14px;    
+}
+.gc span:nth-child(3){
+    float: left;
+    width: 100%;
+    height: 25%;
+    font-size: 14px;    
+}
+.thirteenth-b-3-u{
+ float: left;
+width: 100%;
+height: 20%;
+}
+.thirteenth-b-3-u div{
+ float: left;
+width: 45%;
+height: 100%;
+margin-left:10px; 
+text-align: center;
+}
+.thirteenth-b-3-u div:nth-child(1){
+    border-right:1px dotted gainsboro; 
+}
+.thirteenth-b-3-u div:nth-child(2){
+    border-right:1px dotted gainsboro; 
+}
+.fourteenth{
+    float: left;
+    width: 80%;
+    height: 130px;
+    margin-left:  160px;
+    margin-top:20px; 
+}
+.fourteenth-b-1{
+    float: left;
+    width: 32%;
+    height: 100%;
+    background:#fff; 
+    border:1px solid gainsboro;
+    margin-top:20px; 
+}
+.fourteenth-b-1 div:nth-child(1){
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(qy.png) no-repeat 50% 50%;
+    margin-left:10px;
+    margin-top:10px;
+
+}
+.fourteenth-b-2{
+    float: left;
+    width: 32%;
+    height: 100%;
+    background:#fff; 
+    border:1px solid gainsboro;
+    margin-top:20px; 
+    margin-left:20px;     
+}
+.fourteenth-b-2 div:nth-child(1){
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(js.png) no-repeat 50% 50%;
+    margin-left:10px;
+    margin-top:10px;
+
+}.fourteenth-b-3{
+    float: left;
+    width: 32%;
+    height: 100%;
+    background:#fff; 
+    border:1px solid gainsboro;
+    margin-top:20px; 
+    margin-left:20px; 
+}
+.fourteenth-b-3 div:nth-child(1){
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(bg.png) no-repeat 50% 50%;
+    margin-left:10px;
+    margin-top:10px;
+
+}
+.fifteenth{
+    float: left;
+    width: 80%;
+    height: 400px;
+    margin-left:160px;
+    margin-top:100px; 
+    background: #fff;
+}
+.fifteenth-a{
+    float: left;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px dotted gainsboro;    
+}
+.fifteenth-a-1{
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid gainsboro; 
+}
+.fifteenth-a-1 span:nth-child(1){
+    float: left;
+    width: 100%;
+    height: 30%;
+    font-size: 18px;
+    margin-top:10px; 
+}
+.fifteenth-a-1 span:nth-child(2){
+    float: left;
+    width: 100%;
+    height: 20%;
+    font-size: 14px;
+    margin-top:10px; 
+}
+.fifteenth-a-1 span:nth-child(3){
+    float: left;
+    width: 100%;
+    height: 20%;
+    font-size: 14px;
+    margin-top:10px; 
+}
+.fifteenth-a-2{
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+.fifteenth-a-2 div{
+    float: left;
+    width: 13%;
+    height: 50%;
+    margin-left:30px;
+    margin-top:30px;  
+    border-right: 1px dotted gainsboro; 
+}
+.fifteenth-b{
+    float: left;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px dotted gainsboro;    
+}
+.fifteenth-b-1{
+    float: left;
+    width: 10%;
+    height:100%;
+    font-size: 14px;
+    font-weight:bold; 
+}
+.fifteenth-b-2{
+    float: left;
+    width: 90%;
+    height:100%;
+    font-size: 14px;
+    color: #b6b6b6;
+}
+.fifteenth-b-2 div{
+    float: left;
+    margin-left:20px;
+    margin-top:10px;  
+}
+.fifteenth-c{
+    float: left;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px dotted gainsboro;    
+}
+.fifteenth-d{
+    float: left;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px dotted gainsboro;     
+}
+.fifteenth-e{
+    float: left;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px dotted gainsboro;    
+
+}
+.fifteenth-f{
+    float: left;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px dotted gainsboro;      
+}
+.fifteenth-g{
+    float: left;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px dotted gainsboro;    
+        
+}
+.sixteenth{
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin-top:20px; 
+    background: #fff;
+}
+.sixteenth-a{
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 1px dotted gainsboro;    
+
+   
+}   
+.a{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-top:20px;
+    margin-left:20px; 
+}
+.b{
+    width: 80%;
+    height: 60px;
+    font-size: 18px;
+    margin-top:20px;
+    margin-left:20px; 
+}
+.b div:nth-child(1){
+     width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-top:20px;
+    margin-left:20px; 
+    color: #2577e3;
+}
+.b div:nth-child(2){
+     width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-left:20px; 
+}
+.c{
+    width: 80%;
+    height: 60px;
+    font-size: 18px;
+    margin-top:20px;
+    margin-left:20px; 
+}
+.c div:nth-child(1){
+     width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-top:20px;
+    margin-left:20px; 
+    color: orange;
+}
+.c div:nth-child(2){
+     width: 100%;
+    height: 40px;
+    font-size: 12px;
+    margin-left:20px; 
+}
+.sixteenth-b{
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 1px dotted gainsboro;    
+
+ 
+}
+.sixteenth-b-1{
+    float: left;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+     margin-top:20px;
+    margin-left:20px;
+}
+.sixteenth-b-2 div{
+    float: left;
+    width: 40%;
+    height: 30px;
+    font-size: 14px;
+     margin-top:10px;
+     text-align: center;
+}
+
+.sixteenth-c{
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 1px dotted gainsboro;    
+ 
+}  
+.sixteenth-d{
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 1px dotted gainsboro;    
+}
+.sixteenth-e{
+    float: left;
+    width: 20%;
+    height: 100%;
+}                  
+.sixteenth-e div{
+    width: 80%;
+    height: 50%;
+    margin: 20px;
+    background: url(https://pic.c-ctrip.com/platform/online/home/er_ctrip_wechat.jpg) no-repeat center 100%;
+    
+}
