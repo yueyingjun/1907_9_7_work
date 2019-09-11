@@ -6,10 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>携程</title>
+    <link rel="stylesheet" href="./css/xcrespone.css">
     <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/xiecheng.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script>
+        window.onload = function() {
+            var key1 = document.querySelectorAll(".jn>li")
+            var vlaues1 = document.querySelectorAll(".six-bottom-left")
+            var vlaues2 = document.querySelectorAll(".you")
+            console.log(vlaues1.length)
+            for (let i = 0; i < key1.length; i++) {
+                key1[i].onclick = function() {
+                    for(let j = 0; j < key1.length; j++) {
+                    vlaues1[j].style.display = "none"
+                    vlaues2[j].style.display = "none"
+                    }
+                    vlaues1[i].style.display = "block"
+                    vlaues2[i].style.display = "block"
+                }
+                
+                
+            }
+        }
+
+
+        
+    </script>
 </head>
 
 <body>
@@ -56,7 +80,7 @@
                     <li class="xian"></li>
                     <li>
                         <div class=" btn-group">
-                            <button type="button" class="rbtu btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button type="button" class="rbtu btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 我的订单&nbsp;<span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
@@ -113,29 +137,31 @@
 
             </div>
         </div>
-        <div class="two">
-            <div class="timg"></div>
-            <div class="ts input-group">
-                <input type="text" class="form-control" placeholder="搜索旅行地/酒店/旅游/景点门票/交通" aria-label="..." style="border:1px solid #8ebefc;">
-                <div class="input-group-btn">
-                    <button type="button" class="btn btn-danger" style="border:1px solid #8ebefc;background: #a4cbff;">
+        <div class="twozong">
+            <div class="two">
+                <div class="timg"></div>
+                <div class="ts input-group">
+                    <input type="text" class="form-control" placeholder="搜索旅行地/酒店/旅游/景点门票/交通" aria-label="..." style="border:1px solid #8ebefc;">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-danger" style="border:1px solid #8ebefc;background: #a4cbff;">
                         <span class="
                         glyphicon glyphicon-search"></span>
                     </button>
+                    </div>
                 </div>
-            </div>
-            <div class="thre btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #fff;border:none;">
+                <div class="thre btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #fff;border:none;">
                     境内：95010 <br>（或）400-830-6666
                     <span class="caret"></span>
                 </button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">香港（中国）：+ 852-3008-3295</a></li>
-                    <li><a href="#">境外：+ 86-21-3406-4888 </a></li>
-                </ul>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">香港（中国）：+ 852-3008-3295</a></li>
+                        <li><a href="#">境外：+ 86-21-3406-4888 </a></li>
+                    </ul>
+                </div>
+
+
             </div>
-
-
         </div>
         <div class="three">
 
@@ -297,49 +323,51 @@
 
 
         </div>
-        <ul class="four">
-            <li>
-                <p class="jinwai">境外直通车</p>
-            </li>
-            <li>
-                <div class="beijng hiawai"></div>海外酒店
-            </li>
-            <li>
-                <div class="beijng jipiao"></div>国际·港澳机票
-            </li>
-            <li>
-                <div class="beijng zuche"></div>境外租车
-            </li>
-            <li>
-                <div class="beijng huoche"></div>国际·港澳火车票
-            </li>
-            <li>
-                <div class="beijng chujing"></div>出境游
-            </li>
-            <li>
-                <div class="beijng gaoduan"></div>高端游
-            </li>
-            <li>
-                <div class="beijng mengpiao"></div>出境·港澳台门票
-            </li>
-            <li>
-                <div class="beijng qianzheng"></div>签证
-            </li>
-            <li>
-                <div class="beijng baoxian"></div>保险
-            </li>
-            <li>
-                <div class="beijng wifi"></div>wifi·电话卡
-            </li>
-            <li>
-                <div class="beijng jieji"></div>境外接送机
-            </li>
-            <li>
-                <div class="beijng waibi"></div>外币兑换
-            </li>
+        <div class="fourzong">
+            <ul class="four">
+                <li>
+                    <p class="jinwai">境外直通车</p>
+                </li>
+                <li>
+                    <div class="beijng hiawai"></div>海外酒店
+                </li>
+                <li>
+                    <div class="beijng jipiao"></div>国际·港澳机票
+                </li>
+                <li>
+                    <div class="beijng zuche"></div>境外租车
+                </li>
+                <li>
+                    <div class="beijng huoche"></div>国际·港澳火车票
+                </li>
+                <li>
+                    <div class="beijng chujing"></div>出境游
+                </li>
+                <li>
+                    <div class="beijng gaoduan"></div>高端游
+                </li>
+                <li>
+                    <div class="beijng mengpiao"></div>出境·港澳台门票
+                </li>
+                <li>
+                    <div class="beijng qianzheng"></div>签证
+                </li>
+                <li>
+                    <div class="beijng baoxian"></div>保险
+                </li>
+                <li>
+                    <div class="beijng wifi"></div>wifi·电话卡
+                </li>
+                <li>
+                    <div class="beijng jieji"></div>境外接送机
+                </li>
+                <li>
+                    <div class="beijng waibi"></div>外币兑换
+                </li>
 
 
-        </ul>
+            </ul>
+        </div>
         <div class="five">
             <div class="lunbotu"></div>
             <div class="biaoge">
@@ -423,67 +451,67 @@
                 <li>主题游</li>
                 <li>高端游</li>
             </ul>
-            <div class="six-bottom">
-                <ul class="six-bottom-top">
+            <div class="six-bottom container1">
+                <ul class="jn six-bottom-top div-s-20">
                     <li>境内</li>
                     <li>日本</li>
-                    <li>东南亚</li>
+                    <!-- <li>东南亚</li>
                     <li>欧洲</li>
                     <li>美洲</li>
-                    <li>澳中东非</li>
+                    <li>澳中东非</li> -->
                 </ul>
 
-                <ul class="six-bottom-left">
-                    <li>
+                <ul class="six-bottom-left div-l-16 div-s-20">
+                    <li class="div-s-5">
                         <div class="yuexiao">月销56400笔</div>
                         <div class="didian">
                             <p class="didian1">北京</p>
                             <p class="menoy">￥<span>816</span>/人起</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="div-s-5">
                         <div class="yuexiao">月销416400笔</div>
                         <div class="didian">
                             <p class="didian1">三亚</p>
                             <p class="menoy">￥<span>1116</span>/人起</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="div-s-5">
                         <div class="yuexiao">月销26400笔</div>
                         <div class="didian">
                             <p class="didian1">重庆</p>
                             <p class="menoy">￥<span>817</span>/人起</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="div-s-5">
                         <div class="yuexiao">月销56400笔</div>
                         <div class="didian">
                             <p class="didian1">桂林</p>
                             <p class="menoy">￥<span>1150</span>/人起</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="div-s-5">
                         <div class="yuexiao">月销56400笔</div>
                         <div class="didian">
                             <p class="didian1">西安</p>
                             <p class="menoy">￥<span>476</span>/人起</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="div-s-5">
                         <div class="yuexiao">月销56400笔</div>
                         <div class="didian">
                             <p class="didian1">上海</p>
                             <p class="menoy">￥<span>1038</span>/人起</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="div-s-5">
                         <div class="yuexiao">月销56400笔</div>
                         <div class="didian">
                             <p class="didian1">张家界</p>
                             <p class="menoy">￥<span>1158</span>/人起</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="div-s-5">
                         <div class="yuexiao">月销56400笔</div>
                         <div class="didian">
                             <p class="didian1">厦门</p>
@@ -493,8 +521,70 @@
                 </ul>
 
 
-                <div class="six-bottom-right">
+                <div class="you six-bottom-right  div-l-4 div-s-hidde">
                 </div>
+                
+                <ul class="six-bottom-left div-l-16 div-s-20">
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销56400笔</div>
+                        <div class="didian">
+                            <p class="didian1">第二个</p>
+                            <p class="menoy">￥<span>816</span>/人起</p>
+                        </div>
+                    </li>
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销416400笔</div>
+                        <div class="didian">
+                            <p class="didian1">第二个</p>
+                            <p class="menoy">￥<span>1116</span>/人起</p>
+                        </div>
+                    </li>
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销26400笔</div>
+                        <div class="didian">
+                            <p class="didian1">第二个</p>
+                            <p class="menoy">￥<span>817</span>/人起</p>
+                        </div>
+                    </li>
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销56400笔</div>
+                        <div class="didian">
+                            <p class="didian1">第二个</p>
+                            <p class="menoy">￥<span>1150</span>/人起</p>
+                        </div>
+                    </li>
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销56400笔</div>
+                        <div class="didian">
+                            <p class="didian1">第二个</p>
+                            <p class="menoy">￥<span>476</span>/人起</p>
+                        </div>
+                    </li>
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销56400笔</div>
+                        <div class="didian">
+                            <p class="didian1">第二个</p>
+                            <p class="menoy">￥<span>1038</span>/人起</p>
+                        </div>
+                    </li>
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销56400笔</div>
+                        <div class="didian">
+                            <p class="didian1">张家界</p>
+                            <p class="menoy">￥<span>1158</span>/人起</p>
+                        </div>
+                    </li>
+                    <li class="div-s-5">
+                        <div class="yuexiao">月销56400笔</div>
+                        <div class="didian">
+                            <p class="didian1">厦门</p>
+                            <p class="menoy">￥<span>1146</span>/人起</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="you six-bottom-right  div-l-4 div-s-hidde">
+                </div>
+
 
 
 
@@ -536,7 +626,7 @@
                     </ul>
 
 
-                    <ul class="seven-bottom-right-left">
+                    <ul class="seven-bottom-right-left ">
                         <li>
                             <div class="guowaididian">
                                 <p class="guowaididian1">新加坡</p>
@@ -583,7 +673,7 @@
                     </ul>
 
 
-                    <div class="seven-bottom-right-right">
+                    <div class="seven-bottom-right-right ">
                     </div>
 
 
@@ -946,24 +1036,12 @@
                         </li>
 
                     </ul>
-
-
-
-
-
-
                 </div>
-
             </div>
-
-
         </div>
         <div class="seven" id="sh">
             <ul class="seven-top">
                 <li>全球购</li>
-
-
-
             </ul>
             <div class="nine-bottom">
                 <ul class="nine-bottom-left">
@@ -1042,11 +1120,6 @@
                         </li>
 
                     </ul>
-
-
-
-
-
 
                 </div>
 
@@ -1228,7 +1301,7 @@
             <ul class="twenty-bottom">
                 <li>
                     <div class="twenty-bottom-top" id="cha">
-                        <div class="twenty-bottom-top-left" id="chaimg">
+                        <div class="twenty-bottom-top-left " id="chaimg1">
                         </div>
                         <div class="twenty-bottom-top-right" id="chafont">
                             <div class="wif">差旅预定管理</div>
@@ -1239,22 +1312,22 @@
                 </li>
                 <li>
                     <div class="twenty-bottom-top" id="cha">
-                        <div class="twenty-bottom-top-left" id="chaimg">
+                        <div class="twenty-bottom-top-left" id="chaimg2">
                         </div>
                         <div class="twenty-bottom-top-right" id="chafont">
-                            <div class="wif">差旅预定管理</div>
-                            <div class="q">海量差旅产品，全流程服务，智能管控，助力企业差旅降本提效！</div>
+                            <div class="wif">公对公结算</div>
+                            <div class="q">公司账户支付，自助对账、统一开票、配送，员工出差免垫资，免报销！</div>
 
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="twenty-bottom-top" id="cha">
-                        <div class="twenty-bottom-top-left" id="chaimg">
+                        <div class="twenty-bottom-top-left" id="chaimg3">
                         </div>
                         <div class="twenty-bottom-top-right" id="chafont">
-                            <div class="wif">差旅预定管理</div>
-                            <div class="q">海量差旅产品，全流程服务，智能管控，助力企业差旅降本提效！</div>
+                            <div class="wif">在线差旅报告</div>
+                            <div class="q">多维度差旅报告，量化管控差旅费用，商旅大数据指导企业优化差旅政策！</div>
 
                         </div>
                     </div>
@@ -1268,104 +1341,145 @@
         <div class="end1">
             <div class="end1-top">
                 <div class="end1-left">
-                    <div style="font-size: 20px;margin: 30px 0 0 40px;">合作优惠 </div>
-                    <div style="font-size: 12px;margin: 0 0 0 40px;">光大信用卡约惠旅游季</div>
-                    <div style="font-size: 12px;margin: 0 0 0 40px;">上海建行指定龙卡专享</div>
+                    <div style="font-size: 20px;margin: 10px 0 5px 30px;">合作优惠 </div>
+                    <div style="font-size: 12px;margin: 0 0 5px 30px;color: #666666;">光大信用卡约惠旅游季</div>
+                    <div style="font-size: 12px;margin: 0 0 5px 30px;color: #666666;">上海建行指定龙卡专享</div>
                 </div>
-                <ul class="end1-right">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div class="end1-right">
+                    <div class="end1-right-top">合作伙伴</div>
+                    <ul class="end1-right-bottom">
+                        <li>
+                            <div class="end1-right-bottom-img end1-right-bottom-img1"></div>
+                        </li>
+                        <li>
+                            <div class="end1-right-bottom-img end1-right-bottom-img2"></div>
+                        </li>
+                        <li>
+                            <div class="end1-right-bottom-img end1-right-bottom-img3"></div>
+                        </li>
+                        <li>
+                            <div class="end1-right-bottom-img end1-right-bottom-img4"></div>
+                        </li>
+                        <li>
+                            <div class="end1-right-bottom-img end1-right-bottom-img5"></div>
+                        </li>
+                        <li>
+                            <div class="end1-right-bottom-img end1-right-bottom-img6"></div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="end1-bottom">
-                <ul class="end1-bottom-one">
-                    <li><b>携程导航</b></li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                </ul>
-                <ul class="end1-bottom-one">
-                    <li><b>携程导航</b></li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                </ul>
-                <ul class="end1-bottom-one">
-                    <li><b>携程导航</b></li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                </ul>
-                <ul class="end1-bottom-one">
-                    <li><b>携程导航</b></li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                </ul>
-                <ul class="end1-bottom-one">
-                    <li><b>携程导航</b></li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                </ul>
-                <ul class="end1-bottom-one">
-                    <li><b>携程导航</b></li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                    <li>酒店预订</li>
-                </ul>
+                <div class="end1-bottom-one">
+                    <div class="end1-bottom-one-left">携程导航</div>
+                    <ul class="end1-bottom-one-right">
+                        <li>酒店预订</li>
+                        <li>海外酒店</li>
+                        <li>特价机票</li>
+                        <li>国际机票</li>
+                        <li>旅游线路</li>
+                        <li>景点门票</li>
+                        <li>旅游攻略</li>
+                        <li>火车票</li>
+                        <li>酒店团购</li>
+                        <li>邮轮</li>
+                        <li>周末游</li>
+                        <li>签证</li>
+                        <li>租车</li>
+                        <li>目的地榜单</li>
+                        <li>欧铁通票</li>
+                        <li>自由行</li>
+                        <li>会议旅游</li>
+                        <li>客栈民宿</li>
+                        <li>礼品卡</li>
+                        <li>团队游</li>
+                        <li>企业商旅</li>
+                        <li>查看全部</li>
+                    </ul>
+                </div>
+                <div class="end1-bottom-two">
+                    <div class="end1-bottom-two-left">酒店预定</div>
+                    <ul class="end1-bottom-two-right">
+                        <li>城市酒店</li>
+                        <li>国家酒店</li>
+                        <li>北京酒店</li>
+                        <li>上海酒店</li>
+                        <li>广州酒店</li>
+                        <li>成都酒店</li>
+                        <li>杭州酒店</li>
+                        <li>西安酒店</li>
+                        <li>新加坡酒店</li>
+                        <li>迪拜酒店</li>
+                        <li>泰国酒店</li>
+                        <li>韩国酒店</li>
+                    </ul>
+                </div>
+                <div class="end1-bottom-two">
+                    <div class="end1-bottom-two-left">特价机票</div>
+                    <ul class="end1-bottom-two-right">
+                        <li>上海机票</li>
+                        <li>北京机票</li>
+                        <li>广州机票</li>
+                        <li>深圳机票</li>
+                        <li>重庆机票</li>
+                        <li>成都机票</li>
+                        <li>昆明机票</li>
+                        <li>厦门机票</li>
+                        <li>三亚机票</li>
+                        <li>杭州机票</li>
+                        <li>春秋航空</li>
+                        <li>东方航空</li>
+                    </ul>
+                </div>
+                <div class="end1-bottom-two">
+                    <div class="end1-bottom-two-left">旅游度假</div>
+                    <ul class="end1-bottom-two-right">
+                        <li>国内旅游攻略</li>
+                        <li>出境旅游攻略</li>
+                        <li>马尔代夫旅游</li>
+                        <li>普吉岛旅游</li>
+                        <li>巴厘岛旅游</li>
+                        <li>济州旅游</li>
+                        <li>日本旅游</li>
+                        <li>新加坡旅游</li>
+                        <li>澳大利亚旅游</li>
+                        <li>迪拜旅游</li>
+                        <li>柬埔寨旅游</li>
+                        <li>英国旅游</li>
+                    </ul>
+                </div>
+                <div class="end1-bottom-two">
+                    <div class="end1-bottom-two-left">攻落指南</div>
+                    <ul class="end1-bottom-two-right">
+                        <li>攻略社区</li>
+                        <li>旅游攻略</li>
+                        <li>旅行游记</li>
+                        <li>旅游问答</li>
+                        <li>周末旅游</li>
+                        <li>攻略下载</li>
+                        <li>天气预报</li>
+                        <li>旅游资讯</li>
+                        <li>旅游榜单</li>
+                        <li>旅游专题</li>
+                        <li>地图大全</li>
+                        <li>Travel Guide</li>
+                    </ul>
+                </div>
+                <div class="end1-bottom-two" id="end1-bottom-two-last">
+                    <div class="end1-bottom-two-left">快速入口</div>
+                    <ul class="end1-bottom-two-right">
+                        <li>团购导航</li>
+                        <li>门票导航</li>
+                        <li>客栈管理系统</li>
+                        <li>精选目的地</li>
+                        <li>中小企业差旅</li>
+                        <li>存款证明</li>
+                        <li>携程主题曲</li>
+                        <li>航班时刻表</li>
+                        <li>火车时刻表</li>
+                        <li>酒汽车时刻表</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="end">
@@ -1374,55 +1488,59 @@
                 <div class="end-one-s">
                     <div class="end-one-img"></div>
                     <div class="end-one-font">
-                        <div style="font-size: 16px;color: #2577e3;">放心的服务</div>
-                        <div>具竞争力的价格 无任何隐形费用</div>
+                        <div style="font-size: 16px;color: #2577e3;font-weight: bold;">放心的服务</div>
+                        <div>领先的服务标准 独创的保障体系</div>
                     </div>
                 </div>
                 <div class="end-one-s">
-                    <div class="end-one-img"></div>
+                    <div class="end-one-img" id="end-one-img2"></div>
                     <div class="end-one-font">
-                        <div style="font-size: 16px;color: #2577e3;">放心的服务</div>
+                        <div style="font-size: 16px;color: #ff9913;font-weight: bold;">放心的价格</div>
                         <div>具竞争力的价格 无任何隐形费用</div>
                     </div>
                 </div>
             </ul>
             <ul class="end-two">
+                <li>旅游资讯</li>
                 <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
+                <li>攻略索引</li>
+                <li>机票索引</li>
+                <li>网站导航</li>
+                <li>旅游索引</li>
+                <li>火车票索引</li>
+                <li>邮轮索引</li>
+                <li>企业差旅索引</li>
+                <li>用车索引</li>
 
             </ul>
             <ul class="end-two">
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
+                <li>加盟合作</li>
+                <li>分销联盟</li>
+                <li>友情链接</li>
+                <li>广告业务</li>
+                <li>企业礼品卡采购</li>
+                <li>保险代理</li>
+                <li>代理合作</li>
+                <li>酒店加盟</li>
+                <li>目的地及景区合作</li>
+                <li>智慧旅游</li>
+                <li>更多加盟合作</li>
 
             </ul>
             <ul class="end-two">
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
-                <li>宾馆索引</li>
+                <li>关于携程</li>
+                <li>关于携程</li>
+                <li>携程热点</li>
+                <li>联系我们</li>
+                <li>诚聘英才</li>
+                <li>旅游度假资质</li>
+                <li>企业公民</li>
+                <li>用户协议</li>
+                <li>隐私政策</li>
+                <li>营业执照</li>
+                <li>安全中心</li>
+                <li>携程信用卡</li>
+                <li>知识产权</li>
 
             </ul>
             <div class="endlat">
