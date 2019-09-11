@@ -870,9 +870,13 @@ a{
     width: 1200px;
     height: 100px;
     margin: auto;
+	margin-top:20px;
+	margin-bottom: 40px;
+	margin-left:30px;
+
 }
 .hzyh-left{
-    font-size: 16px;
+    font-size: 14px;
     float: left;
     margin-left: 20px;
     padding-top: 20px;
@@ -883,7 +887,7 @@ a{
 .hzyh-right ul li div{
 
     display: inline-block;
-    width: 130px;
+    width: 150px;
     height: 0;
     padding-top: 28px;
     overflow: hidden;
@@ -896,7 +900,7 @@ a{
 }
 .hzyh-right ul li{
     height: 100px;
-    width: 130px;
+    width: 150px;
     border-right: 1px dotted #0EABD7;
     float: left;
 }
@@ -917,7 +921,7 @@ a{
     font-weight: bold;
     width: 100px;
     line-height: 20px;
-    text-align: center;
+    
 }
 .other-right{
     float: left;
@@ -936,7 +940,7 @@ a{
 .a-buttom{
     width: 100%;
     height: 210px;
-    background: #cccccc;
+
     margin-top: 150px;
 }
 .a-buttom-b{
@@ -947,7 +951,7 @@ a{
 .a-buttom-left-left{
     height: 100%;
     width: 15%;
-    border-right: 1px solid #999;
+    border-right: 1px dotted #999;
     box-sizing: border-box;
     float: left;
     margin-left: 15px;
@@ -956,7 +960,7 @@ a{
     height: 100%;
     width: 15%;
     float: left;
-    border-right: 1px solid #999;
+    border-right: 1px dotted #999;
     box-sizing: border-box;
     margin-left: 15px;
 }
@@ -964,7 +968,7 @@ a{
     height: 100%;
     width: 15%;
     float: left;
-    border-right: 1px solid #999;
+    border-right: 1px dotted #999;
     box-sizing: border-box;
     margin-left: 15px;
 }
@@ -972,7 +976,7 @@ a{
     height: 100%;
     width: 15%;
     float: left;
-    border-right: 1px solid #999;
+    border-right: 1px dotted #999;
     box-sizing: border-box;
     margin-left: 15px;
 }
@@ -980,7 +984,25 @@ a{
     height: 100%;
     width: 15%;
     float: left;
-    border-right: 1px solid #999;
+    border-right: 1px dotted #999;
     box-sizing: border-box;
     margin-left: 15px;
+}
+.fangxin-img{
+
+    width: 40px;
+    height: 36px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/pic_partner.png");
+    background-repeat: no-repeat;
+	float:left;
+	background-position:-40px -200px;
+}
+.fangxin-img2{
+
+    width: 40px;
+    height: 36px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/pic_partner.png");
+    background-repeat: no-repeat;
+	float:left;
+	background-position:-40px -250px;
 }
