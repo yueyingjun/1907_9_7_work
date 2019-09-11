@@ -1,0 +1,20 @@
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,p,dl,dt,dd,p,pre,form,table,button{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li,i{
+    list-style: none;
+}
+body{
+    background-color: #fafafa;
+    font-family: "Microsoft YaHei UI";
+    font-size: 14px;
+    color: #333333;
+    min-width: 1226px;
+    min-height: 5000px;
+}
+a{
+    color: #666666;
+    text-decoration: none;
+}
