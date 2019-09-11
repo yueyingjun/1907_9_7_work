@@ -1,0 +1,279 @@
+.box{
+    width: 980px;
+    margin: auto;
+}
+.div-s-1{
+    width: 5%;
+    float: left;
+}
+.div-s-2{
+    width: 10%;
+    float: left;
+}
+.div-s-3{
+    width: 15%;
+    float: left;
+}
+.div-s-4{
+    width: 20%;
+    float: left;
+}
+.div-s-5{
+    width: 25%;
+    float: left;
+}
+.div-s-6{
+    width: 30%;
+    float: left;
+}
+.div-s-7{
+    width: 35%;
+    float: left;
+}
+.div-s-8{
+    width: 40%;
+    float: left;
+}
+.div-s-9{
+    width: 45%;
+    float: left;
+}
+.div-s-10{
+    width: 50%;
+    float: left;
+}
+.div-s-11{
+    width: 55%;
+    float: left;
+}
+.div-s-12{
+    width: 60%;
+    float: left;
+}
+.div-s-13{
+    width: 65%;
+    float: left;
+}
+.div-s-14{
+    width: 70%;
+    float: left;
+}
+.div-s-15{
+    width: 75%;
+    float: left;
+}
+.div-s-16{
+    width: 80%;
+    float: left;
+}
+.div-s-17{
+    width: 85%;
+    float: left;
+}
+.div-s-18{
+    width: 90%;
+    float: left;
+}
+.div-s-19{
+    width: 95%;
+    float: left;
+}
+.div-s-20{
+    width: 100%;
+    float: left;
+}
+.div-s-hide{
+    display: none;
+}
+@media screen and (min-width: 980px){
+    .box{
+        width: 1200px;
+        margin: auto;
+    }
+    .div-m-1{
+        width: 5%;
+        float: left;
+    }
+    .div-m-2{
+        width: 10%;
+        float: left;
+    }
+    .div-m-3{
+        width: 15%;
+        float: left;
+    }
+    .div-m-4{
+        width: 20%;
+        float: left;
+    }
+    .div-m-5{
+        width: 25%;
+        float: left;
+    }
+    .div-m-6{
+        width: 30%;
+        float: left;
+    }
+    .div-m-7{
+        width: 35%;
+        float: left;
+    }
+    .div-m-8{
+        width: 40%;
+        float: left;
+    }
+    .div-m-9{
+        width: 45%;
+        float: left;
+    }
+    .div-m-10{
+        width: 50%;
+        float: left;
+    }
+    .div-m-11{
+        width: 55%;
+        float: left;
+    }
+    .div-m-12{
+        width: 60%;
+        float: left;
+    }
+    .div-m-13{
+        width: 65%;
+        float: left;
+    }
+    .div-m-14{
+        width: 70%;
+        float: left;
+    }
+    .div-m-15{
+        width: 75%;
+        float: left;
+    }
+    .div-m-16{
+        width: 80%;
+        float: left;
+    }
+    .div-m-17{
+        width: 85%;
+        float: left;
+    }
+    .div-m-18{
+        width: 90%;
+        float: left;
+    }
+    .div-m-19{
+        width: 95%;
+        float: left;
+    }
+    .div-m-20{
+        width: 100%;
+        float: left;
+    }
+    .div-s-hide{
+        display: block;
+        float: left;
+    }
+    .div-m-hide{
+        display: none;
+        float: left;
+    }
+}
+@media screen and (min-width: 1200px){
+    .box{
+        width: 1200px;
+        margin: auto;
+    }
+    .div-l-1{
+        width: 5%;
+        float: left;
+    }
+    .div-l-2{
+        width: 10%;
+        float: left;
+    }
+    .div-l-3{
+        width: 15%;
+        float: left;
+    }
+    .div-l-4{
+        width: 20%;
+        float: left;
+    }
+    .div-l-5{
+        width: 25%;
+        float: left;
+    }
+    .div-l-6{
+        width: 30%;
+        float: left;
+    }
+    .div-l-7{
+        width: 35%;
+        float: left;
+    }
+    .div-l-8{
+        width: 40%;
+        float: left;
+    }
+    .div-l-9{
+        width: 45%;
+        float: left;
+    }
+    .div-l-10{
+        width: 50%;
+        float: left;
+    }
+    .div-l-11{
+        width: 55%;
+        float: left;
+    }
+    .div-l-12{
+        width: 60%;
+        float: left;
+    }
+    .div-l-13{
+        width: 65%;
+        float: left;
+    }
+    .div-l-14{
+        width: 70%;
+        float: left;
+    }
+    .div-l-15{
+        width: 75%;
+        float: left;
+    }
+    .div-l-16{
+        width: 80%;
+        float: left;
+    }
+    .div-l-17{
+        width: 85%;
+        float: left;
+    }
+    .div-l-18{
+        width: 90%;
+        float: left;
+    }
+    .div-l-19{
+        width: 95%;
+        float: left;
+    }
+    .div-l-20{
+        width: 100%;
+        float: left;
+    }
+    .div-s-hide{
+        display: block;
+        float: left;
+    }
+    .div-m-hide{
+        display: block;
+        float: left;
+    }
+    .div-l-hide{
+        display: none;
+        float: left;
+    }
+}
