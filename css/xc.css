@@ -92,6 +92,7 @@ p{
     width: 100%;
     background: white;
     height: 80px;
+    margin: auto;
 }
 .top_daohangxc .neirong{
     width: 77%;
@@ -259,15 +260,19 @@ p{
     height: 340px;
     margin: auto;
     background: url("https://dimg04.c-ctrip.com/images/zg0k1700000130bhaCA00.jpg") no-repeat center center;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    position: relative;
 }
 .lbt-left{
     width: 591px;
     height: 300px;
     background: white;
     float: left;
-    margin-left: 180px;
-    margin-top: 20px;
+/*    margin-left: 180px;
+    margin-top: 20px;*/
+    position: absolute;
+    left: 10%;
+    top: 5%;
 }
 .lbt-left-left{
     width: 94px;
@@ -373,14 +378,14 @@ p{
     color: white;
 }
 .bottom{
-    width: 1519.2px;
+    width: 100%;
     height: 3396px;
-    float: left;
+    margin: auto;
 }
 .dhl{
     width: 1180px;
     height: 38px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 50px;
     border-bottom: #0070c9 solid 2px;
     line-height: 38px;
@@ -789,7 +794,7 @@ p{
 }
 .xc_bottom{
     margin-top: 40px;
-    width: 1519px;
+    width: 100%;
     height: 416px;
     background: white;
 }
@@ -800,7 +805,7 @@ p{
 
 }
 .xc_bottom_left{
-    width: 245px;
+    width: 225px;
     height: 150px;
     border-right: #999999 dotted 1px;
     float: left;
@@ -825,6 +830,7 @@ p{
 }
 .fangxin1{
     float: left;
+    margin-top: 15px;
 }
 .fangxin_wenzi2{
     width: 230px;
@@ -834,23 +840,24 @@ p{
 .lvyouwenzi{
     width: 261px;
     height: 150px;
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
 
 }
 .lvyouwenzi a{
     text-decoration: none;
     color: #5e5e5e;
-    display: block;
-    float: left;
+
     margin: 5px 20px 5px 35px;
-    font-size: 14px;
+    font-size: 13px;
 }
 .yinwen{
     width: 1180px;
     height: 17.6px;
     margin: auto;
     text-align: center;
-
+    float: left;
     font-size: 14px;
     color: #5e5e5e;
 }
@@ -860,4 +867,45 @@ p{
 
     margin: auto;
     margin-top: 40px;
+}
+.tp_1 .yuanxing p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.xc_bottom_right{
+    width: 170px;
+    height: 150px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.erweima{
+    width: 132px;
+    height: 155px;
+    border: #999999 solid 1px;
+}
+
+.guohui{
+    width: 20px;
+    height: 20px;
+    background: url("https://pic.c-ctrip.com/platform/online/home/phone_list20190617.png");
+    background-position: 0 -236px;
+
+    float: left;
+}
+.yinwen2{
+    width: 230px;
+    height: 25px;
+    font-size: 14px;
+    color: #5e5e5e;
+    float: left;
+}
+.margin{
+    width: 230px;
+    margin: auto;
+
 }
