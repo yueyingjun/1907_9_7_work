@@ -1,11 +1,12 @@
-body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
+body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a,ul,ol,li{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 .flood{
     width: 100%;
-    height: 6000px;
+    height: 4000px;
 }
 .top{
     width: 100%;
@@ -20,7 +21,7 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
     
 }
 .top-one{
-    width: 1180px;
+    width: 1200px;
     height: 36px;
     margin: auto;
     font-size: 12px;
@@ -143,7 +144,7 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
     
 }
 .top-two{
-    width: 1180px;
+    width: 1200px;
     height: 80px;
     margin: auto;
     border: 1px solid red;
@@ -185,7 +186,7 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
     height: 40px;
 }
 .top-three-three{
-    width: 1180px;
+    width: 1200px;
     height: 40px;
     margin: auto;
     border: 1px solid red;
@@ -212,7 +213,7 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
     height: 22px;
 }
 .top-four-four{
-    width: 1180px;
+    width: 1200px;
     height: 22px;
     border: 1px solid red;
     margin: auto;
@@ -238,7 +239,6 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
     width:1920px; 
     height: 340px;
     margin: auto;
-    border: 1px solid red;
     background: url(https://dimg04.c-ctrip.com/images/zg0n170000012yyfxF41D.jpg) no-repeat -400px 0px;
     position: relative;
 }
@@ -255,7 +255,7 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
 }
 .middle1-middle1{
     height: 430px;
-    width: 1180px;
+    width: 1200px;
     margin: auto;
     border: 1px solid red;
 }
@@ -270,10 +270,10 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
 }
 .middle1-two{
     height: 400px;
-    width: 1180px;
+    width: 1200px;
 }
 .middle1-two-top{
-    width: 1180px;
+    width: 1200px;
     height: 20px;
 }
 .middle1-two-top>a{
@@ -405,7 +405,7 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
     width: 220px;
     float: left;
     border: 1px solid red;
-    margin-right: 5px;
+    margin-right: 20px;
     background: url(https://dimg04.c-ctrip.com/images/zg0n180000013lxjp6299.jpg) no-repeat;  
 }
 .xinjiapo{
@@ -464,4 +464,428 @@ body,div,h1,h2,h3,h4,h5,h6,table,td,tr,a{
     margin-right: 5px;
     background: url(https://pages.c-ctrip.com/hotel/201805/thailand/220330.jpg) no-repeat;  
 }
+
+.middle3-two-bottom>a{
+    height: 106px;
+    width: 220px;
+    float: left;
+    border: 1px solid red;
+    margin-right: 5px;
+    margin-top: 5px;
+    background:#f6f6f6;
+}
+.middle4{
+    height: 870px;
+    width: 100%
+}
+.middle4-middle4{
+    height: 870px;
+    width: 1200px;
+    margin: auto;
+}
+
+.con5-inner-4-bottom{
+    width:100%;
+    height:261px;
+    background:white;
+}
+.con5-inner-4-bottom-left{
+    width:227px;
+    height:260px;
+    border-right:1px solid #ccc;
+    float:left;
+}
+.con5-inner-4-bottom-left-top{
+    width:187px;
+    height:37.6px;
+    margin:auto;
+}
+.con5-inner-4-bottom-left-name{
+    width:100%;
+    height:100%;
+    float:left;
+    color:black;
+    font-size:14px;
+    line-height:37.6px;
+    font-weight:700;
+}
+.con5-inner-4-bottom-left-bottom{
+    width:197px;
+    height:192px;
+    margin:auto;
+}
+.con5-inner-4-bottom-left-place{
+    width:60px;
+    height:30px;;
+    float:left;
+}
+.con5-inner-4-bottom-left-place-in{
+    width:45px;
+    height:15px;
+    color:black;
+    font-size:12px;
+    line-height:15px;
+    color:#666;
+    border-right:1px solid #666;
+}
+.con5-inner-4-bottom-right{
+    width:949px;
+    height:260px;
+    float:right;
+}
+.car{
+    width:220px;
+    height:200px;
+    float:left;
+}
+.car-top{
+    width:220;
+    height:20;
+    font-size:14px;
+    line-height:20px;
+    text-align:left;
+    color:black;
+    padding-left:10px;
+}
+.car-bottom{
+    width:220px;
+    height:35px;
+}
+.car-bottom-1{
+    width:150px;
+    height:35px;
+    font-size:12px;
+    line-height:35px;
+    text-align:left;
+    color:#666;
+    float:left;
+    margin-left:10px;
+}
+.car-bottom-2{
+    width:60px;
+    height:35px;
+    color:#666;
+    font-size:12px;
+    line-height:35px;
+    float:right;
+}
+
+.second-bottom{
+    height: 450px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.twenty {
+    width: 1200px;
+    height: 193px;
+    margin: 20px auto;
+}
+
+.twenty-top {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    color: #06c;
+    font-size: 16px;
+}
+
+.twenty-bottom {
+    margin: 10px 0 0;
+    width: 100%;
+    height: 145px;
+}
+
+.twenty-bottom>li {
+    margin-left: 10px;
+    width: 386px;
+    height: 145px;
+    float: left;
+    border: 1px solid #e0e0e0;
+}
+
+.twenty-bottom-top {
+    width: 100%;
+    height: 102px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#cha {
+    border-bottom: none;
+}
+
+.twenty-bottom-top-left {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px 0 0 20px;
+    float: left;
+}
+
+.twenty-bottom-top-left1 {
+    background: #abcbf5 url(https://pic.c-ctrip.com/platform/online/home/un_index_supply.png) no-repeat 5px 19px/ 100% auto;
+}
+
+.twenty-bottom-top-left2 {
+    background: #cbe2b3 url(https://pic.c-ctrip.com/platform/online/home/un_index_supply.png) no-repeat 5px -42px/ 100% auto;
+}
+
+.twenty-bottom-top-left3 {
+    background: #f6dbb9 url(https://pic.c-ctrip.com/platform/online/home/un_index_supply.png) no-repeat 5px -110px/ 100% auto;
+}
+
+#chaimg {
+    background: #F8c2b3 url(https://pic.c-ctrip.com/platform/online/home/un_index_supply.png) no-repeat 0px -174px/ 100% auto;
+    margin-top: 40px;
+}
+
+#chafont {
+    margin-top: 40px;
+}
+
+.twenty-bottom-top-right {
+    width: 254px;
+    height: 100%;
+    margin: 15px 0 0 10px;
+    float: left;
+}
+
+.wif {
+    font-size: 16px;
+    color: #333;
+}
+
+.q {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.twenty-bottom-bottom {
+    width: 100%;
+    height: 40px;
+}
+
+.list {
+    padding: 0 15px;
+    height: 24px;
+    line-height: 24px;
+    margin: -5px 0 0;
+}
+
+.line {
+    width: 1px;
+    height: 24px;
+    margin: -5px 0 0;
+    border-right: 1px dashed #a3a3a3;
+}
+
+.twenty-bottom-bottom>li {
+    float: left;
+}
+
+.local {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    margin-right: 5px;
+    background: url(https://pic.c-ctrip.com/index/v3.0/supply_icon.png) no-repeat center / 100% auto;
+}
+
+.locall {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    background: url(https://pages.ctrip.com/tour/pdf1610/1.png) no-repeat center / 100% auto;
+}
+
+.localqi {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    line-height: 24px;
+    margin-right: 5px;
+    float: left;
+}
+
+.localqi1 {
+    background: url(https://pic.c-ctrip.com/vacation_v2/visa/24-japan.png) no-repeat center / 100% auto;
+}
+
+.localqi2 {
+    background: url(https://pic.c-ctrip.com/vacation_v2/visa/24-korea.png) no-repeat center / 100% auto;
+}
+
+.localqi3 {
+    background: url(https://pic.c-ctrip.com/vacation_v2/visa/24-USA.png) no-repeat center / 100% auto;
+}
+
+.localqi4 {
+    background: url(https://pic.c-ctrip.com/vacation_v2/visa/24-Australia.png) no-repeat center / 100% auto;
+}
+
+.localfont {
+    float: left;
+    font-size: 12px;
+}
+
+.bottom{
+    height: 650px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+}
+.end1 {
+    width: 1200px;
+    height: 344px;
+    margin: 0 auto;
+    border: 1px solid;
+    border: 1px solid #a3a3a3;
+}
+
+.end1-top {
+    width: 100%;
+    height: 98px;
+}
+
+.end1-left {
+    width: 220px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #a3a3a3;
+}
+
+.end1-right {
+    width: 970px;
+    height: 100%;
+    float: left;
+    padding: 10px 10px 0 20px;
+    box-sizing: border-box;
+}
+
+.end1-right>li {
+    width: 153px;
+    height: 60px;
+    margin: 20px 0 0;
+    border: 1px dashed #a3a3a3;
+    float: left;
+}
+
+.end1-bottom {
+    width: 100%;
+    height: 244px;
+    border-top: 1px solid #a3a3a3;
+}
+
+.end1-bottom-one {
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #a3a3a3;
+}
+
+.end1-bottom-one>li {
+    float: left;
+    width: auto;
+    height: 100%;
+    line-height: 30px;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+
+.end {
+    width: 1200px;
+    height: 160px;
+    margin: 20px auto 0;
+}
+
+.end-one {
+    width: 245px;
+    height: 150px;
+    float: left;
+    border-right: 1px solid #a3a3a3;
+}
+
+.end-one-s {
+    width: 100%;
+    height: 50px;
+}
+
+.end-one-img {
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin: 5px 5px 0 5px;
+    background: url(https://pic.c-ctrip.com/platform/online/home/pic_partner.png) no-repeat -41px -250px;
+}
+
+.end-one-font {
+    width: 190px;
+    height: 39px;
+    float: left;
+}
+
+.end-two {
+    width: 261px;
+    height: 150px;
+    float: left;
+    border-right: 1px solid #a3a3a3;
+}
+
+.end-two>li {
+    width: 105px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    float: left;
+    margin: 0 0 10px 20px;
+    padding: 0 10px 0 40px;
+    box-sizing: border-box;
+}
+
+.end-two li:nth-child(1) {
+    width: 210px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.endlat {
+    width: 161px;
+    height: 150px;
+    float: left;
+}
+
+.endlastimg {
+    width: 112px;
+    height: 112px;
+    margin: 10px 0 0 30px;
+    background: url(https://pic.c-ctrip.com/platform/online/home/er_ctrip_wechat.jpg) no-repeat center / 100% auto;
+}
+
+.p3 {
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    color: #999999;
+}
+
+.p3img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    background: url(https://pic.c-ctrip.com/platform/online/home/phone_list20190617.png) no-repeat 0 -235px;
+}
+
+
+
+
+
+
 
