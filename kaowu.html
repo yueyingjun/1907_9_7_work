@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考务系统</title>
+
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+        body{
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            width: 1300px;
+            height: auto;
+            float: right;
+            background: #d43f3a;
+            border: none;
+            color:#fff;
+        }
+
+        .navleft{
+            float: left;
+            width: 235px;
+            height: 700px;
+            position: absolute;
+
+
+
+
+        }
+        .logo{
+            width: 180px;
+            height: 50px;
+            background: url("image/吕梁学院logo.png")no-repeat;
+            background-size: cover;
+        }
+       .leftnav{
+           width: 100%;
+       }
+        .zhengwen{
+            position: absolute;
+            width:1300px;
+            height: 30px;
+            top:50px;
+            left:240px;
+            background: #f5f5f5;
+        }
+        .bra{
+            position: absolute;
+            right: 20px;
+            top:0;
+        }
+        ol{
+            line-height:20px;
+        }
+        .zhugan{
+            position: absolute;
+            width:1190px;
+            height: auto;
+            top:75px;
+            left:5px;
+            background: white;
+            padding: 10px 0 10px 0;
+            border-radius: 5px;
+        }
+        .zhugan1{
+            width:100%;
+            height: 40px;
+            border-bottom: 1px solid #999999;
+            position: relative;
+        }
+        .breadcrumb{
+            background: white;
+        }
+        .xiziti{
+            font-size: 12px;
+        }
+        .btn{
+            background:#d43f3a;
+            color: #ffffff;
+            font-size: 10px;
+            width: 80px;
+            height: 25px;
+        }
+        .zhugan3{
+            width:100%;
+            height: 40px;
+            border-bottom: 1px solid #999999;
+            position: relative;
+        }
+        .chaxun{
+            width: 1190px;
+            height: auto;
+            border-top: 1px solid #999999;
+            position: absolute;
+            top: 200px;
+            padding-top: 15px;
+        }
+        .chaxunjieguo{
+            width: 1190px;
+            height: auto;
+            position: absolute;
+            top: 270px;
+        }
+        table{
+            width: 1190px;
+            height: 200px;
+            overflow: hidden;
+        }
+        tr{
+            height: 10px;
+            border: 1px solid #999999;
+        }
+        td{
+            width:50px;
+            border: 1px solid #999999;
+        }
+       .chaxunanniu{
+            float: right;
+        }
+        .k{
+            line-height:40px;
+            font-size: 20px;
+            color:#000;
+        }
+        .z{
+            margin-left: 20px;
+        }
+        .binakuang{
+            width: 1250px;
+            height:500px;
+            border: 1px solid #999999;
+            border-radius: 5px;
+            padding-left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navright ">
+        <nav class="navbar navbar-default navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">试卷管理</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+
+                        <li><a href="#">课程体系</a></li>
+                        <li><a href="#">考试管理</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right ">
+
+                        <li><a class="glyphicon glyphicon-bell"></a></li>
+                        <li><a class="glyphicon glyphicon-user">**教师</a></li>
+                        <li><a class="glyphicon glyphicon-align-justify"></a></li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div class="navleft ">
+        <div class="logo z"></div>
+        <ul class="nav nav-pills z">
+            <a><li role="presentation" class="leftnav glyphicon glyphicon-scissors k" >     自动组卷设置</li></a>
+                <a><li role="presentation" class="leftnav glyphicon glyphicon-scissors k">    组卷中心</li></a>
+        </ul>
+
+        <ul class="nav nav-pills z">
+
+            <a><li role="presentation" class="leftnav glyphicon glyphicon-scissors k" >    题库管理</li></a>
+        </ul>
+
+
+    </div>
+
+        <div class="zhengwen">
+         <ol class="breadcrumb ">
+            <li><a href="#">试卷管理 ></a></li>
+            <li><a href="#">题库管理 ></a></li>
+            <li class="active">课程题库</li>
+        </ol>
+            <div class="binakuang">
+            <div class="zhugan">
+                <div class="zhugan1">
+                    <ol class="breadcrumb">
+                    <li class="xiziti"><a href="#">系名 </a></li>
+                    <li class="xiziti"><a href="#">计算机系 </a></li>
+                    <li class="xiziti"><a href="#">专业  软件工程 </a></li>
+                    <li class="active xiziti">课程名   测试课程php</li>
+                    <li class="bra">
+                        <a class="btn btn-default " href="#" role="button" >下载模板</a>
+                        <a class="btn btn-default " href="#" role="button" >添加题目</a>
+                        <a class="btn btn-default " href="#" role="button" >添加题目</a>
+                        <a class="btn btn-default " href="#" role="button" >添加题目</a>
+                    </li>
+                </ol>
+                </div>
+                <div class="zhugan1">
+                <ol class="breadcrumb">
+                    <li><a href="#">题型 </a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="btn btn-default " href="#" role="button" >客观题</a>
+                    <button class="btn btn-default " type="submit">主观题</button>
+                </ol>
+                </div>
+                <div class="zhugan1">
+                    <ol class="breadcrumb">
+                        <li><a href="#">分类 </a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="btn btn-default " href="#" role="button" >单选题</a>
+                        <a class="btn btn-default " href="#" role="button" >多选题</a>
+                        <button class="btn btn-default " type="submit">判断题</button>
+                    </ol>
+                </div>
+                <div class="zhugan3">
+                    <ol class="breadcrumb">
+                        <li><a href="#">难易 </a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="btn btn-default " href="#" role="button" >全部</a>
+                        <a class="btn btn-default " href="#" role="button" >容易</a>
+                        <button class="btn btn-default " type="submit">普通</button>
+                        <a class="btn btn-default " href="#" role="button" >困难</a>
+                    </ol>
+                </div>
+                <div class="chaxun">
+                <form class="form-inline">
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" id="exampleInputEmai1" placeholder="时间排序">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" id="exampleInputEmai2" placeholder="组卷次数排序">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmai3" placeholder="请输入题干">
+                    </div>
+                    <div class="chaxunanniu">
+                        <ol class="breadcrumb ">
+
+                            <button class="btn btn-default glyphicon glyphicon-search" type="submit">  查询</button>
+                        </ol>
+                    </div>
+
+                </form>
+            </div>
+            <div class="chaxunjieguo">
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
