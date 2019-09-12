@@ -1,0 +1,577 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/*导航栏--*/
+.top{
+    height: 36px;width: 100%;
+    background: #f4f4f4;
+   margin-top: 2px;
+}
+.top-0{
+     height: 36px;width: 1180px;
+     border: white solid 1px;
+     margin: auto;
+
+
+}
+.top-1{
+    height: 18px;width: 72px;
+
+    font-size: 12px;
+    color: #666;
+    margin-top: 8px;
+
+
+
+}
+.top-2{
+    height: 36px;width: 120px;
+
+    float: left;
+    margin-left: 110px;
+    margin-top: -29px;
+
+}
+.top-2-1{
+    width: 14px; height: 14px;
+
+    background: url("img/1.png") no-repeat  -8px -8px;
+    margin-top: 12px;
+}
+.top-2-2{
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.top-2-3{
+    width: 15px; height: 14px;
+    background: url("img/1.png") no-repeat  -42px -55px;
+    margin-left: 77px;
+    margin-top: -15px;
+
+}
+.top-3-0{
+   height: 40px;width: 750px;
+    float: right;
+
+
+}
+.top-3-1{
+    width:73px ; height: 37px;
+
+    float: left;
+    margin-top: -26px;
+    margin-left: 20px;
+    border-right: #cdcec6 solid 1px;
+}
+.top-3-1 a{
+    color: #666;
+    text-decoration:none ;
+    vertical-align: -10px;
+
+
+}
+.top-3-2{
+    width: 15px; height: 14px;
+
+    background: url("img/1.png") no-repeat  -8px -67px;
+    margin-top: 12px;
+}
+.top-3-3{
+    margin-left: 24px;
+    margin-top: -28px;
+}
+.top-3-4{
+    width: 15px; height: 14px;
+    background: url("img/1.png") no-repeat  -42px -55px;
+
+    margin-left: 50px;
+    margin-top: -15px;
+
+}
+
+.top-3-5 {
+    width: 15px;
+    height: 14px;
+    background: url("img/1.png") no-repeat -42px -55px;
+
+    margin-left: 50px;
+    margin-top: -15px
+}
+.top-3-6{
+    width: 66px;
+    height: 39px;
+
+    margin-left: 665px;
+    margin-top: -30px;
+                   }
+.top-3-6-1{
+    width: 13px;  height: 20px;
+
+    background: url("img/1.png") no-repeat  -98px -65px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.top-3-6-2{
+    width: 20px;  height: 20px;
+
+    background: url("img/1.png") no-repeat  -96px -100px;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+
+ /*搜索栏*/
+.one {
+    height: 80px;
+    width: 1180px;
+
+    margin: auto;
+}
+.one-1{
+    width: 126px;height: 43px;
+
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.one-3{
+    margin-left: 400px;
+    margin-top: -40px;
+}
+.one-4{
+    margin-left: 680px;
+    margin-top: -26px;
+}
+.form-control{
+    width: 300px;height: 28px;
+}
+.one-5{
+    margin-left: 1000px;
+    margin-top: -26px;
+}
+
+
+.two{
+    height: 40px; width: 100%;
+    background: #2577e3;
+
+}
+.two-1{
+    width: 1180px;  height: 40px;
+
+    margin: auto;
+}
+.two-2{
+    list-style: none;
+    margin-left: 180px;
+
+
+}
+.two-2 li{
+    float: left;
+    width: 65px;height: 40px;
+    border-right: 1px silver solid;
+    margin-left: 1px;
+
+}
+.two-2 a{
+
+      line-height: 40px;
+      font-size: 15px;
+       color: #fff;
+      text-decoration: none;
+      vertical-align: auto;
+}
+.two-3 {
+    margin-left: 5px;
+    width: 15px; height: 14px;
+
+}
+.three{
+    height: 40px; width: 100%;
+
+    background: white ;
+
+}
+.three-1{
+    float: left;
+    list-style: none;
+   margin-left: 145px;
+}
+.three-1 li {
+  float: left;
+    margin-left: 20px;
+}
+.three-1 a{
+    color: #666;
+    line-height: 40px;
+    font-size: 12px;
+    text-decoration:none;
+
+}
+.three-2 {
+    background: #74a8ed;
+
+}
+.three-2 a{
+    color: #fff;
+    text-decoration:none;
+
+}
+.three-3 {
+    width: 16px;
+    height: 16px;
+    background: url("img/3.png") no-repeat -26px 0px;
+    float: left;
+    margin-top: 12px;
+}
+.four img{
+    height: 340px;width:100%;
+
+}
+.five{
+    height: 38px;
+    width: 1180px;
+    margin: auto;
+    border-bottom: solid 3px #3983e4;
+}
+.five li{
+    list-style: none;
+    float: left;
+
+}
+.five a{
+    font-size: 16px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: #333;
+    font-weight:bold;
+    vertical-align: -13px;
+
+}
+.five-1 a{
+     margin-left: 300px;
+     vertical-align: -20px;
+     color: #3983e4;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.six{
+    height: 390px;width: 1178px;
+    margin: auto;
+    border: silver 1px solid;
+}
+.six-1{
+     width: 1140px; height: 20px;
+
+    margin: auto;
+    margin-top: 10px;
+}
+.six li {
+    list-style: none;
+    float: left;
+}
+.six a{
+    text-decoration: none;
+    color: #3983e5;
+    font-size: 12px;
+    margin-left: 35px;
+    vertical-align: -2px;
+}
+.six-2{
+    width: 920px;
+    height: 340px;
+
+    margin-left: 15px;
+    margin-top: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.six-3{
+    width: 220px;height: 160px;
+
+    margin: auto;
+}
+.six-3:nth-child(1){
+    background: url("//dimg02.c-ctrip.com/images/1004180000013o0jn6633_C_221_166.jpg") no-repeat;
+}
+.six-3:nth-child(2){
+    background: url("//dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg") no-repeat;
+}
+.six-3:nth-child(3){
+    background: url("//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg") no-repeat;
+}
+.six-3:nth-child(4){
+    background: url("//dimg05.c-ctrip.com/images/100f180000013p2c086E4_C_221_166.jpg") no-repeat;
+}
+.six-3:nth-child(5){
+    background: url("//dimg04.c-ctrip.com/images/100b11000000qbl7v8A10_C_221_166.jpg") no-repeat;
+}
+.six-3:nth-child(6){
+    background: url("//dimg02.c-ctrip.com/images/1002180000013w3zi8148_C_221_166.jpg") no-repeat;
+}
+.six-3:nth-child(7){
+    background: url("//dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg") no-repeat;
+}
+.six-3:nth-child(8){
+    background: url("//dimg01.c-ctrip.com/images/100m0u000000jqip1B411_C_221_166.jpg") no-repeat;
+}
+.six-4 img{
+    width: 220px;height: 330px;
+    float: right;
+    margin-top: -335px;
+    margin-right: 10px;
+}
+.seven{
+    width: 1178px;height: 390px;
+    border: silver 1px solid;
+    margin: auto;
+
+}
+.seven-1{
+    height: 100%;width: 227px;
+    border-right: silver 1px dashed;
+}
+.seven-2{
+    height: 390px;
+    width: 949px;
+
+    float: right;
+    margin-top: -390px;
+}
+.seven-3{
+    width: 949px; height: 20px;
+
+    margin: auto;
+    margin-top: 10px;
+}
+.seven-3 li {
+    list-style: none;
+    float: left;
+}
+.seven-3 a{
+    text-decoration: none;
+    color: #3983e5;
+    font-size: 12px;
+    margin-left: 35px;
+    vertical-align: -2px;
+}
+.seven-4{
+   width: 700px; height: 345px;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.seven-5{
+    width: 220px;height: 150px;
+    margin: auto;
+
+}
+.seven-5:nth-child(1)
+{
+    background: url("//images3.c-ctrip.com/overseas/city/singapore256-256.jpg") no-repeat;
+}
+.seven-5:nth-child(2)
+{
+    background: url("https://images3.c-ctrip.com/overseas/city/bangkok256-256.jpg")no-repeat;
+}
+.seven-5:nth-child(3)
+{
+    background: url("https://images3.c-ctrip.com/overseas/city/tokyo256-256.jpg")no-repeat;
+}
+.seven-5:nth-child(4)
+{
+    background: url("https://images3.c-ctrip.com/overseas/city/kualalumpur256-256.jpg")no-repeat;
+}.seven-5:nth-child(5)
+ {
+     background: url("https://images3.c-ctrip.com/overseas/city/osaka256-256.jpg")no-repeat;
+ }
+.seven-5:nth-child(6)
+{
+    background: url("https://images3.c-ctrip.com/ad/apph5/2017/phuket_256_256_01.jpg")no-repeat;
+}
+.seven-6 img {
+    width: 220px;
+    height: 330px;
+    float: right;
+    border: silver 1px solid;
+    margin-right: 10px;
+    margin-top: -335px;
+}
+.seven-1-1{
+    color: #333;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.seven-1-2{
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+    line-height: 35px;
+    margin-left: 20px;
+
+}
+.eight{
+    width: 1178px; height: 398px;
+    border: #cdcec6 solid 1px;
+    margin: auto;
+}
+.eight-1{
+    width: 1140px; height: 20px;
+
+    margin: auto;
+    margin-top: 10px;
+}
+.eight li {
+    list-style: none;
+    float: left;
+}
+.eight a{
+    text-decoration: none;
+    color: #3983e5;
+    font-size: 12px;
+    margin-left: 35px;
+    vertical-align: -2px;
+}
+.eight-2{
+    width: 910px;height: 353px;
+
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.eight-3{
+    width: 220px;height: 106px;
+
+    background: #f8f8f8;;
+    margin: auto;
+}
+.eight-4{
+    width: 230px;height: 350px;
+     background: url("https://images4.c-ctrip.com/target/60010q000000gsgjnAD29.jpg")no-repeat;
+    float: right;
+    margin-top: -350px;
+    margin-right: 12px;
+
+}
+.eight-3-1{
+    margin: 13px 13px;
+    color: #333;
+    font-size: 12px;
+    font-family: "Microsoft yahei", arial, Simsun, sans-serif;
+}
+.eight-3-2{
+    margin: 13px 10px;
+    color: #999;
+    font-size: 12px;
+}
+.eight-3-3{
+  height: 33px;width: 194px;
+
+    margin-left: 7px;
+    margin-top: -5px;
+}
+.eight-3-4{
+    color: #666;
+    font-size: 12px;
+    float: left;
+}
+.eight-3-5{
+    color: #f60;
+    font-size: 22px;
+}
+.eight-3-6{
+    color: #666;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: -23px;
+
+}
+.eight-3-7{
+    float: right;
+    width: 58px;height: 27px;
+    border-radius: 5px;
+    background-color: #ffb000;
+    margin-top: -25px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    color: #FAFAFA;
+}
+.nine{
+    width: 1180px;height: 260px;
+    border:1px solid red;
+    margin: auto;
+}
+.nine-1{
+    width: 227px; height: 260px;
+    border: royalblue 1px dashed;
+}
+.nine-2{
+    width: 949px; height: 258px;
+    border: red 1px solid;
+    float: right;
+    margin-top: -260px;
+}
+.nine-3{
+    width: 949px; height: 20px;
+
+    margin: auto;
+    margin-top: 10px;
+}
+.nine li {
+    list-style: none;
+    float: left;
+}
+.nine a{
+    text-decoration: none;
+    color: #3983e5;
+    font-size: 12px;
+    margin-left: 35px;
+    vertical-align: -2px;
+}
+.nine-4{
+    height: 208px;width: 949px;
+    border: red solid 1px;
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nine-5{
+    height: 208px;width: 220px;
+    border: red 1px solid;
+    margin: auto;
+}
+.nine-5-1{
+    width: 220px; height: 147px;
+    background: url("https://pic.c-ctrip.com/car/osd/online/vehicle_new/Ford_Fiesta.png") no-repeat;
+    background-size: 220px 146px;
+}
+.nine-5-2{
+    height: 34px;width: 152px;
+    border: silver 1px solid;
+    margin-left: 7px;
+    margin-top: -5px;
+}
+.nine-5-3{
+    color: #666;
+    font-size: 12px;
+    float: left;
+}
+.nine-5-4{
+    margin-left: 152px;
+}
+
+
